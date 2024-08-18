@@ -1,0 +1,3872 @@
+[
+    {
+        "city_a": "Aberdeen",
+        "city_b": "Danzig",
+        "distance_km": 1330
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Akaba",
+        "distance_km": 2000
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Alexandria",
+        "distance_km": 3410
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Almaty",
+        "distance_km": 2930
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Amman",
+        "distance_km": 1990
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Ankara",
+        "distance_km": 2640
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Astana",
+        "distance_km": 3300
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Athen",
+        "distance_km": 3260
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Baku",
+        "distance_km": 1820
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Belgrad",
+        "distance_km": 3800
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Bischkek",
+        "distance_km": 2760
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Budapest",
+        "distance_km": 4030
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Bukarest",
+        "distance_km": 3380
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Chi\u0219in\u0103u",
+        "distance_km": 3380
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Cluj-Napoca",
+        "distance_km": 3690
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Dammam",
+        "distance_km": 480
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Erbil",
+        "distance_km": 1640
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Eriwan",
+        "distance_km": 1970
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Kattowitz",
+        "distance_km": 4170
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Krakau",
+        "distance_km": 4370
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Kutaissi",
+        "distance_km": 2250
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Kuwait-Stadt",
+        "distance_km": 840
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Larnaka",
+        "distance_km": 2310
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Male",
+        "distance_km": 3040
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Medina",
+        "distance_km": 1540
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Muscat",
+        "distance_km": 440
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Rom",
+        "distance_km": 4300
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Salalah",
+        "distance_km": 820
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Samarqand",
+        "distance_km": 2060
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Sarajevo",
+        "distance_km": 3910
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Sofia",
+        "distance_km": 3490
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Sohag",
+        "distance_km": 2440
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Taschkent",
+        "distance_km": 2320
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Tel Aviv",
+        "distance_km": 2100
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Tirana",
+        "distance_km": 3700
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "T\u00fcrkistan",
+        "distance_km": 2360
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Wien",
+        "distance_km": 4240
+    },
+    {
+        "city_a": "Agadir",
+        "city_b": "London",
+        "distance_km": 2470
+    },
+    {
+        "city_a": "Alghero",
+        "city_b": "Budapest",
+        "distance_km": 1150
+    },
+    {
+        "city_a": "Alghero",
+        "city_b": "Bukarest",
+        "distance_km": 1520
+    },
+    {
+        "city_a": "Alicante",
+        "city_b": "Budapest",
+        "distance_km": 1880
+    },
+    {
+        "city_a": "Alicante",
+        "city_b": "Bukarest",
+        "distance_km": 2310
+    },
+    {
+        "city_a": "Alicante",
+        "city_b": "Cluj-Napoca",
+        "distance_km": 2180
+    },
+    {
+        "city_a": "Alicante",
+        "city_b": "Danzig",
+        "distance_km": 2290
+    },
+    {
+        "city_a": "Alicante",
+        "city_b": "Kattowitz",
+        "distance_km": 2030
+    },
+    {
+        "city_a": "Alicante",
+        "city_b": "Rom",
+        "distance_km": 1170
+    },
+    {
+        "city_a": "Alicante",
+        "city_b": "Sofia",
+        "distance_km": 2070
+    },
+    {
+        "city_a": "Alicante",
+        "city_b": "Warschau",
+        "distance_km": 1910
+    },
+    {
+        "city_a": "Amman",
+        "city_b": "Budapest",
+        "distance_km": 2240
+    },
+    {
+        "city_a": "Amman",
+        "city_b": "London",
+        "distance_km": 3640
+    },
+    {
+        "city_a": "Amman",
+        "city_b": "Rom",
+        "distance_km": 2350
+    },
+    {
+        "city_a": "Amman",
+        "city_b": "Wien",
+        "distance_km": 2440
+    },
+    {
+        "city_a": "Ancona",
+        "city_b": "Tirana",
+        "distance_km": 580
+    },
+    {
+        "city_a": "Antalya",
+        "city_b": "Budapest",
+        "distance_km": 1520
+    },
+    {
+        "city_a": "Antalya",
+        "city_b": "Bukarest",
+        "distance_km": 920
+    },
+    {
+        "city_a": "Antalya",
+        "city_b": "Debrecen",
+        "distance_km": 1400
+    },
+    {
+        "city_a": "Antalya",
+        "city_b": "London",
+        "distance_km": 2920
+    },
+    {
+        "city_a": "Athen",
+        "city_b": "Budapest",
+        "distance_km": 1120
+    },
+    {
+        "city_a": "Athen",
+        "city_b": "Bukarest",
+        "distance_km": 740
+    },
+    {
+        "city_a": "Athen",
+        "city_b": "Kattowitz",
+        "distance_km": 1410
+    },
+    {
+        "city_a": "Athen",
+        "city_b": "Kutaissi",
+        "distance_km": 1680
+    },
+    {
+        "city_a": "Athen",
+        "city_b": "Larnaka",
+        "distance_km": 950
+    },
+    {
+        "city_a": "Athen",
+        "city_b": "London",
+        "distance_km": 2400
+    },
+    {
+        "city_a": "Athen",
+        "city_b": "Tel Aviv",
+        "distance_km": 1200
+    },
+    {
+        "city_a": "Athen",
+        "city_b": "Tirana",
+        "distance_km": 500
+    },
+    {
+        "city_a": "Bac\u0103u",
+        "city_b": "London",
+        "distance_km": 2040
+    },
+    {
+        "city_a": "Bac\u0103u",
+        "city_b": "Rom",
+        "distance_km": 1260
+    },
+    {
+        "city_a": "Baku",
+        "city_b": "Budapest",
+        "distance_km": 2580
+    },
+    {
+        "city_a": "Baku",
+        "city_b": "Rom",
+        "distance_km": 3120
+    },
+    {
+        "city_a": "Banja Luka",
+        "city_b": "Basel",
+        "distance_km": 800
+    },
+    {
+        "city_a": "Banja Luka",
+        "city_b": "Dortmund",
+        "distance_km": 1040
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Belgrad",
+        "distance_km": 1530
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Breslau",
+        "distance_km": 1570
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Budapest",
+        "distance_km": 1500
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Bukarest",
+        "distance_km": 1980
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Cluj-Napoca",
+        "distance_km": 1810
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Danzig",
+        "distance_km": 1890
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Ia\u015fi",
+        "distance_km": 2120
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Kattowitz",
+        "distance_km": 1630
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Krakau",
+        "distance_km": 1140
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Kutaissi",
+        "distance_km": 3330
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Rom",
+        "distance_km": 860
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Sofia",
+        "distance_km": 1750
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 1610
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Tirana",
+        "distance_km": 1470
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Vilnius",
+        "distance_km": 2250
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Warschau",
+        "distance_km": 1500
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Wien",
+        "distance_km": 1350
+    },
+    {
+        "city_a": "Bari",
+        "city_b": "Breslau",
+        "distance_km": 1110
+    },
+    {
+        "city_a": "Bari",
+        "city_b": "Budapest",
+        "distance_km": 730
+    },
+    {
+        "city_a": "Bari",
+        "city_b": "Bukarest",
+        "distance_km": 840
+    },
+    {
+        "city_a": "Bari",
+        "city_b": "Cluj-Napoca",
+        "distance_km": 830
+    },
+    {
+        "city_a": "Bari",
+        "city_b": "Sofia",
+        "distance_km": 560
+    },
+    {
+        "city_a": "Bari",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 620
+    },
+    {
+        "city_a": "Bari",
+        "city_b": "Tirana",
+        "distance_km": 250
+    },
+    {
+        "city_a": "Bari",
+        "city_b": "Warschau",
+        "distance_km": 1290
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Belgrad",
+        "distance_km": 1040
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Budapest",
+        "distance_km": 860
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Bukarest",
+        "distance_km": 1470
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Cluj-Napoca",
+        "distance_km": 1210
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Ia\u015fi",
+        "distance_km": 1510
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Ni\u0161",
+        "distance_km": 1550
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Rom",
+        "distance_km": 740
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Skopje",
+        "distance_km": 1260
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Sofia",
+        "distance_km": 1350
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Tirana",
+        "distance_km": 1190
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Tuzla",
+        "distance_km": 920
+    },
+    {
+        "city_a": "Basel",
+        "city_b": "Warschau",
+        "distance_km": 690
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Bergamo",
+        "distance_km": 850
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Berlin",
+        "distance_km": 1000
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Dortmund",
+        "distance_km": 1220
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Eindhoven",
+        "distance_km": 1330
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "G\u00f6teborg",
+        "distance_km": 1550
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Hamburg",
+        "distance_km": 1230
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Heraklion (Kreta)",
+        "distance_km": 1130
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Karlsruhe",
+        "distance_km": 1030
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Kopenhagen",
+        "distance_km": 1330
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Larnaka",
+        "distance_km": 1570
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Lissabon",
+        "distance_km": 2330
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "London",
+        "distance_km": 1690
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Malm\u00f6",
+        "distance_km": 1310
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Malta",
+        "distance_km": 1110
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Memmingen",
+        "distance_km": 860
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Nizza",
+        "distance_km": 900
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Paris",
+        "distance_km": 1450
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Rom",
+        "distance_km": 720
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Stockholm",
+        "distance_km": 1620
+    },
+    {
+        "city_a": "Bergamo",
+        "city_b": "Bukarest",
+        "distance_km": 1300
+    },
+    {
+        "city_a": "Bergamo",
+        "city_b": "Cluj-Napoca",
+        "distance_km": 1080
+    },
+    {
+        "city_a": "Bergamo",
+        "city_b": "Craiova",
+        "distance_km": 1120
+    },
+    {
+        "city_a": "Bergamo",
+        "city_b": "Ia\u015fi",
+        "distance_km": 1380
+    },
+    {
+        "city_a": "Bergamo",
+        "city_b": "Sofia",
+        "distance_km": 1140
+    },
+    {
+        "city_a": "Bergamo",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 900
+    },
+    {
+        "city_a": "Bergamo",
+        "city_b": "Tirana",
+        "distance_km": 950
+    },
+    {
+        "city_a": "Bergamo",
+        "city_b": "Warschau",
+        "distance_km": 810
+    },
+    {
+        "city_a": "Bergen",
+        "city_b": "Danzig",
+        "distance_km": 1040
+    },
+    {
+        "city_a": "Berlin",
+        "city_b": "Budapest",
+        "distance_km": 690
+    },
+    {
+        "city_a": "Berlin",
+        "city_b": "Ia\u015fi",
+        "distance_km": 1180
+    },
+    {
+        "city_a": "Berlin",
+        "city_b": "Kutaissi",
+        "distance_km": 2460
+    },
+    {
+        "city_a": "Berlin",
+        "city_b": "Rom",
+        "distance_km": 1180
+    },
+    {
+        "city_a": "Berlin",
+        "city_b": "Skopje",
+        "distance_km": 1320
+    },
+    {
+        "city_a": "Berlin",
+        "city_b": "Tirana",
+        "distance_km": 1330
+    },
+    {
+        "city_a": "Berlin",
+        "city_b": "Varna",
+        "distance_km": 1490
+    },
+    {
+        "city_a": "Bilbao",
+        "city_b": "Warschau",
+        "distance_km": 1590
+    },
+    {
+        "city_a": "Bilbao",
+        "city_b": "Wien",
+        "distance_km": 1590
+    },
+    {
+        "city_a": "Billund",
+        "city_b": "Bukarest",
+        "distance_km": 1740
+    },
+    {
+        "city_a": "Billund",
+        "city_b": "Ia\u015fi",
+        "distance_km": 1590
+    },
+    {
+        "city_a": "Birmingham",
+        "city_b": "Budapest",
+        "distance_km": 1590
+    },
+    {
+        "city_a": "Birmingham",
+        "city_b": "Bukarest",
+        "distance_km": 2240
+    },
+    {
+        "city_a": "Birmingham",
+        "city_b": "Craiova",
+        "distance_km": 2090
+    },
+    {
+        "city_a": "Bologna",
+        "city_b": "Bukarest",
+        "distance_km": 1170
+    },
+    {
+        "city_a": "Bologna",
+        "city_b": "Catania",
+        "distance_km": 840
+    },
+    {
+        "city_a": "Bologna",
+        "city_b": "Cluj-Napoca",
+        "distance_km": 990
+    },
+    {
+        "city_a": "Bologna",
+        "city_b": "Craiova",
+        "distance_km": 990
+    },
+    {
+        "city_a": "Bologna",
+        "city_b": "Ia\u015fi",
+        "distance_km": 1290
+    },
+    {
+        "city_a": "Bologna",
+        "city_b": "Skopje",
+        "distance_km": 860
+    },
+    {
+        "city_a": "Bologna",
+        "city_b": "Sofia",
+        "distance_km": 990
+    },
+    {
+        "city_a": "Bologna",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 790
+    },
+    {
+        "city_a": "Bologna",
+        "city_b": "Tirana",
+        "distance_km": 780
+    },
+    {
+        "city_a": "Bologna",
+        "city_b": "Warschau",
+        "distance_km": 900
+    },
+    {
+        "city_a": "Bratislava",
+        "city_b": "London",
+        "distance_km": 1290
+    },
+    {
+        "city_a": "Bratislava",
+        "city_b": "Skopje",
+        "distance_km": 760
+    },
+    {
+        "city_a": "Bra\u015fov",
+        "city_b": "Budapest",
+        "distance_km": 540
+    },
+    {
+        "city_a": "Bra\u015fov",
+        "city_b": "Dortmund",
+        "distance_km": 1480
+    },
+    {
+        "city_a": "Bra\u015fov",
+        "city_b": "London",
+        "distance_km": 2000
+    },
+    {
+        "city_a": "Bremen",
+        "city_b": "Skopje",
+        "distance_km": 1550
+    },
+    {
+        "city_a": "Breslau",
+        "city_b": "Eindhoven",
+        "distance_km": 810
+    },
+    {
+        "city_a": "Breslau",
+        "city_b": "Larnaka",
+        "distance_km": 2240
+    },
+    {
+        "city_a": "Breslau",
+        "city_b": "London",
+        "distance_km": 1190
+    },
+    {
+        "city_a": "Breslau",
+        "city_b": "Malaga",
+        "distance_km": 2330
+    },
+    {
+        "city_a": "Breslau",
+        "city_b": "Split",
+        "distance_km": 850
+    },
+    {
+        "city_a": "Breslau",
+        "city_b": "Tirana",
+        "distance_km": 1110
+    },
+    {
+        "city_a": "Brindisi",
+        "city_b": "Tirana",
+        "distance_km": 180
+    },
+    {
+        "city_a": "Br\u00fcssel",
+        "city_b": "Budapest",
+        "distance_km": 1130
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Budapest",
+        "distance_km": 1110
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Bukarest",
+        "distance_km": 1760
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Catania",
+        "distance_km": 1670
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Cluj-Napoca",
+        "distance_km": 1460
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Craiova",
+        "distance_km": 1610
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Ia\u015fi",
+        "distance_km": 1730
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Kutaissi",
+        "distance_km": 3040
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Skopje",
+        "distance_km": 1610
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Sofia",
+        "distance_km": 1680
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 1350
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Tirana",
+        "distance_km": 1560
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Varna",
+        "distance_km": 1950
+    },
+    {
+        "city_a": "Br\u00fcssel Charleroi",
+        "city_b": "Warschau",
+        "distance_km": 660
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Bukarest",
+        "distance_km": 640
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Burgas",
+        "distance_km": 870
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Catania",
+        "distance_km": 1160
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Chania (Kreta)",
+        "distance_km": 1390
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Chi\u0219in\u0103u",
+        "distance_km": 740
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Dortmund",
+        "distance_km": 950
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Dubai",
+        "distance_km": 4020
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Eindhoven",
+        "distance_km": 1070
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Eriwan",
+        "distance_km": 2190
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Girona",
+        "distance_km": 1420
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Glasgow",
+        "distance_km": 1850
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Gran Canaria",
+        "distance_km": 3700
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Heraklion (Kreta)",
+        "distance_km": 1440
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Hurghada",
+        "distance_km": 2590
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Istanbul",
+        "distance_km": 1070
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Jeddah",
+        "distance_km": 3390
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Kopenhagen",
+        "distance_km": 1010
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Korfu",
+        "distance_km": 1000
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Kutaissi",
+        "distance_km": 1950
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Larnaka",
+        "distance_km": 1850
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Lissabon",
+        "distance_km": 2050
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Liverpool",
+        "distance_km": 1690
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "London",
+        "distance_km": 1450
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Madeira",
+        "distance_km": 3440
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Madrid",
+        "distance_km": 1980
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Malaga",
+        "distance_km": 2270
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Mallorca",
+        "distance_km": 1570
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Malta",
+        "distance_km": 1340
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Neapel",
+        "distance_km": 1320
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Nizza",
+        "distance_km": 820
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Paris",
+        "distance_km": 1250
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Podgorica",
+        "distance_km": 560
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Reykjavik",
+        "distance_km": 3080
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Rhodos",
+        "distance_km": 960
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Riad",
+        "distance_km": 3520
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Rom",
+        "distance_km": 810
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Santorini",
+        "distance_km": 1340
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Sharm El Sheikh",
+        "distance_km": 2550
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Skopje",
+        "distance_km": 640
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Stockholm",
+        "distance_km": 1320
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Stuttgart",
+        "distance_km": 750
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Tel Aviv",
+        "distance_km": 2170
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Teneriffa",
+        "distance_km": 3740
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Thessaloniki",
+        "distance_km": 820
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Tirana",
+        "distance_km": 690
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "T\u00e2rgu Mure\u0219",
+        "distance_km": 430
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Valencia",
+        "distance_km": 1800
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Warschau",
+        "distance_km": 690
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Zakynthos",
+        "distance_km": 1090
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Castellon",
+        "distance_km": 2200
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Catania",
+        "distance_km": 1200
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Dortmund",
+        "distance_km": 1590
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Dubai",
+        "distance_km": 3380
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Eindhoven",
+        "distance_km": 1720
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Genf",
+        "distance_km": 1570
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Hamburg",
+        "distance_km": 1550
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Heraklion (Kreta)",
+        "distance_km": 1010
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Izmir",
+        "distance_km": 670
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Jeddah",
+        "distance_km": 2810
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Kopenhagen",
+        "distance_km": 1580
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Korfu",
+        "distance_km": 1360
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Larnaka",
+        "distance_km": 1240
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Leeds",
+        "distance_km": 2250
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Leipzig",
+        "distance_km": 1280
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Lissabon",
+        "distance_km": 2360
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Liverpool",
+        "distance_km": 2330
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "London",
+        "distance_km": 2100
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Lyon",
+        "distance_km": 1680
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Madrid",
+        "distance_km": 2480
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Malaga",
+        "distance_km": 2700
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Mallorca",
+        "distance_km": 1990
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Malta",
+        "distance_km": 1370
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Memmingen",
+        "distance_km": 1290
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Mykonos",
+        "distance_km": 780
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Neapel",
+        "distance_km": 1750
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Nizza",
+        "distance_km": 1350
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "N\u00fcrnberg",
+        "distance_km": 1270
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Paris",
+        "distance_km": 1880
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Pisa",
+        "distance_km": 1260
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Rom",
+        "distance_km": 1140
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Salzburg",
+        "distance_km": 1070
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Sandefjord",
+        "distance_km": 1950
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Santander",
+        "distance_km": 2390
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Santorini",
+        "distance_km": 890
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Saragossa",
+        "distance_km": 2210
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Sevilla",
+        "distance_km": 2790
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Stockholm",
+        "distance_km": 1740
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Stuttgart",
+        "distance_km": 1380
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Tel Aviv",
+        "distance_km": 1570
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Teneriffa",
+        "distance_km": 4170
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Thessaloniki",
+        "distance_km": 500
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Tirana",
+        "distance_km": 620
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Triest",
+        "distance_km": 980
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Turin",
+        "distance_km": 1460
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Valencia",
+        "distance_km": 2250
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Venedig",
+        "distance_km": 1110
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Zakynthos",
+        "distance_km": 860
+    },
+    {
+        "city_a": "Burgas",
+        "city_b": "Danzig",
+        "distance_km": 1470
+    },
+    {
+        "city_a": "Burgas",
+        "city_b": "Debrecen",
+        "distance_km": 720
+    },
+    {
+        "city_a": "Burgas",
+        "city_b": "Kattowitz",
+        "distance_km": 1080
+    },
+    {
+        "city_a": "Burgas",
+        "city_b": "London",
+        "distance_km": 2310
+    },
+    {
+        "city_a": "Burgas",
+        "city_b": "Lublin",
+        "distance_km": 1040
+    },
+    {
+        "city_a": "Burgas",
+        "city_b": "Tel Aviv",
+        "distance_km": 1320
+    },
+    {
+        "city_a": "Burgas",
+        "city_b": "Warschau",
+        "distance_km": 1530
+    },
+    {
+        "city_a": "Burgas",
+        "city_b": "Wien",
+        "distance_km": 1080
+    },
+    {
+        "city_a": "Bydgoszcz",
+        "city_b": "London",
+        "distance_km": 1250
+    },
+    {
+        "city_a": "Castellon",
+        "city_b": "Rom",
+        "distance_km": 1070
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Cluj-Napoca",
+        "distance_km": 1240
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Hamburg",
+        "distance_km": 1830
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Ia\u015fi",
+        "distance_km": 1480
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Kattowitz",
+        "distance_km": 1450
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "London",
+        "distance_km": 1960
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Memmingen",
+        "distance_km": 1230
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Prag",
+        "distance_km": 1400
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Sofia",
+        "distance_km": 910
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Tirana",
+        "distance_km": 590
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Turin",
+        "distance_km": 1040
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Venedig",
+        "distance_km": 1090
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Verona",
+        "distance_km": 950
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Warschau",
+        "distance_km": 1670
+    },
+    {
+        "city_a": "Chania (Kreta)",
+        "city_b": "Cluj-Napoca",
+        "distance_km": 1250
+    },
+    {
+        "city_a": "Chania (Kreta)",
+        "city_b": "Warschau",
+        "distance_km": 2060
+    },
+    {
+        "city_a": "Chania (Kreta)",
+        "city_b": "Wien",
+        "distance_km": 1540
+    },
+    {
+        "city_a": "Chi\u0219in\u0103u",
+        "city_b": "London",
+        "distance_km": 2150
+    },
+    {
+        "city_a": "Chi\u0219in\u0103u",
+        "city_b": "Rom",
+        "distance_km": 1420
+    },
+    {
+        "city_a": "Chi\u0219in\u0103u",
+        "city_b": "Venedig",
+        "distance_km": 1250
+    },
+    {
+        "city_a": "Chi\u0219in\u0103u",
+        "city_b": "Warschau",
+        "distance_km": 1260
+    },
+    {
+        "city_a": "Chi\u0219in\u0103u",
+        "city_b": "Wien",
+        "distance_km": 940
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Dortmund",
+        "distance_km": 1290
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Eindhoven",
+        "distance_km": 1420
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Frankfurt",
+        "distance_km": 1160
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Korfu",
+        "distance_km": 1070
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Larnaka",
+        "distance_km": 1560
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Leeds",
+        "distance_km": 1940
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Lissabon",
+        "distance_km": 2100
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "London",
+        "distance_km": 1800
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Lyon",
+        "distance_km": 1450
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Madrid",
+        "distance_km": 2300
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Malaga",
+        "distance_km": 2560
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Mallorca",
+        "distance_km": 1850
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Malm\u00f6",
+        "distance_km": 1230
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Memmingen",
+        "distance_km": 1020
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Neapel",
+        "distance_km": 1450
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Nizza",
+        "distance_km": 1140
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "N\u00fcrnberg",
+        "distance_km": 980
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Paris",
+        "distance_km": 1600
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Rom",
+        "distance_km": 1040
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Saragossa",
+        "distance_km": 2030
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Stuttgart",
+        "distance_km": 1100
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Tel Aviv",
+        "distance_km": 1890
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Valencia",
+        "distance_km": 2100
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Venedig",
+        "distance_km": 850
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Wien",
+        "distance_km": 570
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Zakynthos",
+        "distance_km": 1020
+    },
+    {
+        "city_a": "Comiso",
+        "city_b": "Tirana",
+        "distance_km": 660
+    },
+    {
+        "city_a": "Constan\u021ba",
+        "city_b": "London",
+        "distance_km": 2290
+    },
+    {
+        "city_a": "Craiova",
+        "city_b": "London",
+        "distance_km": 1950
+    },
+    {
+        "city_a": "Craiova",
+        "city_b": "Rom",
+        "distance_km": 960
+    },
+    {
+        "city_a": "Dalaman",
+        "city_b": "London",
+        "distance_km": 2810
+    },
+    {
+        "city_a": "Dammam",
+        "city_b": "Rom",
+        "distance_km": 3830
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Dortmund",
+        "distance_km": 810
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Eindhoven",
+        "distance_km": 940
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "G\u00f6teborg",
+        "distance_km": 560
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Hamburg",
+        "distance_km": 570
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Haugesund",
+        "distance_km": 980
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Heraklion (Kreta)",
+        "distance_km": 2170
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Kopenhagen",
+        "distance_km": 410
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Larnaka",
+        "distance_km": 2460
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Leeds",
+        "distance_km": 1320
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Liverpool",
+        "distance_km": 1420
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "London",
+        "distance_km": 1300
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Madeira",
+        "distance_km": 3680
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Malaga",
+        "distance_km": 2640
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Malm\u00f6",
+        "distance_km": 380
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Oslo",
+        "distance_km": 780
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Paris",
+        "distance_km": 1280
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Reykjavik",
+        "distance_km": 2500
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Rom",
+        "distance_km": 1460
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Sandefjord",
+        "distance_km": 730
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Split",
+        "distance_km": 1220
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Stavanger",
+        "distance_km": 940
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Stockholm",
+        "distance_km": 550
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Teneriffa",
+        "distance_km": 4060
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Tirana",
+        "distance_km": 1450
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Troms\u00f8",
+        "distance_km": 1700
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Trondheim",
+        "distance_km": 1110
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Turku",
+        "distance_km": 710
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Valencia",
+        "distance_km": 2180
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Verona",
+        "distance_km": 1130
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "\u00c5lesund",
+        "distance_km": 2750
+    },
+    {
+        "city_a": "Debrecen",
+        "city_b": "Eindhoven",
+        "distance_km": 1240
+    },
+    {
+        "city_a": "Debrecen",
+        "city_b": "Istanbul",
+        "distance_km": 930
+    },
+    {
+        "city_a": "Debrecen",
+        "city_b": "Korfu",
+        "distance_km": 980
+    },
+    {
+        "city_a": "Debrecen",
+        "city_b": "Larnaka",
+        "distance_km": 1720
+    },
+    {
+        "city_a": "Debrecen",
+        "city_b": "London",
+        "distance_km": 1630
+    },
+    {
+        "city_a": "Debrecen",
+        "city_b": "Rom",
+        "distance_km": 960
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Eriwan",
+        "distance_km": 3100
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Hermannstadt",
+        "distance_km": 1380
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Ia\u015fi",
+        "distance_km": 1530
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Kattowitz",
+        "distance_km": 820
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Kutaissi",
+        "distance_km": 2840
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Ohrid",
+        "distance_km": 1540
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Podgorica",
+        "distance_km": 1350
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Pristina",
+        "distance_km": 1430
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Rom",
+        "distance_km": 1140
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Skopje",
+        "distance_km": 1500
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Sofia",
+        "distance_km": 1550
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Suceava",
+        "distance_km": 1420
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 1200
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Tirana",
+        "distance_km": 1470
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Tuzla",
+        "distance_km": 1140
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Varna",
+        "distance_km": 1790
+    },
+    {
+        "city_a": "Dortmund",
+        "city_b": "Vilnius",
+        "distance_km": 1240
+    },
+    {
+        "city_a": "Dubai",
+        "city_b": "Wien",
+        "distance_km": 4240
+    },
+    {
+        "city_a": "Dubrovnik",
+        "city_b": "Warschau",
+        "distance_km": 1150
+    },
+    {
+        "city_a": "Eindhoven",
+        "city_b": "Ia\u015fi",
+        "distance_km": 1670
+    },
+    {
+        "city_a": "Eindhoven",
+        "city_b": "Kattowitz",
+        "distance_km": 960
+    },
+    {
+        "city_a": "Eindhoven",
+        "city_b": "Krakau",
+        "distance_km": 770
+    },
+    {
+        "city_a": "Eindhoven",
+        "city_b": "Rom",
+        "distance_km": 1190
+    },
+    {
+        "city_a": "Eindhoven",
+        "city_b": "Skopje",
+        "distance_km": 1600
+    },
+    {
+        "city_a": "Eindhoven",
+        "city_b": "Sofia",
+        "distance_km": 1660
+    },
+    {
+        "city_a": "Eindhoven",
+        "city_b": "Tirana",
+        "distance_km": 1570
+    },
+    {
+        "city_a": "Eindhoven",
+        "city_b": "Varna",
+        "distance_km": 1920
+    },
+    {
+        "city_a": "Eindhoven",
+        "city_b": "Vilnius",
+        "distance_km": 1370
+    },
+    {
+        "city_a": "Eindhoven",
+        "city_b": "Warschau",
+        "distance_km": 560
+    },
+    {
+        "city_a": "Eriwan",
+        "city_b": "Larnaka",
+        "distance_km": 1120
+    },
+    {
+        "city_a": "Eriwan",
+        "city_b": "Rom",
+        "distance_km": 2680
+    },
+    {
+        "city_a": "Eriwan",
+        "city_b": "Sofia",
+        "distance_km": 1790
+    },
+    {
+        "city_a": "Eriwan",
+        "city_b": "Venedig",
+        "distance_km": 2680
+    },
+    {
+        "city_a": "Eriwan",
+        "city_b": "Wien",
+        "distance_km": 2400
+    },
+    {
+        "city_a": "Faro",
+        "city_b": "London",
+        "distance_km": 1720
+    },
+    {
+        "city_a": "Frankfurt",
+        "city_b": "Kutaissi",
+        "distance_km": 2740
+    },
+    {
+        "city_a": "Frankfurt",
+        "city_b": "Skopje",
+        "distance_km": 1330
+    },
+    {
+        "city_a": "Frankfurt",
+        "city_b": "Sofia",
+        "distance_km": 1390
+    },
+    {
+        "city_a": "Frankfurt",
+        "city_b": "Tirana",
+        "distance_km": 1300
+    },
+    {
+        "city_a": "Frankfurt",
+        "city_b": "Varna",
+        "distance_km": 1650
+    },
+    {
+        "city_a": "Friedrichshafen",
+        "city_b": "Skopje",
+        "distance_km": 1130
+    },
+    {
+        "city_a": "Fuerteventura",
+        "city_b": "Kattowitz",
+        "distance_km": 3690
+    },
+    {
+        "city_a": "Fuerteventura",
+        "city_b": "Warschau",
+        "distance_km": 3510
+    },
+    {
+        "city_a": "Genf",
+        "city_b": "Sofia",
+        "distance_km": 1420
+    },
+    {
+        "city_a": "Grenoble",
+        "city_b": "London",
+        "distance_km": 830
+    },
+    {
+        "city_a": "Grenoble",
+        "city_b": "Vilnius",
+        "distance_km": 1750
+    },
+    {
+        "city_a": "Grenoble",
+        "city_b": "Warschau",
+        "distance_km": 990
+    },
+    {
+        "city_a": "G\u00f6teborg",
+        "city_b": "Rom",
+        "distance_km": 1760
+    },
+    {
+        "city_a": "G\u00f6teborg",
+        "city_b": "Skopje",
+        "distance_km": 1870
+    },
+    {
+        "city_a": "G\u00f6teborg",
+        "city_b": "Warschau",
+        "distance_km": 590
+    },
+    {
+        "city_a": "Hamburg",
+        "city_b": "Rom",
+        "distance_km": 1310
+    },
+    {
+        "city_a": "Hamburg",
+        "city_b": "Skopje",
+        "distance_km": 1540
+    },
+    {
+        "city_a": "Hamburg",
+        "city_b": "Sofia",
+        "distance_km": 1560
+    },
+    {
+        "city_a": "Hamburg",
+        "city_b": "Tirana",
+        "distance_km": 1540
+    },
+    {
+        "city_a": "Hamburg",
+        "city_b": "Varna",
+        "distance_km": 1750
+    },
+    {
+        "city_a": "Heraklion (Kreta)",
+        "city_b": "Krakau",
+        "distance_km": 1610
+    },
+    {
+        "city_a": "Heraklion (Kreta)",
+        "city_b": "Rom",
+        "distance_km": 1320
+    },
+    {
+        "city_a": "Heraklion (Kreta)",
+        "city_b": "Sofia",
+        "distance_km": 830
+    },
+    {
+        "city_a": "Heraklion (Kreta)",
+        "city_b": "Warschau",
+        "distance_km": 2120
+    },
+    {
+        "city_a": "Hermannstadt",
+        "city_b": "Karlsruhe",
+        "distance_km": 1240
+    },
+    {
+        "city_a": "Hermannstadt",
+        "city_b": "London",
+        "distance_km": 1890
+    },
+    {
+        "city_a": "Hermannstadt",
+        "city_b": "Memmingen",
+        "distance_km": 1090
+    },
+    {
+        "city_a": "Hermannstadt",
+        "city_b": "N\u00fcrnberg",
+        "distance_km": 1060
+    },
+    {
+        "city_a": "Hurghada",
+        "city_b": "London",
+        "distance_km": 3920
+    },
+    {
+        "city_a": "Hurghada",
+        "city_b": "Wien",
+        "distance_km": 2780
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Istanbul",
+        "distance_km": 690
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Kopenhagen",
+        "distance_km": 1410
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Larnaka",
+        "distance_km": 1450
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Liverpool",
+        "distance_km": 2270
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "London",
+        "distance_km": 2060
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Madrid",
+        "distance_km": 2610
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Memmingen",
+        "distance_km": 1310
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Paris",
+        "distance_km": 1890
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Rom",
+        "distance_km": 1330
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Tel Aviv",
+        "distance_km": 1780
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Turin",
+        "distance_km": 1550
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Venedig",
+        "distance_km": 1150
+    },
+    {
+        "city_a": "Ibiza",
+        "city_b": "Neapel",
+        "distance_km": 2600
+    },
+    {
+        "city_a": "Ibiza",
+        "city_b": "Rom",
+        "distance_km": 1360
+    },
+    {
+        "city_a": "Istanbul",
+        "city_b": "London",
+        "distance_km": 2510
+    },
+    {
+        "city_a": "Jeddah",
+        "city_b": "Rom",
+        "distance_km": 3360
+    },
+    {
+        "city_a": "Jeddah",
+        "city_b": "Wien",
+        "distance_km": 3590
+    },
+    {
+        "city_a": "Karlsruhe",
+        "city_b": "Skopje",
+        "distance_km": 1280
+    },
+    {
+        "city_a": "Karlsruhe",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 1030
+    },
+    {
+        "city_a": "Karlsruhe",
+        "city_b": "Tirana",
+        "distance_km": 1240
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Kopenhagen",
+        "distance_km": 750
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Korfu",
+        "distance_km": 700
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Kutaissi",
+        "distance_km": 2020
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Larnaka",
+        "distance_km": 2070
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Liverpool",
+        "distance_km": 1550
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "London",
+        "distance_km": 1350
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Madeira",
+        "distance_km": 3530
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Malaga",
+        "distance_km": 2400
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Mallorca",
+        "distance_km": 1730
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Malta",
+        "distance_km": 1630
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Neapel",
+        "distance_km": 1020
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Podgorica",
+        "distance_km": 860
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Reykjavik",
+        "distance_km": 2850
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Rom",
+        "distance_km": 1050
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Split",
+        "distance_km": 770
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Tel Aviv",
+        "distance_km": 2400
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Teneriffa",
+        "distance_km": 3860
+    },
+    {
+        "city_a": "Kattowitz",
+        "city_b": "Tirana",
+        "distance_km": 990
+    },
+    {
+        "city_a": "Kaunas",
+        "city_b": "London",
+        "distance_km": 1640
+    },
+    {
+        "city_a": "Kefalonia",
+        "city_b": "Rom",
+        "distance_km": 800
+    },
+    {
+        "city_a": "Kopenhagen",
+        "city_b": "Kutaissi",
+        "distance_km": 2630
+    },
+    {
+        "city_a": "Kopenhagen",
+        "city_b": "Skopje",
+        "distance_km": 1650
+    },
+    {
+        "city_a": "Kopenhagen",
+        "city_b": "Sofia",
+        "distance_km": 1640
+    },
+    {
+        "city_a": "Kopenhagen",
+        "city_b": "Warschau",
+        "distance_km": 360
+    },
+    {
+        "city_a": "Korfu",
+        "city_b": "Neapel",
+        "distance_km": 400
+    },
+    {
+        "city_a": "Korfu",
+        "city_b": "Rom",
+        "distance_km": 1740
+    },
+    {
+        "city_a": "Korfu",
+        "city_b": "Warschau",
+        "distance_km": 680
+    },
+    {
+        "city_a": "Korfu",
+        "city_b": "Wien",
+        "distance_km": 970
+    },
+    {
+        "city_a": "Kos",
+        "city_b": "Rom",
+        "distance_km": 700
+    },
+    {
+        "city_a": "Ko\u0161ice",
+        "city_b": "London",
+        "distance_km": 1550
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "Larnaka",
+        "distance_km": 2130
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "London",
+        "distance_km": 1130
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "Lyon",
+        "distance_km": 720
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "Malaga",
+        "distance_km": 1910
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "Nizza",
+        "distance_km": 460
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "Oslo",
+        "distance_km": 1430
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "Rom",
+        "distance_km": 600
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "Split",
+        "distance_km": 460
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "Stavanger",
+        "distance_km": 1420
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "Tel Aviv",
+        "distance_km": 2440
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "Tirana",
+        "distance_km": 800
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Larnaka",
+        "distance_km": 1130
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Memmingen",
+        "distance_km": 2610
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Paris",
+        "distance_km": 3190
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Posen",
+        "distance_km": 2230
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Prag",
+        "distance_km": 2330
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Riga",
+        "distance_km": 2100
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Rom",
+        "distance_km": 2480
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Thessaloniki",
+        "distance_km": 1650
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Vilnius",
+        "distance_km": 1880
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Warschau",
+        "distance_km": 2460
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Wien",
+        "distance_km": 2160
+    },
+    {
+        "city_a": "K\u00f6ln",
+        "city_b": "Skopje",
+        "distance_km": 1490
+    },
+    {
+        "city_a": "K\u00f6ln",
+        "city_b": "Tirana",
+        "distance_km": 1450
+    },
+    {
+        "city_a": "Lampedusa",
+        "city_b": "Rom",
+        "distance_km": 710
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "London",
+        "distance_km": 3260
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Paris",
+        "distance_km": 2990
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Prag",
+        "distance_km": 2290
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Radom",
+        "distance_km": 2090
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Rom",
+        "distance_km": 2000
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Sofia",
+        "distance_km": 1240
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Tel Aviv",
+        "distance_km": 330
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Thessaloniki",
+        "distance_km": 1130
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Vilnius",
+        "distance_km": 2290
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Warschau",
+        "distance_km": 2520
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Wien",
+        "distance_km": 2050
+    },
+    {
+        "city_a": "Leeds",
+        "city_b": "Warschau",
+        "distance_km": 1010
+    },
+    {
+        "city_a": "Leipzig",
+        "city_b": "Tirana",
+        "distance_km": 1250
+    },
+    {
+        "city_a": "Lissabon",
+        "city_b": "London",
+        "distance_km": 2120
+    },
+    {
+        "city_a": "Lissabon",
+        "city_b": "Rom",
+        "distance_km": 2750
+    },
+    {
+        "city_a": "Lissabon",
+        "city_b": "Sofia",
+        "distance_km": 2550
+    },
+    {
+        "city_a": "Lissabon",
+        "city_b": "Warschau",
+        "distance_km": 1600
+    },
+    {
+        "city_a": "Liverpool",
+        "city_b": "Warschau",
+        "distance_km": 1110
+    },
+    {
+        "city_a": "Ljubljana",
+        "city_b": "Skopje",
+        "distance_km": 710
+    },
+    {
+        "city_a": "London",
+        "city_b": "Lublin",
+        "distance_km": 1570
+    },
+    {
+        "city_a": "London",
+        "city_b": "Lyon",
+        "distance_km": 740
+    },
+    {
+        "city_a": "London",
+        "city_b": "Malaga",
+        "distance_km": 1680
+    },
+    {
+        "city_a": "London",
+        "city_b": "Mallorca",
+        "distance_km": 1340
+    },
+    {
+        "city_a": "London",
+        "city_b": "Marrakesch",
+        "distance_km": 2300
+    },
+    {
+        "city_a": "London",
+        "city_b": "Neapel",
+        "distance_km": 1440
+    },
+    {
+        "city_a": "London",
+        "city_b": "Plowdiw",
+        "distance_km": 2150
+    },
+    {
+        "city_a": "London",
+        "city_b": "Podgorica",
+        "distance_km": 1780
+    },
+    {
+        "city_a": "London",
+        "city_b": "Poprad",
+        "distance_km": 1480
+    },
+    {
+        "city_a": "London",
+        "city_b": "Posen",
+        "distance_km": 1170
+    },
+    {
+        "city_a": "London",
+        "city_b": "Prag",
+        "distance_km": 1040
+    },
+    {
+        "city_a": "London",
+        "city_b": "Pristina",
+        "distance_km": 1880
+    },
+    {
+        "city_a": "London",
+        "city_b": "Rom",
+        "distance_km": 1440
+    },
+    {
+        "city_a": "London",
+        "city_b": "Salzburg",
+        "distance_km": 1040
+    },
+    {
+        "city_a": "London",
+        "city_b": "Sarajevo",
+        "distance_km": 1620
+    },
+    {
+        "city_a": "London",
+        "city_b": "Satu Mare",
+        "distance_km": 1700
+    },
+    {
+        "city_a": "London",
+        "city_b": "Sharm El Sheikh",
+        "distance_km": 3890
+    },
+    {
+        "city_a": "London",
+        "city_b": "Skopje",
+        "distance_km": 1950
+    },
+    {
+        "city_a": "London",
+        "city_b": "Sofia",
+        "distance_km": 2020
+    },
+    {
+        "city_a": "London",
+        "city_b": "Split",
+        "distance_km": 1530
+    },
+    {
+        "city_a": "London",
+        "city_b": "Suceava",
+        "distance_km": 1940
+    },
+    {
+        "city_a": "London",
+        "city_b": "Tallinn",
+        "distance_km": 1790
+    },
+    {
+        "city_a": "London",
+        "city_b": "Tel Aviv",
+        "distance_km": 3560
+    },
+    {
+        "city_a": "London",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 1690
+    },
+    {
+        "city_a": "London",
+        "city_b": "Tirana",
+        "distance_km": 1900
+    },
+    {
+        "city_a": "London",
+        "city_b": "Troms\u00f8",
+        "distance_km": 2250
+    },
+    {
+        "city_a": "London",
+        "city_b": "T\u00e2rgu Mure\u0219",
+        "distance_km": 1880
+    },
+    {
+        "city_a": "London",
+        "city_b": "Varna",
+        "distance_km": 2290
+    },
+    {
+        "city_a": "London",
+        "city_b": "Venedig",
+        "distance_km": 1030
+    },
+    {
+        "city_a": "London",
+        "city_b": "Vilnius",
+        "distance_km": 1730
+    },
+    {
+        "city_a": "London",
+        "city_b": "Warschau",
+        "distance_km": 940
+    },
+    {
+        "city_a": "London",
+        "city_b": "Wien",
+        "distance_km": 1240
+    },
+    {
+        "city_a": "Lublin",
+        "city_b": "Split",
+        "distance_km": 980
+    },
+    {
+        "city_a": "Lyon",
+        "city_b": "Rom",
+        "distance_km": 750
+    },
+    {
+        "city_a": "Lyon",
+        "city_b": "Tirana",
+        "distance_km": 1300
+    },
+    {
+        "city_a": "Madeira",
+        "city_b": "Rom",
+        "distance_km": 2780
+    },
+    {
+        "city_a": "Madeira",
+        "city_b": "Warschau",
+        "distance_km": 3280
+    },
+    {
+        "city_a": "Madeira",
+        "city_b": "Wien",
+        "distance_km": 3270
+    },
+    {
+        "city_a": "Madrid",
+        "city_b": "Rom",
+        "distance_km": 1370
+    },
+    {
+        "city_a": "Madrid",
+        "city_b": "Sofia",
+        "distance_km": 2260
+    },
+    {
+        "city_a": "Madrid",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 2100
+    },
+    {
+        "city_a": "Madrid",
+        "city_b": "Tirana",
+        "distance_km": 1980
+    },
+    {
+        "city_a": "Madrid",
+        "city_b": "Warschau",
+        "distance_km": 1870
+    },
+    {
+        "city_a": "Malaga",
+        "city_b": "Rom",
+        "distance_km": 1560
+    },
+    {
+        "city_a": "Malaga",
+        "city_b": "Sofia",
+        "distance_km": 2460
+    },
+    {
+        "city_a": "Malaga",
+        "city_b": "Vilnius",
+        "distance_km": 3020
+    },
+    {
+        "city_a": "Malaga",
+        "city_b": "Warschau",
+        "distance_km": 2240
+    },
+    {
+        "city_a": "Malaga",
+        "city_b": "Wien",
+        "distance_km": 2120
+    },
+    {
+        "city_a": "Mallorca",
+        "city_b": "Rom",
+        "distance_km": 850
+    },
+    {
+        "city_a": "Mallorca",
+        "city_b": "Warschau",
+        "distance_km": 1650
+    },
+    {
+        "city_a": "Malm\u00f6",
+        "city_b": "Skopje",
+        "distance_km": 1630
+    },
+    {
+        "city_a": "Malm\u00f6",
+        "city_b": "Tirana",
+        "distance_km": 1660
+    },
+    {
+        "city_a": "Malta",
+        "city_b": "Skopje",
+        "distance_km": 910
+    },
+    {
+        "city_a": "Malta",
+        "city_b": "Warschau",
+        "distance_km": 1850
+    },
+    {
+        "city_a": "Marrakesch",
+        "city_b": "Rom",
+        "distance_km": 2150
+    },
+    {
+        "city_a": "Marrakesch",
+        "city_b": "Warschau",
+        "distance_km": 2900
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Ni\u0161",
+        "distance_km": 1360
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Ohrid",
+        "distance_km": 1140
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Podgorica",
+        "distance_km": 940
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Pristina",
+        "distance_km": 1040
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Rom",
+        "distance_km": 700
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Skopje",
+        "distance_km": 1110
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Sofia",
+        "distance_km": 1180
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Suceava",
+        "distance_km": 1200
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 880
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Tirana",
+        "distance_km": 1060
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Tuzla",
+        "distance_km": 760
+    },
+    {
+        "city_a": "Memmingen",
+        "city_b": "Varna",
+        "distance_km": 1480
+    },
+    {
+        "city_a": "Mykonos",
+        "city_b": "Neapel",
+        "distance_km": 2490
+    },
+    {
+        "city_a": "Mykonos",
+        "city_b": "Rom",
+        "distance_km": 1210
+    },
+    {
+        "city_a": "Neapel",
+        "city_b": "Prag",
+        "distance_km": 1060
+    },
+    {
+        "city_a": "Neapel",
+        "city_b": "Santorini",
+        "distance_km": 2610
+    },
+    {
+        "city_a": "Neapel",
+        "city_b": "Sofia",
+        "distance_km": 1890
+    },
+    {
+        "city_a": "Neapel",
+        "city_b": "Tirana",
+        "distance_km": 2010
+    },
+    {
+        "city_a": "Neapel",
+        "city_b": "Turin",
+        "distance_km": 1740
+    },
+    {
+        "city_a": "Neapel",
+        "city_b": "Warschau",
+        "distance_km": 820
+    },
+    {
+        "city_a": "Neapel",
+        "city_b": "Wien",
+        "distance_km": 1250
+    },
+    {
+        "city_a": "Nizza",
+        "city_b": "Rom",
+        "distance_km": 430
+    },
+    {
+        "city_a": "Nizza",
+        "city_b": "Sofia",
+        "distance_km": 1170
+    },
+    {
+        "city_a": "Nizza",
+        "city_b": "Tirana",
+        "distance_km": 960
+    },
+    {
+        "city_a": "Nizza",
+        "city_b": "Warschau",
+        "distance_km": 910
+    },
+    {
+        "city_a": "Nizza",
+        "city_b": "Wien",
+        "distance_km": 670
+    },
+    {
+        "city_a": "N\u00fcrnberg",
+        "city_b": "Skopje",
+        "distance_km": 1150
+    },
+    {
+        "city_a": "N\u00fcrnberg",
+        "city_b": "Tirana",
+        "distance_km": 1130
+    },
+    {
+        "city_a": "Ohrid",
+        "city_b": "Wien",
+        "distance_km": 860
+    },
+    {
+        "city_a": "Olbia",
+        "city_b": "Rom",
+        "distance_km": 270
+    },
+    {
+        "city_a": "Olbia",
+        "city_b": "Warschau",
+        "distance_km": 1320
+    },
+    {
+        "city_a": "Paris",
+        "city_b": "Rom",
+        "distance_km": 1110
+    },
+    {
+        "city_a": "Paris",
+        "city_b": "Skopje",
+        "distance_km": 1670
+    },
+    {
+        "city_a": "Paris",
+        "city_b": "Sofia",
+        "distance_km": 1760
+    },
+    {
+        "city_a": "Paris",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 1470
+    },
+    {
+        "city_a": "Paris",
+        "city_b": "Tirana",
+        "distance_km": 1610
+    },
+    {
+        "city_a": "Paris",
+        "city_b": "Vilnius",
+        "distance_km": 1700
+    },
+    {
+        "city_a": "Paris",
+        "city_b": "Warschau",
+        "distance_km": 880
+    },
+    {
+        "city_a": "Perugia",
+        "city_b": "Tirana",
+        "distance_km": 640
+    },
+    {
+        "city_a": "Pescara",
+        "city_b": "Tirana",
+        "distance_km": 480
+    },
+    {
+        "city_a": "Pisa",
+        "city_b": "Tirana",
+        "distance_km": 820
+    },
+    {
+        "city_a": "Podgorica",
+        "city_b": "Warschau",
+        "distance_km": 1200
+    },
+    {
+        "city_a": "Podgorica",
+        "city_b": "Wien",
+        "distance_km": 680
+    },
+    {
+        "city_a": "Porto",
+        "city_b": "Rom",
+        "distance_km": 1760
+    },
+    {
+        "city_a": "Porto",
+        "city_b": "Warschau",
+        "distance_km": 2090
+    },
+    {
+        "city_a": "Posen",
+        "city_b": "Rom",
+        "distance_km": 1220
+    },
+    {
+        "city_a": "Posen",
+        "city_b": "Tirana",
+        "distance_km": 1250
+    },
+    {
+        "city_a": "Posen",
+        "city_b": "Verona",
+        "distance_km": 890
+    },
+    {
+        "city_a": "Prag",
+        "city_b": "Rom",
+        "distance_km": 920
+    },
+    {
+        "city_a": "Prag",
+        "city_b": "Tirana",
+        "distance_km": 1060
+    },
+    {
+        "city_a": "Prag",
+        "city_b": "Varna",
+        "distance_km": 1280
+    },
+    {
+        "city_a": "Prag",
+        "city_b": "Venedig",
+        "distance_km": 360
+    },
+    {
+        "city_a": "Pristina",
+        "city_b": "Wien",
+        "distance_km": 720
+    },
+    {
+        "city_a": "Reykjavik",
+        "city_b": "Rom",
+        "distance_km": 3310
+    },
+    {
+        "city_a": "Reykjavik",
+        "city_b": "Warschau",
+        "distance_km": 2400
+    },
+    {
+        "city_a": "Reykjavik",
+        "city_b": "Wien",
+        "distance_km": 2900
+    },
+    {
+        "city_a": "Rhodos",
+        "city_b": "Warschau",
+        "distance_km": 910
+    },
+    {
+        "city_a": "Riad",
+        "city_b": "Rom",
+        "distance_km": 3680
+    },
+    {
+        "city_a": "Riad",
+        "city_b": "Wien",
+        "distance_km": 3730
+    },
+    {
+        "city_a": "Rimini",
+        "city_b": "Tirana",
+        "distance_km": 670
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Rzesz\u00f3w",
+        "distance_km": 1170
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Santorini",
+        "distance_km": 1270
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Sarajevo",
+        "distance_km": 530
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Sevilla",
+        "distance_km": 1660
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Sharm El Sheikh",
+        "distance_km": 2520
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Skiathos",
+        "distance_km": 980
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Skopje",
+        "distance_km": 740
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Sofia",
+        "distance_km": 900
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Split",
+        "distance_km": 370
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Suceava",
+        "distance_km": 1260
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Tel Aviv",
+        "distance_km": 2250
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Teneriffa",
+        "distance_km": 3030
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 820
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Tirana",
+        "distance_km": 610
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Turku",
+        "distance_km": 2170
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Valencia",
+        "distance_km": 1120
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Vilnius",
+        "distance_km": 1700
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Warschau",
+        "distance_km": 1180
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Wien",
+        "distance_km": 770
+    },
+    {
+        "city_a": "Rom",
+        "city_b": "Zakynthos",
+        "distance_km": 840
+    },
+    {
+        "city_a": "Salzburg",
+        "city_b": "Skopje",
+        "distance_km": 920
+    },
+    {
+        "city_a": "Sandefjord",
+        "city_b": "Skopje",
+        "distance_km": 2050
+    },
+    {
+        "city_a": "Sandefjord",
+        "city_b": "Szczecin",
+        "distance_km": 680
+    },
+    {
+        "city_a": "Sandefjord",
+        "city_b": "Tirana",
+        "distance_km": 2080
+    },
+    {
+        "city_a": "Sandefjord",
+        "city_b": "Warschau",
+        "distance_km": 760
+    },
+    {
+        "city_a": "Santorini",
+        "city_b": "Warschau",
+        "distance_km": 2020
+    },
+    {
+        "city_a": "Sevilla",
+        "city_b": "Warschau",
+        "distance_km": 2260
+    },
+    {
+        "city_a": "Skopje",
+        "city_b": "Stockholm",
+        "distance_km": 1940
+    },
+    {
+        "city_a": "Skopje",
+        "city_b": "Venedig",
+        "distance_km": 920
+    },
+    {
+        "city_a": "Sofia",
+        "city_b": "Tel Aviv",
+        "distance_km": 1550
+    },
+    {
+        "city_a": "Sofia",
+        "city_b": "Valencia",
+        "distance_km": 2020
+    },
+    {
+        "city_a": "Split",
+        "city_b": "Vilnius",
+        "distance_km": 1400
+    },
+    {
+        "city_a": "Split",
+        "city_b": "Warschau",
+        "distance_km": 1020
+    },
+    {
+        "city_a": "Split",
+        "city_b": "Wien",
+        "distance_km": 520
+    },
+    {
+        "city_a": "Stockholm",
+        "city_b": "Tirana",
+        "distance_km": 2010
+    },
+    {
+        "city_a": "Stockholm",
+        "city_b": "Warschau",
+        "distance_km": 810
+    },
+    {
+        "city_a": "Stuttgart",
+        "city_b": "Tirana",
+        "distance_km": 1180
+    },
+    {
+        "city_a": "Tel Aviv",
+        "city_b": "Varna",
+        "distance_km": 1370
+    },
+    {
+        "city_a": "Tel Aviv",
+        "city_b": "Vilnius",
+        "distance_km": 2620
+    },
+    {
+        "city_a": "Tel Aviv",
+        "city_b": "Warschau",
+        "distance_km": 2850
+    },
+    {
+        "city_a": "Tel Aviv",
+        "city_b": "Wien",
+        "distance_km": 2370
+    },
+    {
+        "city_a": "Teneriffa",
+        "city_b": "Venedig",
+        "distance_km": 3270
+    },
+    {
+        "city_a": "Teneriffa",
+        "city_b": "Warschau",
+        "distance_km": 3660
+    },
+    {
+        "city_a": "Teneriffa",
+        "city_b": "Wien",
+        "distance_km": 3590
+    },
+    {
+        "city_a": "Timi\u0219oara",
+        "city_b": "Valencia",
+        "distance_km": 1900
+    },
+    {
+        "city_a": "Timi\u0219oara",
+        "city_b": "Venedig",
+        "distance_km": 700
+    },
+    {
+        "city_a": "Timi\u0219oara",
+        "city_b": "Zakynthos",
+        "distance_km": 890
+    },
+    {
+        "city_a": "Tirana",
+        "city_b": "Triest",
+        "distance_km": 680
+    },
+    {
+        "city_a": "Tirana",
+        "city_b": "Turin",
+        "distance_km": 1070
+    },
+    {
+        "city_a": "Tirana",
+        "city_b": "Valencia",
+        "distance_km": 1720
+    },
+    {
+        "city_a": "Tirana",
+        "city_b": "Venedig",
+        "distance_km": 870
+    },
+    {
+        "city_a": "Tirana",
+        "city_b": "Verona",
+        "distance_km": 850
+    },
+    {
+        "city_a": "Tirana",
+        "city_b": "Warschau",
+        "distance_km": 1330
+    },
+    {
+        "city_a": "Tirana",
+        "city_b": "Wien",
+        "distance_km": 810
+    },
+    {
+        "city_a": "Turin",
+        "city_b": "Warschau",
+        "distance_km": 930
+    },
+    {
+        "city_a": "Valencia",
+        "city_b": "Warschau",
+        "distance_km": 1800
+    },
+    {
+        "city_a": "Varna",
+        "city_b": "Wien",
+        "distance_km": 1060
+    },
+    {
+        "city_a": "Venedig",
+        "city_b": "Warschau",
+        "distance_km": 610
+    },
+    {
+        "city_a": "Verona",
+        "city_b": "Warschau",
+        "distance_km": 810
+    },
+    {
+        "city_a": "Warschau",
+        "city_b": "Zakynthos",
+        "distance_km": 1730
+    },
+    {
+        "city_a": "Wien",
+        "city_b": "Zakynthos",
+        "distance_km": 1210
+    },
+    {
+        "city_a": "K\u00f6ln",
+        "city_b": "Genoa(Italy)",
+        "distance_km": 740
+    },
+    {
+        "city_a": "Amman",
+        "city_b": "Mailand",
+        "distance_km": 2750
+    },
+    {
+        "city_a": "Athen",
+        "city_b": "Mailand",
+        "distance_km": 1460
+    },
+    {
+        "city_a": "Bac\u0103u",
+        "city_b": "Mailand",
+        "distance_km": 1380
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Mailand",
+        "distance_km": 730
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Mailand",
+        "distance_km": 890
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Mailand",
+        "distance_km": 790
+    },
+    {
+        "city_a": "Bukarest",
+        "city_b": "Mailand",
+        "distance_km": 1340
+    },
+    {
+        "city_a": "Catania",
+        "city_b": "Mailand",
+        "distance_km": 1010
+    },
+    {
+        "city_a": "Chi\u0219in\u0103u",
+        "city_b": "Mailand",
+        "distance_km": 1520
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Mailand",
+        "distance_km": 1120
+    },
+    {
+        "city_a": "Craiova",
+        "city_b": "Mailand",
+        "distance_km": 1160
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Mailand",
+        "distance_km": 1200
+    },
+    {
+        "city_a": "Eriwan",
+        "city_b": "Mailand",
+        "distance_km": 2920
+    },
+    {
+        "city_a": "Genua",
+        "city_b": "Tirana",
+        "distance_km": 950
+    },
+    {
+        "city_a": "Heraklion (Kreta)",
+        "city_b": "Mailand",
+        "distance_km": 1750
+    },
+    {
+        "city_a": "Hurghada",
+        "city_b": "Mailand",
+        "distance_km": 2980
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Mailand",
+        "distance_km": 1430
+    },
+    {
+        "city_a": "Jeddah",
+        "city_b": "Mailand",
+        "distance_km": 3800
+    },
+    {
+        "city_a": "Korfu",
+        "city_b": "Mailand",
+        "distance_km": 1490
+    },
+    {
+        "city_a": "Krakau",
+        "city_b": "Mailand",
+        "distance_km": 420
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Mailand",
+        "distance_km": 2690
+    },
+    {
+        "city_a": "Lampedusa",
+        "city_b": "Mailand",
+        "distance_km": 1140
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Mailand",
+        "distance_km": 2370
+    },
+    {
+        "city_a": "London",
+        "city_b": "Mailand",
+        "distance_km": 960
+    },
+    {
+        "city_a": "Madrid",
+        "city_b": "Mailand",
+        "distance_km": 1190
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Malaga",
+        "distance_km": 1500
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Marrakesch",
+        "distance_km": 2140
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Olbia",
+        "distance_km": 510
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Paris",
+        "distance_km": 640
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Podgorica",
+        "distance_km": 870
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Prag",
+        "distance_km": 640
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Pristina",
+        "distance_km": 1010
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Reykjavik",
+        "distance_km": 2830
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Riad",
+        "distance_km": 4070
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Rzesz\u00f3w",
+        "distance_km": 1090
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Sharm El Sheikh",
+        "distance_km": 2950
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Skiathos",
+        "distance_km": 1370
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Skopje",
+        "distance_km": 1060
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Sofia",
+        "distance_km": 1170
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Suceava",
+        "distance_km": 1330
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Tallinn",
+        "distance_km": 1870
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Tel Aviv",
+        "distance_km": 2660
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Teneriffa",
+        "distance_km": 2960
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 940
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Tirana",
+        "distance_km": 970
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Valencia",
+        "distance_km": 1030
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Vilnius",
+        "distance_km": 1540
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Warschau",
+        "distance_km": 840
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Zakynthos",
+        "distance_km": 1290
+    },
+    {
+        "city_a": "Abu Dhabi",
+        "city_b": "Kairo",
+        "distance_km": 2370
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Kairo",
+        "distance_km": 2200
+    },
+    {
+        "city_a": "Kairo",
+        "city_b": "London",
+        "distance_km": 3510
+    },
+    {
+        "city_a": "Kairo",
+        "city_b": "Mailand",
+        "distance_km": 2570
+    },
+    {
+        "city_a": "Kairo",
+        "city_b": "Rom",
+        "distance_km": 2130
+    }
+]
