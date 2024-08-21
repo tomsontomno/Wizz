@@ -1,22 +1,11 @@
 import json
 from geopy.distance import geodesic
 from geopy.geocoders import Photon
-
-city_name_map = {
-    "Medina": "Madinah",
-    "Breslau": "Wrocław",
-    "Danzig": "Gdańsk",
-    "Akaba": "Aqaba",
-    "Muscat": "Muscat(Oman)",
-    "Posen": "Poznań",
-    "Genua": "Genoa(Italy)",
-    "Mailand": "Milan",
-    "Kairo": "Cairo"
-}
+from name_formater import formated_city_name
 
 
 def get_city_coordinates(city_name):
-    request_name = city_name_map.get(city_name, city_name)
+    request_name = formated_city_name(city_name)
     geolocator = Photon(user_agent="geoapiExercises")
     location = geolocator.geocode(request_name)
     return location.latitude, location.longitude
