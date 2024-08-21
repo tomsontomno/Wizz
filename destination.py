@@ -5,6 +5,7 @@ def _get_city_info(city):
     with open('city_preferability.json', 'r') as file:
         city_data = json.load(file)
         return {
+            "name": city,
             "visited": city_data[city][0],
             "preferability": city_data[city][1],
             "would_visit_again": city_data[city][2],
