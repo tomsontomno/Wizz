@@ -91,6 +91,11 @@
     },
     {
         "city_a": "Abu Dhabi",
+        "city_b": "Kairo",
+        "distance_km": 2370
+    },
+    {
+        "city_a": "Abu Dhabi",
         "city_b": "Kattowitz",
         "distance_km": 4170
     },
@@ -251,6 +256,11 @@
     },
     {
         "city_a": "Amman",
+        "city_b": "Mailand",
+        "distance_km": 2750
+    },
+    {
+        "city_a": "Amman",
         "city_b": "Rom",
         "distance_km": 2350
     },
@@ -316,6 +326,11 @@
     },
     {
         "city_a": "Athen",
+        "city_b": "Mailand",
+        "distance_km": 1460
+    },
+    {
+        "city_a": "Athen",
         "city_b": "Tel Aviv",
         "distance_km": 1200
     },
@@ -328,6 +343,11 @@
         "city_a": "Bac\u0103u",
         "city_b": "London",
         "distance_km": 2040
+    },
+    {
+        "city_a": "Bac\u0103u",
+        "city_b": "Mailand",
+        "distance_km": 1380
     },
     {
         "city_a": "Bac\u0103u",
@@ -403,6 +423,11 @@
         "city_a": "Barcelona",
         "city_b": "Kutaissi",
         "distance_km": 3330
+    },
+    {
+        "city_a": "Barcelona",
+        "city_b": "Mailand",
+        "distance_km": 730
     },
     {
         "city_a": "Barcelona",
@@ -598,6 +623,11 @@
         "city_a": "Belgrad",
         "city_b": "London",
         "distance_km": 1690
+    },
+    {
+        "city_a": "Belgrad",
+        "city_b": "Mailand",
+        "distance_km": 890
     },
     {
         "city_a": "Belgrad",
@@ -1016,6 +1046,11 @@
     },
     {
         "city_a": "Budapest",
+        "city_b": "Kairo",
+        "distance_km": 2200
+    },
+    {
+        "city_a": "Budapest",
         "city_b": "Kopenhagen",
         "distance_km": 1010
     },
@@ -1058,6 +1093,11 @@
         "city_a": "Budapest",
         "city_b": "Madrid",
         "distance_km": 1980
+    },
+    {
+        "city_a": "Budapest",
+        "city_b": "Mailand",
+        "distance_km": 790
     },
     {
         "city_a": "Budapest",
@@ -1281,6 +1321,11 @@
     },
     {
         "city_a": "Bukarest",
+        "city_b": "Mailand",
+        "distance_km": 1340
+    },
+    {
+        "city_a": "Bukarest",
         "city_b": "Malaga",
         "distance_km": 2700
     },
@@ -1496,6 +1541,11 @@
     },
     {
         "city_a": "Catania",
+        "city_b": "Mailand",
+        "distance_km": 1010
+    },
+    {
+        "city_a": "Catania",
         "city_b": "Memmingen",
         "distance_km": 1230
     },
@@ -1553,6 +1603,11 @@
         "city_a": "Chi\u0219in\u0103u",
         "city_b": "London",
         "distance_km": 2150
+    },
+    {
+        "city_a": "Chi\u0219in\u0103u",
+        "city_b": "Mailand",
+        "distance_km": 1520
     },
     {
         "city_a": "Chi\u0219in\u0103u",
@@ -1623,6 +1678,11 @@
         "city_a": "Cluj-Napoca",
         "city_b": "Madrid",
         "distance_km": 2300
+    },
+    {
+        "city_a": "Cluj-Napoca",
+        "city_b": "Mailand",
+        "distance_km": 1120
     },
     {
         "city_a": "Cluj-Napoca",
@@ -1721,6 +1781,11 @@
     },
     {
         "city_a": "Craiova",
+        "city_b": "Mailand",
+        "distance_km": 1160
+    },
+    {
+        "city_a": "Craiova",
         "city_b": "Rom",
         "distance_km": 960
     },
@@ -1793,6 +1858,11 @@
         "city_a": "Danzig",
         "city_b": "Madeira",
         "distance_km": 3680
+    },
+    {
+        "city_a": "Danzig",
+        "city_b": "Mailand",
+        "distance_km": 1200
     },
     {
         "city_a": "Danzig",
@@ -2066,6 +2136,11 @@
     },
     {
         "city_a": "Eriwan",
+        "city_b": "Mailand",
+        "distance_km": 2920
+    },
+    {
+        "city_a": "Eriwan",
         "city_b": "Rom",
         "distance_km": 2680
     },
@@ -2135,6 +2210,11 @@
         "distance_km": 1420
     },
     {
+        "city_a": "Genua",
+        "city_b": "Tirana",
+        "distance_km": 950
+    },
+    {
         "city_a": "Grenoble",
         "city_b": "London",
         "distance_km": 830
@@ -2196,6 +2276,11 @@
     },
     {
         "city_a": "Heraklion (Kreta)",
+        "city_b": "Mailand",
+        "distance_km": 1750
+    },
+    {
+        "city_a": "Heraklion (Kreta)",
         "city_b": "Rom",
         "distance_km": 1320
     },
@@ -2236,6 +2321,11 @@
     },
     {
         "city_a": "Hurghada",
+        "city_b": "Mailand",
+        "distance_km": 2980
+    },
+    {
+        "city_a": "Hurghada",
         "city_b": "Wien",
         "distance_km": 2780
     },
@@ -2268,6 +2358,11 @@
         "city_a": "Ia\u015fi",
         "city_b": "Madrid",
         "distance_km": 2610
+    },
+    {
+        "city_a": "Ia\u015fi",
+        "city_b": "Mailand",
+        "distance_km": 1430
     },
     {
         "city_a": "Ia\u015fi",
@@ -2316,6 +2411,11 @@
     },
     {
         "city_a": "Jeddah",
+        "city_b": "Mailand",
+        "distance_km": 3800
+    },
+    {
+        "city_a": "Jeddah",
         "city_b": "Rom",
         "distance_km": 3360
     },
@@ -2323,6 +2423,21 @@
         "city_a": "Jeddah",
         "city_b": "Wien",
         "distance_km": 3590
+    },
+    {
+        "city_a": "Kairo",
+        "city_b": "London",
+        "distance_km": 3510
+    },
+    {
+        "city_a": "Kairo",
+        "city_b": "Mailand",
+        "distance_km": 2570
+    },
+    {
+        "city_a": "Kairo",
+        "city_b": "Rom",
+        "distance_km": 2130
     },
     {
         "city_a": "Karlsruhe",
@@ -2461,6 +2576,11 @@
     },
     {
         "city_a": "Korfu",
+        "city_b": "Mailand",
+        "distance_km": 1490
+    },
+    {
+        "city_a": "Korfu",
         "city_b": "Neapel",
         "distance_km": 400
     },
@@ -2506,6 +2626,11 @@
     },
     {
         "city_a": "Krakau",
+        "city_b": "Mailand",
+        "distance_km": 420
+    },
+    {
+        "city_a": "Krakau",
         "city_b": "Malaga",
         "distance_km": 1910
     },
@@ -2548,6 +2673,11 @@
         "city_a": "Kutaissi",
         "city_b": "Larnaka",
         "distance_km": 1130
+    },
+    {
+        "city_a": "Kutaissi",
+        "city_b": "Mailand",
+        "distance_km": 2690
     },
     {
         "city_a": "Kutaissi",
@@ -2611,6 +2741,11 @@
     },
     {
         "city_a": "Lampedusa",
+        "city_b": "Mailand",
+        "distance_km": 1140
+    },
+    {
+        "city_a": "Lampedusa",
         "city_b": "Rom",
         "distance_km": 710
     },
@@ -2618,6 +2753,11 @@
         "city_a": "Larnaka",
         "city_b": "London",
         "distance_km": 3260
+    },
+    {
+        "city_a": "Larnaka",
+        "city_b": "Mailand",
+        "distance_km": 2370
     },
     {
         "city_a": "Larnaka",
@@ -2718,6 +2858,11 @@
         "city_a": "London",
         "city_b": "Lyon",
         "distance_km": 740
+    },
+    {
+        "city_a": "London",
+        "city_b": "Mailand",
+        "distance_km": 960
     },
     {
         "city_a": "London",
@@ -2901,6 +3046,11 @@
     },
     {
         "city_a": "Madrid",
+        "city_b": "Mailand",
+        "distance_km": 1190
+    },
+    {
+        "city_a": "Madrid",
         "city_b": "Rom",
         "distance_km": 1370
     },
@@ -2923,6 +3073,126 @@
         "city_a": "Madrid",
         "city_b": "Warschau",
         "distance_km": 1870
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Malaga",
+        "distance_km": 1500
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Marrakesch",
+        "distance_km": 2140
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Olbia",
+        "distance_km": 510
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Paris",
+        "distance_km": 640
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Podgorica",
+        "distance_km": 870
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Prag",
+        "distance_km": 640
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Pristina",
+        "distance_km": 1010
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Reykjavik",
+        "distance_km": 2830
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Riad",
+        "distance_km": 4070
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Rzesz\u00f3w",
+        "distance_km": 1090
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Sharm El Sheikh",
+        "distance_km": 2950
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Skiathos",
+        "distance_km": 1370
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Skopje",
+        "distance_km": 1060
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Sofia",
+        "distance_km": 1170
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Suceava",
+        "distance_km": 1330
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Tallinn",
+        "distance_km": 1870
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Tel Aviv",
+        "distance_km": 2660
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Teneriffa",
+        "distance_km": 2960
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Timi\u0219oara",
+        "distance_km": 940
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Tirana",
+        "distance_km": 970
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Valencia",
+        "distance_km": 1030
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Vilnius",
+        "distance_km": 1540
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Warschau",
+        "distance_km": 840
+    },
+    {
+        "city_a": "Mailand",
+        "city_b": "Zakynthos",
+        "distance_km": 1290
     },
     {
         "city_a": "Malaga",
@@ -3593,280 +3863,5 @@
         "city_a": "Wien",
         "city_b": "Zakynthos",
         "distance_km": 1210
-    },
-    {
-        "city_a": "K\u00f6ln",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 740
-    },
-    {
-        "city_a": "Amman",
-        "city_b": "Mailand",
-        "distance_km": 2750
-    },
-    {
-        "city_a": "Athen",
-        "city_b": "Mailand",
-        "distance_km": 1460
-    },
-    {
-        "city_a": "Bac\u0103u",
-        "city_b": "Mailand",
-        "distance_km": 1380
-    },
-    {
-        "city_a": "Barcelona",
-        "city_b": "Mailand",
-        "distance_km": 730
-    },
-    {
-        "city_a": "Belgrad",
-        "city_b": "Mailand",
-        "distance_km": 890
-    },
-    {
-        "city_a": "Budapest",
-        "city_b": "Mailand",
-        "distance_km": 790
-    },
-    {
-        "city_a": "Bukarest",
-        "city_b": "Mailand",
-        "distance_km": 1340
-    },
-    {
-        "city_a": "Catania",
-        "city_b": "Mailand",
-        "distance_km": 1010
-    },
-    {
-        "city_a": "Chi\u0219in\u0103u",
-        "city_b": "Mailand",
-        "distance_km": 1520
-    },
-    {
-        "city_a": "Cluj-Napoca",
-        "city_b": "Mailand",
-        "distance_km": 1120
-    },
-    {
-        "city_a": "Craiova",
-        "city_b": "Mailand",
-        "distance_km": 1160
-    },
-    {
-        "city_a": "Danzig",
-        "city_b": "Mailand",
-        "distance_km": 1200
-    },
-    {
-        "city_a": "Eriwan",
-        "city_b": "Mailand",
-        "distance_km": 2920
-    },
-    {
-        "city_a": "Genua",
-        "city_b": "Tirana",
-        "distance_km": 950
-    },
-    {
-        "city_a": "Heraklion (Kreta)",
-        "city_b": "Mailand",
-        "distance_km": 1750
-    },
-    {
-        "city_a": "Hurghada",
-        "city_b": "Mailand",
-        "distance_km": 2980
-    },
-    {
-        "city_a": "Ia\u015fi",
-        "city_b": "Mailand",
-        "distance_km": 1430
-    },
-    {
-        "city_a": "Jeddah",
-        "city_b": "Mailand",
-        "distance_km": 3800
-    },
-    {
-        "city_a": "Korfu",
-        "city_b": "Mailand",
-        "distance_km": 1490
-    },
-    {
-        "city_a": "Krakau",
-        "city_b": "Mailand",
-        "distance_km": 420
-    },
-    {
-        "city_a": "Kutaissi",
-        "city_b": "Mailand",
-        "distance_km": 2690
-    },
-    {
-        "city_a": "Lampedusa",
-        "city_b": "Mailand",
-        "distance_km": 1140
-    },
-    {
-        "city_a": "Larnaka",
-        "city_b": "Mailand",
-        "distance_km": 2370
-    },
-    {
-        "city_a": "London",
-        "city_b": "Mailand",
-        "distance_km": 960
-    },
-    {
-        "city_a": "Madrid",
-        "city_b": "Mailand",
-        "distance_km": 1190
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Malaga",
-        "distance_km": 1500
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Marrakesch",
-        "distance_km": 2140
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Olbia",
-        "distance_km": 510
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Paris",
-        "distance_km": 640
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Podgorica",
-        "distance_km": 870
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Prag",
-        "distance_km": 640
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Pristina",
-        "distance_km": 1010
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Reykjavik",
-        "distance_km": 2830
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Riad",
-        "distance_km": 4070
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Rzesz\u00f3w",
-        "distance_km": 1090
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Sharm El Sheikh",
-        "distance_km": 2950
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Skiathos",
-        "distance_km": 1370
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Skopje",
-        "distance_km": 1060
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Sofia",
-        "distance_km": 1170
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Suceava",
-        "distance_km": 1330
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Tallinn",
-        "distance_km": 1870
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Tel Aviv",
-        "distance_km": 2660
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Teneriffa",
-        "distance_km": 2960
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Timi\u0219oara",
-        "distance_km": 940
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Tirana",
-        "distance_km": 970
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Valencia",
-        "distance_km": 1030
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Vilnius",
-        "distance_km": 1540
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Warschau",
-        "distance_km": 840
-    },
-    {
-        "city_a": "Mailand",
-        "city_b": "Zakynthos",
-        "distance_km": 1290
-    },
-    {
-        "city_a": "Abu Dhabi",
-        "city_b": "Kairo",
-        "distance_km": 2370
-    },
-    {
-        "city_a": "Budapest",
-        "city_b": "Kairo",
-        "distance_km": 2200
-    },
-    {
-        "city_a": "Kairo",
-        "city_b": "London",
-        "distance_km": 3510
-    },
-    {
-        "city_a": "Kairo",
-        "city_b": "Mailand",
-        "distance_km": 2570
-    },
-    {
-        "city_a": "Kairo",
-        "city_b": "Rom",
-        "distance_km": 2130
     }
 ]
