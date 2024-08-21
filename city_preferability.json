@@ -1,0 +1,2069 @@
+{
+    "LAYOUT": [
+        "visited?",
+        "preferability",
+        "would like to visit again?",
+        "reachability by foot",
+        [
+            "reachability by public transport",
+            "costs of reachability by public transport"
+        ],
+        "country"
+    ],
+    "Aberdeen": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "United Kingdom"
+    ],
+    "Abu Dhabi": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "\u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629"
+    ],
+    "Agadir": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            7
+        ],
+        "Maroc \u2d4d\u2d4e\u2d56\u2d54\u2d49\u2d31 \u0627\u0644\u0645\u063a\u0631\u0628"
+    ],
+    "Akaba": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "United States",
+        "\u0627\u0644\u0623\u0631\u062f\u0646"
+    ],
+    "Alexandria": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Alghero": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Italia"
+    ],
+    "Alicante": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Espa\u00f1a"
+    ],
+    "Almaty": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d"
+    ],
+    "Amman": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "\u0627\u0644\u0623\u0631\u062f\u0646"
+    ],
+    "Ancona": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Italia"
+    ],
+    "Ankara": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "T\u00fcrkiye"
+    ],
+    "Antalya": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "T\u00fcrkiye"
+    ],
+    "Astana": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d"
+    ],
+    "Athen": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "\u0395\u03bb\u03bb\u03ac\u03c2"
+    ],
+    "Bac\u0103u": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Baku": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            7,
+            8
+        ],
+        "Az\u0259rbaycan"
+    ],
+    "Banja Luka": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "Bosna i Hercegovina / \u0411\u043e\u0441\u043d\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"
+    ],
+    "Barcelona": [
+        true,
+        -1,
+        true,
+        5,
+        [
+            8,
+            4
+        ],
+        "Espa\u00f1a"
+    ],
+    "Bari": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Italia"
+    ],
+    "Basel": [
+        true,
+        -1,
+        true,
+        4,
+        [
+            7,
+            5
+        ],
+        "Schweiz/Suisse/Svizzera/Svizra"
+    ],
+    "Belgrad": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "\u0421\u0440\u0431\u0438\u0458\u0430"
+    ],
+    "Bergamo": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Italia"
+    ],
+    "Bergen": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Norge"
+    ],
+    "Berlin": [
+        true,
+        -1,
+        true,
+        5,
+        [
+            9,
+            4
+        ],
+        "Deutschland"
+    ],
+    "Bilbao": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Espa\u00f1a"
+    ],
+    "Billund": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "Danmark"
+    ],
+    "Birmingham": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "United Kingdom"
+    ],
+    "Bischkek": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "\u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d"
+    ],
+    "Bologna": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Italia"
+    ],
+    "Bratislava": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Slovensko"
+    ],
+    "Bra\u015fov": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Bremen": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Deutschland"
+    ],
+    "Breslau": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "United States",
+        "Polska"
+    ],
+    "Brindisi": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Italia"
+    ],
+    "Br\u00fcssel": [
+        true,
+        -1,
+        true,
+        5,
+        [
+            8,
+            5
+        ],
+        "Belgi\u00eb / Belgique / Belgien"
+    ],
+    "Br\u00fcssel Charleroi": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Belgi\u00eb / Belgique / Belgien"
+    ],
+    "Budapest": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            9,
+            4
+        ],
+        "Magyarorsz\u00e1g"
+    ],
+    "Bukarest": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Burgas": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            6
+        ],
+        "\u0411\u044a\u043b\u0433a\u0440\u0438\u044f"
+    ],
+    "Bydgoszcz": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            6
+        ],
+        "Polska"
+    ],
+    "Castellon": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Espa\u00f1a"
+    ],
+    "Catania": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Italia"
+    ],
+    "Chania (Kreta)": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "\u0395\u03bb\u03bb\u03ac\u03c2"
+    ],
+    "Chi\u0219in\u0103u": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "Moldova"
+    ],
+    "Cluj-Napoca": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Comiso": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Italia"
+    ],
+    "Constan\u021ba": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Craiova": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Dalaman": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "T\u00fcrkiye"
+    ],
+    "Dammam": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629"
+    ],
+    "Danzig": [
+        true,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "United States",
+        "Polska"
+    ],
+    "Debrecen": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Magyarorsz\u00e1g"
+    ],
+    "Dortmund": [
+        true,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Deutschland"
+    ],
+    "Dubai": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            8
+        ],
+        "\u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629"
+    ],
+    "Dubrovnik": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Hrvatska"
+    ],
+    "Eindhoven": [
+        true,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Nederland"
+    ],
+    "Erbil": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "\u0627\u0644\u0639\u0631\u0627\u0642"
+    ],
+    "Eriwan": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576"
+    ],
+    "Faro": [
+        true,
+        10,
+        true,
+        3,
+        [
+            7,
+            6
+        ],
+        "Portugal"
+    ],
+    "Frankfurt": [
+        true,
+        -1,
+        false,
+        5,
+        [
+            7,
+            4
+        ],
+        "Deutschland"
+    ],
+    "Friedrichshafen": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Deutschland"
+    ],
+    "Fuerteventura": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Espa\u00f1a"
+    ],
+    "Genf": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "Schweiz/Suisse/Svizzera/Svizra"
+    ],
+    "Genua": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Malaysia",
+        "Italia"
+    ],
+    "Girona": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Espa\u00f1a"
+    ],
+    "Glasgow": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "United Kingdom"
+    ],
+    "Gran Canaria": [
+        true,
+        9,
+        true,
+        4,
+        [
+            7,
+            5
+        ],
+        "Espa\u00f1a"
+    ],
+    "Grenoble": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "France"
+    ],
+    "G\u00f6teborg": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Sverige"
+    ],
+    "Hamburg": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            9,
+            4
+        ],
+        "Deutschland"
+    ],
+    "Haugesund": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Norge"
+    ],
+    "Heraklion (Kreta)": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "\u0395\u03bb\u03bb\u03ac\u03c2"
+    ],
+    "Hermannstadt": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Hurghada": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "\u0645\u0635\u0631"
+    ],
+    "Ia\u015fi": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Ibiza": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Espa\u00f1a"
+    ],
+    "Istanbul": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "T\u00fcrkiye"
+    ],
+    "Izmir": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "T\u00fcrkiye"
+    ],
+    "Jeddah": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629"
+    ],
+    "Kairo": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "\u062a\u0648\u0646\u0633",
+        "\u0645\u0635\u0631"
+    ],
+    "Karlsruhe": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Deutschland"
+    ],
+    "Kattowitz": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Polska"
+    ],
+    "Kaunas": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            6
+        ],
+        "Lietuva"
+    ],
+    "Kefalonia": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "\u0395\u03bb\u03bb\u03ac\u03c2"
+    ],
+    "Kopenhagen": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            9,
+            4
+        ],
+        "Danmark"
+    ],
+    "Korfu": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Latvija"
+    ],
+    "Kos": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Kosova / Kosovo"
+    ],
+    "Ko\u0161ice": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Slovensko"
+    ],
+    "Krakau": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "\u00d6sterreich"
+    ],
+    "Kutaissi": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "\u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd"
+    ],
+    "Kuwait-Stadt": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "\u0627\u0644\u0643\u0648\u064a\u062a"
+    ],
+    "K\u00f6ln": [
+        true,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Deutschland"
+    ],
+    "Lampedusa": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            7
+        ],
+        "Italia"
+    ],
+    "Larnaka": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2 - K\u0131br\u0131s"
+    ],
+    "Leeds": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "United Kingdom"
+    ],
+    "Leipzig": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Deutschland"
+    ],
+    "Lissabon": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "Suomi"
+    ],
+    "Liverpool": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "United Kingdom"
+    ],
+    "Ljubljana": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Slovenija"
+    ],
+    "London": [
+        true,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "United Kingdom"
+    ],
+    "Lublin": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Polska"
+    ],
+    "Lyon": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            8,
+            5
+        ],
+        "France"
+    ],
+    "Madeira": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Portugal"
+    ],
+    "Madrid": [
+        true,
+        7,
+        true,
+        5,
+        [
+            8,
+            4
+        ],
+        "Espa\u00f1a"
+    ],
+    "Mailand": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            9,
+            4
+        ],
+        "Norge",
+        "Italia"
+    ],
+    "Malaga": [
+        true,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Espa\u00f1a"
+    ],
+    "Male": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "\u078b\u07a8\u0788\u07ac\u0780\u07a8\u0783\u07a7\u0787\u07b0\u0796\u07ac"
+    ],
+    "Mallorca": [
+        true,
+        -1,
+        true,
+        4,
+        [
+            7,
+            5
+        ],
+        "Espa\u00f1a"
+    ],
+    "Malm\u00f6": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Sverige"
+    ],
+    "Malta": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Malta"
+    ],
+    "Marrakesch": [
+        true,
+        -1,
+        true,
+        3,
+        [
+            6,
+            7
+        ],
+        "Maroc \u2d4d\u2d4e\u2d56\u2d54\u2d49\u2d31 \u0627\u0644\u0645\u063a\u0631\u0628"
+    ],
+    "Medina": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "United States",
+        "\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629"
+    ],
+    "Memmingen": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Deutschland"
+    ],
+    "Muscat": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "United States",
+        "\u0639\u0645\u0627\u0646"
+    ],
+    "Mykonos": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "\u0395\u03bb\u03bb\u03ac\u03c2"
+    ],
+    "Neapel": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "Sverige"
+    ],
+    "Nizza": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Italia"
+    ],
+    "Ni\u0161": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Moldova"
+    ],
+    "N\u00fcrnberg": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Deutschland"
+    ],
+    "Ohrid": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "\u0421\u0435\u0432\u0435\u0440\u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430"
+    ],
+    "Olbia": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Italia"
+    ],
+    "Oslo": [
+        true,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "Norge"
+    ],
+    "Paris": [
+        true,
+        -1,
+        true,
+        5,
+        [
+            9,
+            4
+        ],
+        "France"
+    ],
+    "Perugia": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Italia"
+    ],
+    "Pescara": [
+        true,
+        -1,
+        true,
+        3,
+        [
+            7,
+            6
+        ],
+        "Italia"
+    ],
+    "Pisa": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Italia"
+    ],
+    "Plowdiw": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            5,
+            7
+        ],
+        "\u0411\u044a\u043b\u0433a\u0440\u0438\u044f"
+    ],
+    "Podgorica": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            6
+        ],
+        "Crna Gora / \u0426\u0440\u043d\u0430 \u0413\u043e\u0440\u0430"
+    ],
+    "Poprad": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "Slovensko"
+    ],
+    "Porto": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Portugal"
+    ],
+    "Posen": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "United States",
+        "Polska"
+    ],
+    "Prag": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            8,
+            5
+        ],
+        "\u010cesko"
+    ],
+    "Pristina": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Kosova / Kosovo"
+    ],
+    "Radom": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            6
+        ],
+        "Polska"
+    ],
+    "Reykjavik": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "\u00cdsland"
+    ],
+    "Rhodos": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "France"
+    ],
+    "Riad": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629"
+    ],
+    "Riga": [
+        true,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Latvija"
+    ],
+    "Rimini": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Italia"
+    ],
+    "Rom": [
+        true,
+        -1,
+        true,
+        5,
+        [
+            9,
+            4
+        ],
+        "Italia"
+    ],
+    "Rzesz\u00f3w": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Polska"
+    ],
+    "Salalah": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "\u0639\u0645\u0627\u0646"
+    ],
+    "Salzburg": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "\u00d6sterreich"
+    ],
+    "Samarqand": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "O\u02bbzbekiston"
+    ],
+    "Sandefjord": [
+        true,
+        -1,
+        true,
+        3,
+        [
+            7,
+            6
+        ],
+        "Norge"
+    ],
+    "Santander": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Espa\u00f1a"
+    ],
+    "Santorini": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "\u0395\u03bb\u03bb\u03ac\u03c2"
+    ],
+    "Saragossa": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Espa\u00f1a"
+    ],
+    "Sarajevo": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Bosna i Hercegovina / \u0411\u043e\u0441\u043d\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"
+    ],
+    "Satu Mare": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Sevilla": [
+        true,
+        8,
+        true,
+        4,
+        [
+            7,
+            5
+        ],
+        "Espa\u00f1a"
+    ],
+    "Sharm El Sheikh": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "\u0645\u0635\u0631"
+    ],
+    "Skiathos": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "\u0395\u03bb\u03bb\u03ac\u03c2"
+    ],
+    "Skopje": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "\u0421\u0435\u0432\u0435\u0440\u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430"
+    ],
+    "Sofia": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            6
+        ],
+        "\u0411\u044a\u043b\u0433a\u0440\u0438\u044f"
+    ],
+    "Sohag": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            7
+        ],
+        "India",
+        "\u0645\u0635\u0631"
+    ],
+    "Split": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Hrvatska"
+    ],
+    "Stavanger": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Norge"
+    ],
+    "Stockholm": [
+        true,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "Sverige"
+    ],
+    "Stuttgart": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Deutschland"
+    ],
+    "Suceava": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Szczecin": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Polska"
+    ],
+    "Tallinn": [
+        true,
+        6,
+        true,
+        4,
+        [
+            7,
+            5
+        ],
+        "Eesti"
+    ],
+    "Taschkent": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "O\u02bbzbekiston"
+    ],
+    "Tel Aviv": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "\u05d9\u05e9\u05e8\u05d0\u05dc"
+    ],
+    "Teneriffa": [
+        true,
+        8,
+        true,
+        4,
+        [
+            7,
+            5
+        ],
+        "Espa\u00f1a"
+    ],
+    "Thessaloniki": [
+        false,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "\u0395\u03bb\u03bb\u03ac\u03c2"
+    ],
+    "Timi\u0219oara": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Rom\u00e2nia"
+    ],
+    "Tirana": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            6
+        ],
+        "Shqip\u00ebria"
+    ],
+    "Triest": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Italia"
+    ],
+    "Troms\u00f8": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "Norge"
+    ],
+    "Trondheim": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "Norge"
+    ],
+    "Turin": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Italia"
+    ],
+    "Turku": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            6
+        ],
+        "Suomi"
+    ],
+    "Tuzla": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "Bosna i Hercegovina / \u0411\u043e\u0441\u043d\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"
+    ],
+    "T\u00e2rgu Mure\u0219": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            7
+        ],
+        "Rom\u00e2nia"
+    ],
+    "T\u00fcrkistan": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            5,
+            8
+        ],
+        "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d"
+    ],
+    "Valencia": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            7,
+            5
+        ],
+        "Espa\u00f1a"
+    ],
+    "Varna": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            6,
+            6
+        ],
+        "\u0411\u044a\u043b\u0433a\u0440\u0438\u044f"
+    ],
+    "Venedig": [
+        true,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "\u00d6sterreich"
+    ],
+    "Verona": [
+        false,
+        -1,
+        false,
+        4,
+        [
+            8,
+            5
+        ],
+        "Italia"
+    ],
+    "Vilnius": [
+        true,
+        -1,
+        true,
+        4,
+        [
+            7,
+            5
+        ],
+        "Lietuva"
+    ],
+    "Warschau": [
+        true,
+        -1,
+        false,
+        5,
+        [
+            8,
+            4
+        ],
+        "Deutschland"
+    ],
+    "Wien": [
+        true,
+        -1,
+        true,
+        5,
+        [
+            9,
+            4
+        ],
+        "\u00d6sterreich"
+    ],
+    "Zakynthos": [
+        false,
+        -1,
+        false,
+        3,
+        [
+            7,
+            6
+        ],
+        "\u0395\u03bb\u03bb\u03ac\u03c2"
+    ],
+    "\u00c5lesund": [
+        false,
+        -1,
+        false,
+        2,
+        [
+            6,
+            7
+        ],
+        "Norge"
+    ]
+}
