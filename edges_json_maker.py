@@ -1,7 +1,7 @@
 import json
 from geopy.distance import geodesic
 from geopy.geocoders import Photon
-from name_formater import formated_city_name
+from name_formatter import formated_city_name
 
 
 def get_city_coordinates(city_name):
