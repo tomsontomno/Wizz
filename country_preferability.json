@@ -1,9 +1,9 @@
 {
     "LAYOUT": [
-        "visited?",
-        "preferability",
-        "EU-member?",
-        "visa as german needed?",
+        "visited? (true/false)",
+        "preferability (0-10)",
+        "EU-member? (true/false)",
+        "visa as german needed? (true/false)",
         "german name"
     ],
     "Az\u0259rbaycan": [
@@ -15,7 +15,7 @@
     ],
     "Belgi\u00eb / Belgique / Belgien": [
         true,
-        -1,
+        4,
         true,
         false,
         "Belgien"
@@ -24,19 +24,19 @@
         false,
         -1,
         false,
-        true,
+        false,
         "Bosnien und Herzegowina"
     ],
     "Crna Gora / \u0426\u0440\u043d\u0430 \u0413\u043e\u0440\u0430": [
         false,
         -1,
         false,
-        true,
+        false,
         "Montenegro"
     ],
     "Hrvatska": [
         true,
-        -1,
+        7,
         true,
         false,
         "Kroatien"
@@ -50,42 +50,42 @@
     ],
     "Espa\u00f1a": [
         true,
-        -1,
+        10,
         true,
         false,
         "Spanien"
     ],
     "Eesti": [
         true,
-        -1,
+        6,
         true,
         false,
         "Estland"
     ],
     "Suomi": [
         true,
-        -1,
+        6,
         true,
         false,
         "Finnland"
     ],
     "France": [
         true,
-        -1,
+        7,
         true,
         false,
         "Frankreich"
     ],
     "Deutschland": [
         true,
-        -1,
+        6,
         true,
         false,
         "Deutschland"
     ],
     "Italia": [
         true,
-        -1,
+        9,
         true,
         false,
         "Italien"
@@ -94,19 +94,19 @@
         false,
         -1,
         false,
-        true,
+        false,
         "Kosovo"
     ],
     "Latvija": [
         true,
-        -1,
+        5,
         true,
         false,
         "Lettland"
     ],
     "Lietuva": [
         true,
-        -1,
+        7,
         true,
         false,
         "Litauen"
@@ -127,28 +127,28 @@
     ],
     "Maroc \u2d4d\u2d4e\u2d56\u2d54\u2d49\u2d31 \u0627\u0644\u0645\u063a\u0631\u0628": [
         true,
-        -1,
+        9,
         false,
-        true,
+        false,
         "Marokko"
     ],
     "Moldova": [
         false,
         -1,
         false,
-        true,
+        false,
         "Moldawien"
     ],
     "Nederland": [
         true,
-        -1,
+        6,
         true,
         false,
         "Niederlande"
     ],
     "Norge": [
         true,
-        -1,
+        8,
         false,
         false,
         "Norwegen"
@@ -157,19 +157,19 @@
         false,
         -1,
         false,
-        true,
+        false,
         "Usbekistan"
     ],
     "Polska": [
         true,
-        -1,
+        7,
         true,
         false,
         "Polen"
     ],
     "Portugal": [
         true,
-        -1,
+        9,
         true,
         false,
         "Portugal"
@@ -185,7 +185,7 @@
         false,
         -1,
         false,
-        true,
+        false,
         "Albanien"
     ],
     "Slovenija": [
@@ -204,14 +204,14 @@
     ],
     "Sverige": [
         true,
-        -1,
+        7,
         true,
         false,
         "Schweden"
     ],
     "Schweiz/Suisse/Svizzera/Svizra": [
         true,
-        -1,
+        7,
         false,
         false,
         "Schweiz"
@@ -220,14 +220,14 @@
         false,
         -1,
         false,
-        true,
+        false,
         "Türkei"
     ],
     "United Kingdom": [
         true,
-        -1,
+        3,
         false,
-        true,
+        false,
         "Vereinigtes Königreich"
     ],
     "\u00cdsland": [
@@ -239,7 +239,7 @@
     ],
     "\u00d6sterreich": [
         true,
-        -1,
+        6,
         true,
         false,
         "Österreich"
@@ -261,8 +261,8 @@
     "\u039a\u03cd\u03c0\u03c1\u03bf\u03c2 - K\u0131br\u0131s": [
         false,
         -1,
-        false,
         true,
+        false,
         "Zypern"
     ],
     "\u0411\u044a\u043b\u0433a\u0440\u0438\u044f": [
@@ -276,42 +276,42 @@
         false,
         -1,
         false,
-        true,
+        false,
         "Kirgisistan"
     ],
     "\u0421\u0435\u0432\u0435\u0440\u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430": [
         false,
         -1,
         false,
-        true,
+        false,
         "Nordmazedonien"
     ],
     "\u0421\u0440\u0431\u0438\u0458\u0430": [
         false,
         -1,
         false,
-        true,
+        false,
         "Serbien"
     ],
     "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d": [
         false,
         -1,
         false,
-        true,
+        false,
         "Kasachstan"
     ],
     "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576": [
         false,
         -1,
         false,
-        true,
+        false,
         "Armenien"
     ],
     "\u05d9\u05e9\u05e8\u05d0\u05dc": [
         false,
         -1,
         false,
-        true,
+        false,
         "Israel"
     ],
     "\u0627\u0644\u0623\u0631\u062f\u0646": [
@@ -325,7 +325,7 @@
         false,
         -1,
         false,
-        true,
+        false,
         "Vereinigte Arabische Emirate"
     ],
     "\u0627\u0644\u0633\u0639\u0648\u062f\u064a\u0629": [
@@ -367,14 +367,14 @@
         false,
         -1,
         false,
-        true,
+        false,
         "Malediven"
     ],
     "\u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd": [
         false,
         -1,
         false,
-        true,
+        false,
         "Georgien"
     ]
 }
