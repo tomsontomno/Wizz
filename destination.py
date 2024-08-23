@@ -67,11 +67,11 @@ class Destination:
     def get_cost_of_reachability(self):
         return self.city_info['cost_of_reachability']
 
-    def get_city_country(self):
+    def get_country_name_local(self):
         return self.city_info['country']
 
     # Getter methods for Country information
-    def get_country(self):
+    def get_country_name_german(self):
         return self.country_info['german_name']
 
     def get_country_visited(self):
@@ -102,7 +102,7 @@ class Destination:
                 "Cost of Reachability": self.get_cost_of_reachability()
             },
             "Country Info": {
-                "Country": self.get_country(),
+                "Country": self.get_country_name_german(),
                 "Visited": self.get_country_visited(),
                 "Preferability": self.get_country_preferability(),
                 "EU Member": self.get_country_eu_member(),
