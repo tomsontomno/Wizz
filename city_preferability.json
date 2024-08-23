@@ -1,12 +1,12 @@
 {
     "LAYOUT": [
-        "visited?",
-        "preferability",
-        "would like to visit again?",
-        "reachability by foot",
+        "visited? (true/false)",
+        "preferability (0-10)",
+        "would like to visit again? (true/false)",
+        "reachability by foot (0-10)",
         [
-            "reachability by public transport",
-            "costs of reachability by public transport"
+            "reachability by public transport (0-10)",
+            "costs of reachability by public transport, where higher means cheaper (0-10)"
         ],
         "country"
     ],
@@ -25,10 +25,10 @@
         false,
         -1,
         false,
-        2,
+        1,
         [
-            5,
-            8
+            9,
+            9
         ],
         "\u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629"
     ],
@@ -199,7 +199,7 @@
     ],
     "Barcelona": [
         true,
-        -1,
+        5,
         true,
         5,
         [
@@ -221,7 +221,7 @@
     ],
     "Basel": [
         true,
-        -1,
+        6,
         true,
         4,
         [
@@ -265,7 +265,7 @@
     ],
     "Berlin": [
         true,
-        -1,
+        8,
         true,
         5,
         [
@@ -386,7 +386,7 @@
     ],
     "Br\u00fcssel": [
         true,
-        -1,
+        6,
         true,
         5,
         [
@@ -562,7 +562,7 @@
     ],
     "Danzig": [
         true,
-        -1,
+        7,
         false,
         4,
         [
@@ -584,7 +584,7 @@
     ],
     "Dortmund": [
         true,
-        -1,
+        3,
         false,
         4,
         [
@@ -617,7 +617,7 @@
     ],
     "Eindhoven": [
         true,
-        -1,
+        5,
         false,
         4,
         [
@@ -661,7 +661,7 @@
     ],
     "Frankfurt": [
         true,
-        -1,
+        2,
         false,
         5,
         [
@@ -1013,7 +1013,7 @@
     ],
     "K\u00f6ln": [
         true,
-        -1,
+        4,
         false,
         4,
         [
@@ -1101,7 +1101,7 @@
     ],
     "London": [
         true,
-        -1,
+        4,
         false,
         5,
         [
@@ -1145,7 +1145,7 @@
     ],
     "Madrid": [
         true,
-        7,
+        9,
         true,
         5,
         [
@@ -1167,7 +1167,7 @@
     ],
     "Malaga": [
         true,
-        -1,
+        8,
         false,
         4,
         [
@@ -1189,7 +1189,7 @@
     ],
     "Mallorca": [
         true,
-        -1,
+        9,
         true,
         4,
         [
@@ -1222,7 +1222,7 @@
     ],
     "Marrakesch": [
         true,
-        -1,
+        9,
         true,
         3,
         [
@@ -1343,7 +1343,7 @@
     ],
     "Oslo": [
         true,
-        -1,
+        7,
         false,
         5,
         [
@@ -1354,7 +1354,7 @@
     ],
     "Paris": [
         true,
-        -1,
+        9,
         true,
         5,
         [
@@ -1376,7 +1376,7 @@
     ],
     "Pescara": [
         true,
-        -1,
+        9,
         true,
         3,
         [
@@ -1519,7 +1519,7 @@
     ],
     "Riga": [
         true,
-        -1,
+        6,
         false,
         4,
         [
@@ -1541,7 +1541,7 @@
     ],
     "Rom": [
         true,
-        -1,
+        8,
         true,
         5,
         [
@@ -1596,7 +1596,7 @@
     ],
     "Sandefjord": [
         true,
-        -1,
+        9,
         true,
         3,
         [
@@ -1750,7 +1750,7 @@
     ],
     "Stockholm": [
         true,
-        -1,
+        7,
         false,
         5,
         [
@@ -1981,7 +1981,7 @@
     ],
     "Venedig": [
         true,
-        -1,
+        8,
         false,
         4,
         [
@@ -2003,7 +2003,7 @@
     ],
     "Vilnius": [
         true,
-        -1,
+        7,
         true,
         4,
         [
@@ -2014,7 +2014,7 @@
     ],
     "Warschau": [
         true,
-        -1,
+        7,
         false,
         5,
         [
@@ -2025,7 +2025,7 @@
     ],
     "Wien": [
         true,
-        -1,
+        7,
         true,
         5,
         [
