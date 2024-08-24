@@ -27,15 +27,56 @@
         "Share_EU_Countries": 1,
         "PLACEHOLDER": 1
     },
+
     "Flight_Weights": {
-        "Prioritize_Lower_Distance": 0.0,
-        "Prioritize_at_Least_one_EU_Country": 0.0,
+        "Prioritize_Lower_Distance": 1,
+        "Prioritize_at_Least_one_EU_Country": 0.7,
         "PLACEHOLDER1": 0.0,
-        "PLACEHOLDER2": 0.0
+        "PLACEHOLDER2": 0.0,
+        "PLACEHOLDER_Prioritize_Airport_Rating": 0.0
     },
+    "Flight_Weight_Share": {
+        "Share_Lower_Distance": 1.0,
+        "Share_at_Least_one_EU_Country": 1.0,
+        "PLACEHOLDER1": 1.0,
+        "PLACEHOLDER2": 1.0,
+        "PLACEHOLDER_Share_Airport_Rating": 1.0
+    },
+
     "Route_Weights": {
-        "Prioritize_Less_Stops": 0.0,
-        "PLACEHOLDER1": 0.0,
-        "PLACEHOLDER2": 0.0
+        "Prioritize_Overall_Route_Distance": 1,
+        "Prioritize_High_Rated_Cities": 1,
+        "Prioritize_High_Rated_Flights": 0.6,
+        "Prioritize_Flight_Rating_Stability": 0.5,
+        "Prioritize_City_Rating_Stability": 1,
+        "Prioritize_Nearby_Airport_Start": 0.2,
+        "Prioritize_Nearby_Airport_End": 1,
+        "PLACEHOLDER1": 0.0
+    },
+    "Route_Weight_Share": {
+        "Share_Overall_Route_Distance": 1.4,
+        "Share_High_Rated_Cities": 2.0,
+        "Share_High_Rated_Flights": 0.5,
+        "Share_Flight_Rating_Stability": 0.5,
+        "Share_City_Rating_Stability": 1.0,
+        "Share_Nearby_Airport_Start": 1,
+        "Share_Nearby_Airport_End": 1,
+        "PLACEHOLDER1": 1.0
+    },
+
+    "Routes_Weights": {
+        "Prioritize_Route_Rating": 1.0,
+        "Prioritize_Minimum_Flights": 0.0,
+        "Prioritize_Less_Flights": 0.0,
+        "Prioritize_Overall_Route_Distance_Comparison": 0.0,
+        "PLACEHOLDER1": 0.0
+    },
+    "Routes_Weight_Share": {
+        "Share_Route_Rating": 1.0,
+        "Share_Minimum_Flights": 0,
+        "Share_Less_Flights": 0,
+        "Share_Overall_Route_Distance_Comparison": 0,
+        "PLACEHOLDER1": 1.0
     }
 }
+
