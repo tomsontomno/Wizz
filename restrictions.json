@@ -1,0 +1,7 @@
+{
+    "forbidden_cities": ["Dortmund", "Rom"],
+    "forbidden_routes": [
+        ["Köln", "Skopje"],
+        ["Tirana", "Abu Dhabi"]
+    ]
+}
