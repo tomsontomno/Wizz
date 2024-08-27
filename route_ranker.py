@@ -3,6 +3,8 @@ from wizz_graph import all_paths_a_to_b, nearby_airport_finder, calculate_path_d
 import destination
 from math import exp
 
+task_progress = {}
+
 
 def get_city_object(city: str) -> destination:
     """
@@ -161,7 +163,8 @@ def rating_city(city: str):
             rating += get_true_weight("City", "Unvisited_City")
         else:
             rating += (1 - weights["Prioritize_Unvisited_City"]) * weights_Share["Share_Unvisited_City"]
-        total_weight_sum += max(get_true_weight("City", "Unvisited_City"), get_true_weight("City", "Unvisited_City", True))
+        total_weight_sum += max(get_true_weight("City", "Unvisited_City"),
+                                get_true_weight("City", "Unvisited_City", True))
 
     if isinstance(get_hard_criteria_city("Unvisited_Country"), bool):
         if city_obj.get_country_visited() and get_hard_criteria_city("Unvisited_Country"):
@@ -206,11 +209,12 @@ def rating_city(city: str):
     rating += get_true_weight("City", "Accessibility_by_Foot") * city_obj.get_reachability_by_foot() / 10
     total_weight_sum += get_true_weight("City", "Accessibility_by_Foot")
 
-    rating += get_true_weight("City", 
-        "Accessibility_by_PublicTransport") * city_obj.get_reachability_by_public_transport() / 10
+    rating += get_true_weight("City",
+                              "Accessibility_by_PublicTransport") * city_obj.get_reachability_by_public_transport() / 10
     total_weight_sum += get_true_weight("City", "Accessibility_by_PublicTransport")
 
-    rating += get_true_weight("City", "Low_Transport_Cost_from_Airport_to_City") * city_obj.get_cost_of_reachability() / 10
+    rating += get_true_weight("City",
+                              "Low_Transport_Cost_from_Airport_to_City") * city_obj.get_cost_of_reachability() / 10
     total_weight_sum += get_true_weight("City", "Low_Transport_Cost_from_Airport_to_City")
 
     rating += get_true_weight("City", "Overall_Accessibility") * max(city_obj.get_reachability_by_foot(), (
@@ -456,7 +460,7 @@ def rating_route(route: list, original_start: str = "", original_end: str = "", 
         print("ERROR! No city ratings available\n")
 
     start_distance = calculate_distance(route[0], original_start)
-    start_distance_score = custom_sigmoid(start_distance, radius_start / 1.42, radius_start / 12, 0, True)
+    start_distance_score = custom_sigmoid(start_distance, 1 + radius_start / 1.42, 1 + radius_start / 12, 0, True)
 
     weight_nearby_start = get_true_weight("Route", "Nearby_Airport_Start")
     weight_far_start = get_true_weight("Route", "Nearby_Airport_Start", inverse=True)
@@ -469,7 +473,7 @@ def rating_route(route: list, original_start: str = "", original_end: str = "", 
         total_weight_sum += weight_far_start
 
     end_distance = calculate_distance(route[-1], original_end)
-    end_distance_score = custom_sigmoid(end_distance, radius_end / 1.42, radius_end / 12, 0, True)
+    end_distance_score = custom_sigmoid(end_distance, 1 + radius_end / 1.42, 1 + radius_end / 12, 0, True)
 
     weight_nearby_end = get_true_weight("Route", "Nearby_Airport_End")
     weight_far_end = get_true_weight("Route", "Nearby_Airport_End", inverse=True)
@@ -502,7 +506,8 @@ def is_route_restricted(route, forbidden_cities, forbidden_routes):
     return False
 
 
-def rating_all_routes(original_start: str, radius_start: float, original_end: str, radius_end: float, routes: list):
+def rating_all_routes(original_start: str, radius_start: float, original_end: str, radius_end: float, routes: list,
+                      task_id: str):
     """
     Recalculates the rating of each route based on a few extra considerations and prints them together with their
     updated rating.
@@ -513,6 +518,7 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
         original_end (str): The originally intended arrival city
         radius_end (float): Radius around the destination city to search for airports.
         routes (list): A list of routes, where each route is a list of city names.
+        task_id (str): The ID of the current task to track progress.
     """
 
     with open('restrictions.json', 'r') as file:
@@ -523,6 +529,7 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
     valid_routes = []
     if not routes:
         print("No routes given.")
+        task_progress[task_id] = 100  # Set progress to 100% if there are no routes
         return
     for route in routes:
         if not is_route_restricted(route, forbidden_cities, forbidden_routes):
@@ -530,6 +537,7 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
 
     if not valid_routes:
         print("No valid routes available based on the restrictions.")
+        task_progress[task_id] = 100  # Set progress to 100% if there are no valid routes
         return
 
     min_flights = float('inf')
@@ -550,9 +558,14 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
 
     newly_rated_routes = []
 
-    for route in valid_routes:
+    for i, route in enumerate(valid_routes):
         route_rating = 0
         total_weight_sum = 0
+
+        # Update progress directly using the task_id
+        progress_value = (i + 1) / len(valid_routes) * 100
+        task_progress[task_id] = progress_value
+        print(f"Task progress: {progress_value}%")
 
         # Number of flights considerations
         num_flights = len(route) - 1
@@ -593,6 +606,7 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
             route_rating += weight_long_distance * (1 - distance_rating)
             total_weight_sum += weight_long_distance
 
+        # Rating the route using the main function that takes time
         rating = rating_route(route, original_start, original_end, radius_start, radius_end)
         route_rating += rating * get_true_weight("Routes", "Route_Rating")
         total_weight_sum += get_true_weight("Routes", "Route_Rating")
@@ -601,13 +615,22 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
             route_rating = route_rating / total_weight_sum
 
         newly_rated_routes.append([route, route_rating])
-        print(f"Route: {route} Rating: {round(route_rating * 100)}")
-    newly_rated_routes = sorted(newly_rated_routes, key=lambda x: x[1], reverse=True)
-    print("\n\nSorted routes ranking:\n")
-    for route, rating in newly_rated_routes:
-        print(f"Route: {route}, Rating: {round(rating * 100)}")
+
+    task_progress[task_id] = 100  # Ensure progress is set to 100% at the end
+    print(f"Task completed.")  # Debugging output to confirm completion
+
+    return sorted(newly_rated_routes, key=lambda x: x[1], reverse=True)
+
+
+def rate_my_options(original_start: str, radius_start: float, original_end: str, radius_end: float, tolerance: int,
+                    task_id: str):
+    routes = get_all_routes(original_start, radius_start, original_end, radius_end, tolerance)
+    ranked_routes = rating_all_routes(original_start, radius_start, original_end, radius_end, routes, task_id)
+    output = "\n"
+    for i, route in enumerate(ranked_routes):
+        output += f"#{i + 1}\nRATING: {round(route[1] * 100, 2)}\nROUTE: {' -> '.join(route[0])}\n\n"
+    return output
 
 
 if __name__ == '__main__':
-    # test output
-    rating_all_routes("Köln", 120, "Abu Dhabi", 100, get_all_routes("Köln", 120, "Abu Dhabi", 100, 0))
+    print(rate_my_options("Dortmund", 200, "Kairo", 200, 1, "1"))
