@@ -202,7 +202,7 @@ def all_cities_metric():
         print(f"{city}: {flights} flights")
 
 
-def nearby_airport_finder(city: str, distance: int) -> list:
+def nearby_airport_finder(city: str, distance: float) -> list:
     # Load the JSON data
     with open('vertex_distances_to_all.json', 'r') as file:
         data = json.load(file)
