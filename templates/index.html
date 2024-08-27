@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+    <!-- jQuery and jQuery UI for Autocomplete -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .form-container label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-container input[type="text"],
+        .form-container input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px; /* Ensure equal spacing between input fields */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-container .result {
+            margin-top: -12px; /* Allows the country to appear directly under the city */
+            font-weight: normal;
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .form-container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px; /* Increased space before the submit button */
+        }
+
+        .form-container input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .ui-autocomplete {
+            max-height: 200px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+
+        * html .ui-autocomplete {
+            height: 200px;
+        }
+
+        #progress-bar {
+            width: 100%;
+            background-color: #f3f3f3;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        #progress-bar-fill {
+            height: 20px;
+            background-color: #4caf50;
+            border-radius: 5px;
+            width: 0%;
+        }
+
+        #calculation-result {
+            max-height: 400px;
+            overflow-y: auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin-top: 40px;
+            width: 100%;
+            display: none; /* Initially hidden */
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Input Form</h1>
+        <form id="calc-form">
+            <label for="original_start">Original Start:</label>
+            <input type="text" id="original_start" name="original_start" class="autocomplete" required>
+            <div id="original_start_country" class="result"></div>
+
+            <label for="radius_start">Radius Start:</label>
+            <input type="number" id="radius_start" name="radius_start" step="0.01" required><br>
+
+            <label for="original_end">Original End:</label>
+            <input type="text" id="original_end" name="original_end" class="autocomplete" required>
+            <div id="original_end_country" class="result"></div>
+
+            <label for="radius_end">Radius End:</label>
+            <input type="number" id="radius_end" name="radius_end" step="0.01" required><br>
+
+            <label for="tolerance">Tolerance:</label>
+            <input type="number" id="tolerance" name="tolerance" required><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <div id="progress-bar" style="display: none;">
+            <div id="progress-bar-fill"></div>
+        </div>
+        <p id="progress-percentage" style="text-align: center; display: none;">0%</p>
+
+        <div id="calculation-result"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='cityData.js') }}"></script> <!-- Import the city and country data -->
+    <script>
+    function normalize(str) {
+        return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    }
+
+    $(function() {
+    function updateCountryDisplay(inputId, city) {
+        const country = cityCountryMap[city];
+        if (country) {
+            $("#" + inputId + "_country").text(`Land: ${country}`);
+        } else {
+            $("#" + inputId + "_country").text('');
+        }
+    }
+
+    $(".autocomplete").autocomplete({
+        source: function(request, response) {
+            const term = normalize(request.term);
+            const results = cities.filter(city => normalize(city).includes(term));
+            response(results.slice(0, 10)); // Limit to 10 suggestions
+        },
+        minLength: 2,
+        select: function(event, ui) {
+            const selectedCity = ui.item.value;
+            const inputId = $(this).attr('id');
+            updateCountryDisplay(inputId, selectedCity);
+        }
+    });
+
+    $(".autocomplete").on("input", function() {
+        const currentInput = $(this).val();
+        const inputId = $(this).attr('id');
+        updateCountryDisplay(inputId, currentInput);
+    });
+
+    $("#calc-form").on("submit", function(event) {
+        event.preventDefault();
+
+        // Hide previous results and reset the progress bar
+        $("#calculation-result").hide();
+        $("#progress-bar").show();
+        $("#progress-percentage").show();
+
+        let formData = $(this).serializeArray();
+
+        $.post("/start_calculation", formData, function(data) {
+            let taskId = data.task_id;
+            // Poll the server for progress updates
+            let progressInterval = setInterval(function() {
+                $.get("/get_progress/" + taskId, function(data) {
+                    let progress = data.progress.toFixed(2);
+                    $("#progress-bar-fill").css("width", progress + "%");
+                    $("#progress-percentage").text(progress + "%");
+
+                    if (data.state === 'SUCCESS') {
+                        clearInterval(progressInterval);
+
+                        if (data.result) {
+                            $("#calculation-result").html(`<h2>Result:</h2><p>${data.result.replace(/\n/g, '<br>')}</p>`);
+                            $("#calculation-result").show();
+                        }
+
+                        $("#progress-bar").hide();
+                        $("#progress-percentage").hide();
+                    }
+
+                    if (data.state === 'FAILURE') {
+                        clearInterval(progressInterval);
+                        $("#calculation-result").html(`<h2>Error:</h2><p>${data.result}</p>`);
+                        $("#calculation-result").show();
+                        $("#progress-bar").hide();
+                        $("#progress-percentage").hide();
+                    }
+                });
+            }, 2500); // Poll every 500ms
+        });
+    });
+});
+</script>
+
+</body>
+</html>
