@@ -911,11 +911,6 @@
     },
     {
         "city_a": "Aberdeen",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1610
-    },
-    {
-        "city_a": "Aberdeen",
         "city_b": "Mailand",
         "distance_km": 1520
     },
@@ -1836,11 +1831,6 @@
     },
     {
         "city_a": "Danzig",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1310
-    },
-    {
-        "city_a": "Danzig",
         "city_b": "Mailand",
         "distance_km": 1200
     },
@@ -2756,11 +2746,6 @@
     },
     {
         "city_a": "Abu Dhabi",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 4650
-    },
-    {
-        "city_a": "Abu Dhabi",
         "city_b": "Mailand",
         "distance_km": 4660
     },
@@ -3671,11 +3656,6 @@
     },
     {
         "city_a": "Akaba",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2830
-    },
-    {
-        "city_a": "Akaba",
         "city_b": "Mailand",
         "distance_km": 2870
     },
@@ -4581,11 +4561,6 @@
     },
     {
         "city_a": "Alexandria",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1310
-    },
-    {
-        "city_a": "Alexandria",
         "city_b": "Mailand",
         "distance_km": 1290
     },
@@ -5486,11 +5461,6 @@
     },
     {
         "city_a": "Almaty",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 5310
-    },
-    {
-        "city_a": "Almaty",
         "city_b": "Mailand",
         "distance_km": 5240
     },
@@ -6386,11 +6356,6 @@
     },
     {
         "city_a": "Amman",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2720
-    },
-    {
-        "city_a": "Amman",
         "city_b": "Mailand",
         "distance_km": 2750
     },
@@ -7281,11 +7246,6 @@
     },
     {
         "city_a": "Ankara",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2030
-    },
-    {
-        "city_a": "Ankara",
         "city_b": "Mailand",
         "distance_km": 2030
     },
@@ -8171,11 +8131,6 @@
     },
     {
         "city_a": "Astana",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 4600
-    },
-    {
-        "city_a": "Astana",
         "city_b": "Mailand",
         "distance_km": 4520
     },
@@ -9056,11 +9011,6 @@
     },
     {
         "city_a": "Athen",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1430
-    },
-    {
-        "city_a": "Athen",
         "city_b": "Mailand",
         "distance_km": 1460
     },
@@ -9936,11 +9886,6 @@
     },
     {
         "city_a": "Baku",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 3360
-    },
-    {
-        "city_a": "Baku",
         "city_b": "Mailand",
         "distance_km": 3330
     },
@@ -10811,11 +10756,6 @@
     },
     {
         "city_a": "Belgrad",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 920
-    },
-    {
-        "city_a": "Belgrad",
         "city_b": "Mailand",
         "distance_km": 890
     },
@@ -11681,11 +11621,6 @@
     },
     {
         "city_a": "Bischkek",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 5150
-    },
-    {
-        "city_a": "Bischkek",
         "city_b": "Mailand",
         "distance_km": 5090
     },
@@ -12546,11 +12481,6 @@
     },
     {
         "city_a": "Budapest",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 850
-    },
-    {
-        "city_a": "Budapest",
         "city_b": "Mailand",
         "distance_km": 790
     },
@@ -13406,11 +13336,6 @@
     },
     {
         "city_a": "Bukarest",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1360
-    },
-    {
-        "city_a": "Bukarest",
         "city_b": "Mailand",
         "distance_km": 1340
     },
@@ -14261,11 +14186,6 @@
     },
     {
         "city_a": "Chi\u0219in\u0103u",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1570
-    },
-    {
-        "city_a": "Chi\u0219in\u0103u",
         "city_b": "Mailand",
         "distance_km": 1520
     },
@@ -15111,11 +15031,6 @@
     },
     {
         "city_a": "Cluj-Napoca",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1170
-    },
-    {
-        "city_a": "Cluj-Napoca",
         "city_b": "Mailand",
         "distance_km": 1120
     },
@@ -15956,11 +15871,6 @@
     },
     {
         "city_a": "Dammam",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 4180
-    },
-    {
-        "city_a": "Dammam",
         "city_b": "Mailand",
         "distance_km": 4190
     },
@@ -16796,11 +16706,6 @@
     },
     {
         "city_a": "Erbil",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 3090
-    },
-    {
-        "city_a": "Erbil",
         "city_b": "Mailand",
         "distance_km": 3080
     },
@@ -17631,11 +17536,6 @@
     },
     {
         "city_a": "Eriwan",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2950
-    },
-    {
-        "city_a": "Eriwan",
         "city_b": "Mailand",
         "distance_km": 2920
     },
@@ -18461,11 +18361,6 @@
     },
     {
         "city_a": "Kattowitz",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1000
-    },
-    {
-        "city_a": "Kattowitz",
         "city_b": "Mailand",
         "distance_km": 900
     },
@@ -19286,11 +19181,6 @@
     },
     {
         "city_a": "Krakau",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 500
-    },
-    {
-        "city_a": "Krakau",
         "city_b": "Mailand",
         "distance_km": 420
     },
@@ -20106,11 +19996,6 @@
     },
     {
         "city_a": "Kutaissi",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2730
-    },
-    {
-        "city_a": "Kutaissi",
         "city_b": "Mailand",
         "distance_km": 2690
     },
@@ -20921,11 +20806,6 @@
     },
     {
         "city_a": "Kuwait-Stadt",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 3810
-    },
-    {
-        "city_a": "Kuwait-Stadt",
         "city_b": "Mailand",
         "distance_km": 3820
     },
@@ -21731,11 +21611,6 @@
     },
     {
         "city_a": "Larnaka",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2350
-    },
-    {
-        "city_a": "Larnaka",
         "city_b": "Mailand",
         "distance_km": 2370
     },
@@ -22536,11 +22411,6 @@
     },
     {
         "city_a": "Male",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 7680
-    },
-    {
-        "city_a": "Male",
         "city_b": "Mailand",
         "distance_km": 7690
     },
@@ -23336,11 +23206,6 @@
     },
     {
         "city_a": "Medina",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 3460
-    },
-    {
-        "city_a": "Medina",
         "city_b": "Mailand",
         "distance_km": 3500
     },
@@ -24131,11 +23996,6 @@
     },
     {
         "city_a": "Muscat",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 5040
-    },
-    {
-        "city_a": "Muscat",
         "city_b": "Mailand",
         "distance_km": 5040
     },
@@ -24921,11 +24781,6 @@
     },
     {
         "city_a": "Rom",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 400
-    },
-    {
-        "city_a": "Rom",
         "city_b": "Mailand",
         "distance_km": 480
     },
@@ -25706,11 +25561,6 @@
     },
     {
         "city_a": "Salalah",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 5190
-    },
-    {
-        "city_a": "Salalah",
         "city_b": "Mailand",
         "distance_km": 5210
     },
@@ -26486,11 +26336,6 @@
     },
     {
         "city_a": "Samarqand",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 4730
-    },
-    {
-        "city_a": "Samarqand",
         "city_b": "Mailand",
         "distance_km": 4690
     },
@@ -27261,11 +27106,6 @@
     },
     {
         "city_a": "Sarajevo",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 760
-    },
-    {
-        "city_a": "Sarajevo",
         "city_b": "Mailand",
         "distance_km": 750
     },
@@ -28031,11 +27871,6 @@
     },
     {
         "city_a": "Sofia",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1180
-    },
-    {
-        "city_a": "Sofia",
         "city_b": "Mailand",
         "distance_km": 1170
     },
@@ -28796,11 +28631,6 @@
     },
     {
         "city_a": "Sohag",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 6660
-    },
-    {
-        "city_a": "Sohag",
         "city_b": "Mailand",
         "distance_km": 6630
     },
@@ -29556,11 +29386,6 @@
     },
     {
         "city_a": "Taschkent",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 4830
-    },
-    {
-        "city_a": "Taschkent",
         "city_b": "Mailand",
         "distance_km": 4780
     },
@@ -30311,11 +30136,6 @@
     },
     {
         "city_a": "Tel Aviv",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2630
-    },
-    {
-        "city_a": "Tel Aviv",
         "city_b": "Mailand",
         "distance_km": 2660
     },
@@ -31061,11 +30881,6 @@
     },
     {
         "city_a": "Tirana",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 950
-    },
-    {
-        "city_a": "Tirana",
         "city_b": "Mailand",
         "distance_km": 970
     },
@@ -31806,11 +31621,6 @@
     },
     {
         "city_a": "T\u00fcrkistan",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 4680
-    },
-    {
-        "city_a": "T\u00fcrkistan",
         "city_b": "Mailand",
         "distance_km": 4630
     },
@@ -32546,11 +32356,6 @@
     },
     {
         "city_a": "Wien",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 710
-    },
-    {
-        "city_a": "Wien",
         "city_b": "Mailand",
         "distance_km": 630
     },
@@ -33281,11 +33086,6 @@
     },
     {
         "city_a": "Agadir",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2250
-    },
-    {
-        "city_a": "Agadir",
         "city_b": "Mailand",
         "distance_km": 2340
     },
@@ -34011,11 +33811,6 @@
     },
     {
         "city_a": "London",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1040
-    },
-    {
-        "city_a": "London",
         "city_b": "Mailand",
         "distance_km": 960
     },
@@ -34736,11 +34531,6 @@
     },
     {
         "city_a": "Alghero",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 430
-    },
-    {
-        "city_a": "Alghero",
         "city_b": "Mailand",
         "distance_km": 550
     },
@@ -35456,11 +35246,6 @@
     },
     {
         "city_a": "Alicante",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1040
-    },
-    {
-        "city_a": "Alicante",
         "city_b": "Mailand",
         "distance_km": 1130
     },
@@ -36171,11 +35956,6 @@
     },
     {
         "city_a": "Warschau",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 960
-    },
-    {
-        "city_a": "Warschau",
         "city_b": "Mailand",
         "distance_km": 840
     },
@@ -36881,11 +36661,6 @@
     },
     {
         "city_a": "Ancona",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 380
-    },
-    {
-        "city_a": "Ancona",
         "city_b": "Mailand",
         "distance_km": 400
     },
@@ -37586,11 +37361,6 @@
     },
     {
         "city_a": "Antalya",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2010
-    },
-    {
-        "city_a": "Antalya",
         "city_b": "Mailand",
         "distance_km": 2030
     },
@@ -38286,11 +38056,6 @@
     },
     {
         "city_a": "Debrecen",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1040
-    },
-    {
-        "city_a": "Debrecen",
         "city_b": "Mailand",
         "distance_km": 980
     },
@@ -38981,11 +38746,6 @@
     },
     {
         "city_a": "Bac\u0103u",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1420
-    },
-    {
-        "city_a": "Bac\u0103u",
         "city_b": "Mailand",
         "distance_km": 1380
     },
@@ -39671,11 +39431,6 @@
     },
     {
         "city_a": "Banja Luka",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 660
-    },
-    {
-        "city_a": "Banja Luka",
         "city_b": "Mailand",
         "distance_km": 630
     },
@@ -40356,11 +40111,6 @@
     },
     {
         "city_a": "Basel",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 370
-    },
-    {
-        "city_a": "Basel",
         "city_b": "Mailand",
         "distance_km": 260
     },
@@ -41036,11 +40786,6 @@
     },
     {
         "city_a": "Dortmund",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 800
-    },
-    {
-        "city_a": "Dortmund",
         "city_b": "Mailand",
         "distance_km": 680
     },
@@ -41711,11 +41456,6 @@
     },
     {
         "city_a": "Barcelona",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 650
-    },
-    {
-        "city_a": "Barcelona",
         "city_b": "Mailand",
         "distance_km": 730
     },
@@ -42381,11 +42121,6 @@
     },
     {
         "city_a": "Breslau",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 960
-    },
-    {
-        "city_a": "Breslau",
         "city_b": "Mailand",
         "distance_km": 860
     },
@@ -43046,11 +42781,6 @@
     },
     {
         "city_a": "Ia\u015fi",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1480
-    },
-    {
-        "city_a": "Ia\u015fi",
         "city_b": "Mailand",
         "distance_km": 1430
     },
@@ -43706,11 +43436,6 @@
     },
     {
         "city_a": "Timi\u0219oara",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 980
-    },
-    {
-        "city_a": "Timi\u0219oara",
         "city_b": "Mailand",
         "distance_km": 940
     },
@@ -44361,11 +44086,6 @@
     },
     {
         "city_a": "Vilnius",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1640
-    },
-    {
-        "city_a": "Vilnius",
         "city_b": "Mailand",
         "distance_km": 1540
     },
@@ -45011,11 +44731,6 @@
     },
     {
         "city_a": "Bari",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 740
-    },
-    {
-        "city_a": "Bari",
         "city_b": "Mailand",
         "distance_km": 790
     },
@@ -45656,11 +45371,6 @@
     },
     {
         "city_a": "Ni\u0161",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1520
-    },
-    {
-        "city_a": "Ni\u0161",
         "city_b": "Mailand",
         "distance_km": 1470
     },
@@ -46296,11 +46006,6 @@
     },
     {
         "city_a": "Skopje",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1050
-    },
-    {
-        "city_a": "Skopje",
         "city_b": "Mailand",
         "distance_km": 1060
     },
@@ -46931,11 +46636,6 @@
     },
     {
         "city_a": "Tuzla",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 770
-    },
-    {
-        "city_a": "Tuzla",
         "city_b": "Mailand",
         "distance_km": 750
     },
@@ -47561,11 +47261,6 @@
     },
     {
         "city_a": "Bergamo",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 150
-    },
-    {
-        "city_a": "Bergamo",
         "city_b": "Mailand",
         "distance_km": 50
     },
@@ -48186,11 +47881,6 @@
     },
     {
         "city_a": "Berlin",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 960
-    },
-    {
-        "city_a": "Berlin",
         "city_b": "Mailand",
         "distance_km": 840
     },
@@ -48806,11 +48496,6 @@
     },
     {
         "city_a": "Eindhoven",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 820
-    },
-    {
-        "city_a": "Eindhoven",
         "city_b": "Mailand",
         "distance_km": 720
     },
@@ -49421,11 +49106,6 @@
     },
     {
         "city_a": "G\u00f6teborg",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1490
-    },
-    {
-        "city_a": "G\u00f6teborg",
         "city_b": "Mailand",
         "distance_km": 1380
     },
@@ -50031,11 +49711,6 @@
     },
     {
         "city_a": "Hamburg",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1020
-    },
-    {
-        "city_a": "Hamburg",
         "city_b": "Mailand",
         "distance_km": 900
     },
@@ -50636,11 +50311,6 @@
     },
     {
         "city_a": "Heraklion (Kreta)",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1710
-    },
-    {
-        "city_a": "Heraklion (Kreta)",
         "city_b": "Mailand",
         "distance_km": 1750
     },
@@ -51236,11 +50906,6 @@
     },
     {
         "city_a": "Karlsruhe",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 510
-    },
-    {
-        "city_a": "Karlsruhe",
         "city_b": "Mailand",
         "distance_km": 400
     },
@@ -51831,11 +51496,6 @@
     },
     {
         "city_a": "Kopenhagen",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1280
-    },
-    {
-        "city_a": "Kopenhagen",
         "city_b": "Mailand",
         "distance_km": 1160
     },
@@ -52421,11 +52081,6 @@
     },
     {
         "city_a": "Lissabon",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2560
-    },
-    {
-        "city_a": "Lissabon",
         "city_b": "Mailand",
         "distance_km": 2440
     },
@@ -53006,11 +52661,6 @@
     },
     {
         "city_a": "Malm\u00f6",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1280
-    },
-    {
-        "city_a": "Malm\u00f6",
         "city_b": "Mailand",
         "distance_km": 1160
     },
@@ -53586,11 +53236,6 @@
     },
     {
         "city_a": "Malta",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1060
-    },
-    {
-        "city_a": "Malta",
         "city_b": "Mailand",
         "distance_km": 1150
     },
@@ -54161,11 +53806,6 @@
     },
     {
         "city_a": "Memmingen",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 410
-    },
-    {
-        "city_a": "Memmingen",
         "city_b": "Mailand",
         "distance_km": 290
     },
@@ -54731,11 +54371,6 @@
     },
     {
         "city_a": "Nizza",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 50
-    },
-    {
-        "city_a": "Nizza",
         "city_b": "Mailand",
         "distance_km": 70
     },
@@ -55296,11 +54931,6 @@
     },
     {
         "city_a": "Paris",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 710
-    },
-    {
-        "city_a": "Paris",
         "city_b": "Mailand",
         "distance_km": 640
     },
@@ -55856,11 +55486,6 @@
     },
     {
         "city_a": "Stockholm",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1770
-    },
-    {
-        "city_a": "Stockholm",
         "city_b": "Mailand",
         "distance_km": 1650
     },
@@ -56411,11 +56036,6 @@
     },
     {
         "city_a": "Craiova",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1180
-    },
-    {
-        "city_a": "Craiova",
         "city_b": "Mailand",
         "distance_km": 1160
     },
@@ -56961,11 +56581,6 @@
     },
     {
         "city_a": "Bergen",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1800
-    },
-    {
-        "city_a": "Bergen",
         "city_b": "Mailand",
         "distance_km": 1680
     },
@@ -57506,11 +57121,6 @@
     },
     {
         "city_a": "Varna",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1530
-    },
-    {
-        "city_a": "Varna",
         "city_b": "Mailand",
         "distance_km": 1510
     },
@@ -58046,11 +57656,6 @@
     },
     {
         "city_a": "Bilbao",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 960
-    },
-    {
-        "city_a": "Bilbao",
         "city_b": "Mailand",
         "distance_km": 1000
     },
@@ -58581,11 +58186,6 @@
     },
     {
         "city_a": "Billund",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1260
-    },
-    {
-        "city_a": "Billund",
         "city_b": "Mailand",
         "distance_km": 1140
     },
@@ -59111,11 +58711,6 @@
     },
     {
         "city_a": "Birmingham",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1200
-    },
-    {
-        "city_a": "Birmingham",
         "city_b": "Mailand",
         "distance_km": 1120
     },
@@ -59636,11 +59231,6 @@
     },
     {
         "city_a": "Bologna",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 190
-    },
-    {
-        "city_a": "Bologna",
         "city_b": "Mailand",
         "distance_km": 200
     },
@@ -60156,11 +59746,6 @@
     },
     {
         "city_a": "Catania",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 920
-    },
-    {
-        "city_a": "Catania",
         "city_b": "Mailand",
         "distance_km": 1010
     },
@@ -60671,11 +60256,6 @@
     },
     {
         "city_a": "Bratislava",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 750
-    },
-    {
-        "city_a": "Bratislava",
         "city_b": "Mailand",
         "distance_km": 670
     },
@@ -61181,11 +60761,6 @@
     },
     {
         "city_a": "Bra\u015fov",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1320
-    },
-    {
-        "city_a": "Bra\u015fov",
         "city_b": "Mailand",
         "distance_km": 1280
     },
@@ -61686,11 +61261,6 @@
     },
     {
         "city_a": "Bremen",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 960
-    },
-    {
-        "city_a": "Bremen",
         "city_b": "Mailand",
         "distance_km": 850
     },
@@ -62186,11 +61756,6 @@
     },
     {
         "city_a": "Malaga",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1410
-    },
-    {
-        "city_a": "Malaga",
         "city_b": "Mailand",
         "distance_km": 1500
     },
@@ -62681,11 +62246,6 @@
     },
     {
         "city_a": "Split",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 610
-    },
-    {
-        "city_a": "Split",
         "city_b": "Mailand",
         "distance_km": 620
     },
@@ -63171,11 +62731,6 @@
     },
     {
         "city_a": "Brindisi",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 850
-    },
-    {
-        "city_a": "Brindisi",
         "city_b": "Mailand",
         "distance_km": 890
     },
@@ -63656,11 +63211,6 @@
     },
     {
         "city_a": "Br\u00fcssel",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 790
-    },
-    {
-        "city_a": "Br\u00fcssel",
         "city_b": "Mailand",
         "distance_km": 700
     },
@@ -64136,11 +63686,6 @@
     },
     {
         "city_a": "Br\u00fcssel Charleroi",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 750
-    },
-    {
-        "city_a": "Br\u00fcssel Charleroi",
         "city_b": "Mailand",
         "distance_km": 660
     },
@@ -64611,11 +64156,6 @@
     },
     {
         "city_a": "Burgas",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1510
-    },
-    {
-        "city_a": "Burgas",
         "city_b": "Mailand",
         "distance_km": 1500
     },
@@ -65081,11 +64621,6 @@
     },
     {
         "city_a": "Chania (Kreta)",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1620
-    },
-    {
-        "city_a": "Chania (Kreta)",
         "city_b": "Mailand",
         "distance_km": 1670
     },
@@ -65546,11 +65081,6 @@
     },
     {
         "city_a": "Dubai",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 4660
-    },
-    {
-        "city_a": "Dubai",
         "city_b": "Mailand",
         "distance_km": 4670
     },
@@ -66006,11 +65536,6 @@
     },
     {
         "city_a": "Girona",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 570
-    },
-    {
-        "city_a": "Girona",
         "city_b": "Mailand",
         "distance_km": 640
     },
@@ -66461,11 +65986,6 @@
     },
     {
         "city_a": "Glasgow",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1580
-    },
-    {
-        "city_a": "Glasgow",
         "city_b": "Mailand",
         "distance_km": 1490
     },
@@ -66911,11 +66431,6 @@
     },
     {
         "city_a": "Gran Canaria",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2840
-    },
-    {
-        "city_a": "Gran Canaria",
         "city_b": "Mailand",
         "distance_km": 2920
     },
@@ -67356,11 +66871,6 @@
     },
     {
         "city_a": "Hurghada",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2930
-    },
-    {
-        "city_a": "Hurghada",
         "city_b": "Mailand",
         "distance_km": 2980
     },
@@ -67796,11 +67306,6 @@
     },
     {
         "city_a": "Istanbul",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1680
-    },
-    {
-        "city_a": "Istanbul",
         "city_b": "Mailand",
         "distance_km": 1680
     },
@@ -68231,11 +67736,6 @@
     },
     {
         "city_a": "Jeddah",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 3750
-    },
-    {
-        "city_a": "Jeddah",
         "city_b": "Mailand",
         "distance_km": 3800
     },
@@ -68661,11 +68161,6 @@
     },
     {
         "city_a": "Korfu",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1600
-    },
-    {
-        "city_a": "Korfu",
         "city_b": "Mailand",
         "distance_km": 1490
     },
@@ -69086,11 +68581,6 @@
     },
     {
         "city_a": "Liverpool",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1330
-    },
-    {
-        "city_a": "Liverpool",
         "city_b": "Mailand",
         "distance_km": 1250
     },
@@ -69506,11 +68996,6 @@
     },
     {
         "city_a": "Madeira",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2590
-    },
-    {
-        "city_a": "Madeira",
         "city_b": "Mailand",
         "distance_km": 2650
     },
@@ -69921,11 +69406,6 @@
     },
     {
         "city_a": "Madrid",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1130
-    },
-    {
-        "city_a": "Madrid",
         "city_b": "Mailand",
         "distance_km": 1190
     },
@@ -70331,11 +69811,6 @@
     },
     {
         "city_a": "Mallorca",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 730
-    },
-    {
-        "city_a": "Mallorca",
         "city_b": "Mailand",
         "distance_km": 830
     },
@@ -70736,11 +70211,6 @@
     },
     {
         "city_a": "Neapel",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1770
-    },
-    {
-        "city_a": "Neapel",
         "city_b": "Mailand",
         "distance_km": 1660
     },
@@ -71136,11 +70606,6 @@
     },
     {
         "city_a": "Podgorica",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 860
-    },
-    {
-        "city_a": "Podgorica",
         "city_b": "Mailand",
         "distance_km": 870
     },
@@ -71531,11 +70996,6 @@
     },
     {
         "city_a": "Reykjavik",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2920
-    },
-    {
-        "city_a": "Reykjavik",
         "city_b": "Mailand",
         "distance_km": 2830
     },
@@ -71921,11 +71381,6 @@
     },
     {
         "city_a": "Rhodos",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 210
-    },
-    {
-        "city_a": "Rhodos",
         "city_b": "Mailand",
         "distance_km": 190
     },
@@ -72306,11 +71761,6 @@
     },
     {
         "city_a": "Riad",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 4050
-    },
-    {
-        "city_a": "Riad",
         "city_b": "Mailand",
         "distance_km": 4070
     },
@@ -72686,11 +72136,6 @@
     },
     {
         "city_a": "Santorini",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1660
-    },
-    {
-        "city_a": "Santorini",
         "city_b": "Mailand",
         "distance_km": 1690
     },
@@ -73061,11 +72506,6 @@
     },
     {
         "city_a": "Sharm El Sheikh",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2910
-    },
-    {
-        "city_a": "Sharm El Sheikh",
         "city_b": "Mailand",
         "distance_km": 2950
     },
@@ -73431,11 +72871,6 @@
     },
     {
         "city_a": "Stuttgart",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 490
-    },
-    {
-        "city_a": "Stuttgart",
         "city_b": "Mailand",
         "distance_km": 370
     },
@@ -73796,11 +73231,6 @@
     },
     {
         "city_a": "Teneriffa",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2890
-    },
-    {
-        "city_a": "Teneriffa",
         "city_b": "Mailand",
         "distance_km": 2960
     },
@@ -74156,11 +73586,6 @@
     },
     {
         "city_a": "Thessaloniki",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1220
-    },
-    {
-        "city_a": "Thessaloniki",
         "city_b": "Mailand",
         "distance_km": 1240
     },
@@ -74511,11 +73936,6 @@
     },
     {
         "city_a": "T\u00e2rgu Mure\u0219",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1240
-    },
-    {
-        "city_a": "T\u00e2rgu Mure\u0219",
         "city_b": "Mailand",
         "distance_km": 1190
     },
@@ -74861,11 +74281,6 @@
     },
     {
         "city_a": "Valencia",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 950
-    },
-    {
-        "city_a": "Valencia",
         "city_b": "Mailand",
         "distance_km": 1030
     },
@@ -75206,11 +74621,6 @@
     },
     {
         "city_a": "Zakynthos",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1240
-    },
-    {
-        "city_a": "Zakynthos",
         "city_b": "Mailand",
         "distance_km": 1290
     },
@@ -75546,11 +74956,6 @@
     },
     {
         "city_a": "Castellon",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 870
-    },
-    {
-        "city_a": "Castellon",
         "city_b": "Mailand",
         "distance_km": 950
     },
@@ -75881,11 +75286,6 @@
     },
     {
         "city_a": "Genf",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 300
-    },
-    {
-        "city_a": "Genf",
         "city_b": "Mailand",
         "distance_km": 250
     },
@@ -76211,11 +75611,6 @@
     },
     {
         "city_a": "Izmir",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1660
-    },
-    {
-        "city_a": "Izmir",
         "city_b": "Mailand",
         "distance_km": 1680
     },
@@ -76536,11 +75931,6 @@
     },
     {
         "city_a": "Leeds",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1290
-    },
-    {
-        "city_a": "Leeds",
         "city_b": "Mailand",
         "distance_km": 1210
     },
@@ -76856,11 +76246,6 @@
     },
     {
         "city_a": "Leipzig",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 810
-    },
-    {
-        "city_a": "Leipzig",
         "city_b": "Mailand",
         "distance_km": 690
     },
@@ -77171,11 +76556,6 @@
     },
     {
         "city_a": "Lyon",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 360
-    },
-    {
-        "city_a": "Lyon",
         "city_b": "Mailand",
         "distance_km": 340
     },
@@ -77481,11 +76861,6 @@
     },
     {
         "city_a": "Mykonos",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1580
-    },
-    {
-        "city_a": "Mykonos",
         "city_b": "Mailand",
         "distance_km": 1620
     },
@@ -77786,11 +77161,6 @@
     },
     {
         "city_a": "N\u00fcrnberg",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 580
-    },
-    {
-        "city_a": "N\u00fcrnberg",
         "city_b": "Mailand",
         "distance_km": 470
     },
@@ -78086,11 +77456,6 @@
     },
     {
         "city_a": "Pisa",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 140
-    },
-    {
-        "city_a": "Pisa",
         "city_b": "Mailand",
         "distance_km": 220
     },
@@ -78381,11 +77746,6 @@
     },
     {
         "city_a": "Salzburg",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 490
-    },
-    {
-        "city_a": "Salzburg",
         "city_b": "Mailand",
         "distance_km": 390
     },
@@ -78671,11 +78031,6 @@
     },
     {
         "city_a": "Sandefjord",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1640
-    },
-    {
-        "city_a": "Sandefjord",
         "city_b": "Mailand",
         "distance_km": 1520
     },
@@ -78956,11 +78311,6 @@
     },
     {
         "city_a": "Santander",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1030
-    },
-    {
-        "city_a": "Santander",
         "city_b": "Mailand",
         "distance_km": 1060
     },
@@ -79236,11 +78586,6 @@
     },
     {
         "city_a": "Saragossa",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 860
-    },
-    {
-        "city_a": "Saragossa",
         "city_b": "Mailand",
         "distance_km": 920
     },
@@ -79511,11 +78856,6 @@
     },
     {
         "city_a": "Sevilla",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1480
-    },
-    {
-        "city_a": "Sevilla",
         "city_b": "Mailand",
         "distance_km": 1550
     },
@@ -79781,11 +79121,6 @@
     },
     {
         "city_a": "Triest",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 410
-    },
-    {
-        "city_a": "Triest",
         "city_b": "Mailand",
         "distance_km": 360
     },
@@ -80046,11 +79381,6 @@
     },
     {
         "city_a": "Turin",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 120
-    },
-    {
-        "city_a": "Turin",
         "city_b": "Mailand",
         "distance_km": 130
     },
@@ -80306,11 +79636,6 @@
     },
     {
         "city_a": "Venedig",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 400
-    },
-    {
-        "city_a": "Venedig",
         "city_b": "Mailand",
         "distance_km": 300
     },
@@ -80561,11 +79886,6 @@
     },
     {
         "city_a": "Lublin",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1270
-    },
-    {
-        "city_a": "Lublin",
         "city_b": "Mailand",
         "distance_km": 1180
     },
@@ -80811,11 +80131,6 @@
     },
     {
         "city_a": "Bydgoszcz",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1170
-    },
-    {
-        "city_a": "Bydgoszcz",
         "city_b": "Mailand",
         "distance_km": 1060
     },
@@ -81056,11 +80371,6 @@
     },
     {
         "city_a": "Prag",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 750
-    },
-    {
-        "city_a": "Prag",
         "city_b": "Mailand",
         "distance_km": 640
     },
@@ -81296,11 +80606,6 @@
     },
     {
         "city_a": "Verona",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 200
-    },
-    {
-        "city_a": "Verona",
         "city_b": "Mailand",
         "distance_km": 140
     },
@@ -81531,11 +80836,6 @@
     },
     {
         "city_a": "Frankfurt",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 630
-    },
-    {
-        "city_a": "Frankfurt",
         "city_b": "Mailand",
         "distance_km": 520
     },
@@ -81761,11 +81061,6 @@
     },
     {
         "city_a": "Comiso",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 960
-    },
-    {
-        "city_a": "Comiso",
         "city_b": "Mailand",
         "distance_km": 1050
     },
@@ -81986,11 +81281,6 @@
     },
     {
         "city_a": "Constan\u021ba",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1570
-    },
-    {
-        "city_a": "Constan\u021ba",
         "city_b": "Mailand",
         "distance_km": 1540
     },
@@ -82206,11 +81496,6 @@
     },
     {
         "city_a": "Dalaman",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1880
-    },
-    {
-        "city_a": "Dalaman",
         "city_b": "Mailand",
         "distance_km": 1900
     },
@@ -82421,11 +81706,6 @@
     },
     {
         "city_a": "Haugesund",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1690
-    },
-    {
-        "city_a": "Haugesund",
         "city_b": "Mailand",
         "distance_km": 1570
     },
@@ -82631,11 +81911,6 @@
     },
     {
         "city_a": "Oslo",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1730
-    },
-    {
-        "city_a": "Oslo",
         "city_b": "Mailand",
         "distance_km": 1610
     },
@@ -82836,11 +82111,6 @@
     },
     {
         "city_a": "Stavanger",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1630
-    },
-    {
-        "city_a": "Stavanger",
         "city_b": "Mailand",
         "distance_km": 1520
     },
@@ -83036,11 +82306,6 @@
     },
     {
         "city_a": "Troms\u00f8",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2870
-    },
-    {
-        "city_a": "Troms\u00f8",
         "city_b": "Mailand",
         "distance_km": 2750
     },
@@ -83231,11 +82496,6 @@
     },
     {
         "city_a": "Trondheim",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2120
-    },
-    {
-        "city_a": "Trondheim",
         "city_b": "Mailand",
         "distance_km": 2000
     },
@@ -83421,11 +82681,6 @@
     },
     {
         "city_a": "Turku",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1990
-    },
-    {
-        "city_a": "Turku",
         "city_b": "Mailand",
         "distance_km": 1880
     },
@@ -83606,11 +82861,6 @@
     },
     {
         "city_a": "\u00c5lesund",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 3850
-    },
-    {
-        "city_a": "\u00c5lesund",
         "city_b": "Mailand",
         "distance_km": 3730
     },
@@ -83786,11 +83036,6 @@
     },
     {
         "city_a": "Hermannstadt",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1210
-    },
-    {
-        "city_a": "Hermannstadt",
         "city_b": "Mailand",
         "distance_km": 1170
     },
@@ -83961,11 +83206,6 @@
     },
     {
         "city_a": "Ohrid",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1040
-    },
-    {
-        "city_a": "Ohrid",
         "city_b": "Mailand",
         "distance_km": 1060
     },
@@ -84131,11 +83371,6 @@
     },
     {
         "city_a": "Pristina",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1010
-    },
-    {
-        "city_a": "Pristina",
         "city_b": "Mailand",
         "distance_km": 1010
     },
@@ -84296,11 +83531,6 @@
     },
     {
         "city_a": "Suceava",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1390
-    },
-    {
-        "city_a": "Suceava",
         "city_b": "Mailand",
         "distance_km": 1330
     },
@@ -84456,11 +83686,6 @@
     },
     {
         "city_a": "Dubrovnik",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 770
-    },
-    {
-        "city_a": "Dubrovnik",
         "city_b": "Mailand",
         "distance_km": 780
     },
@@ -84611,11 +83836,6 @@
     },
     {
         "city_a": "Faro",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1640
-    },
-    {
-        "city_a": "Faro",
         "city_b": "Mailand",
         "distance_km": 1710
     },
@@ -84761,11 +83981,6 @@
     },
     {
         "city_a": "Friedrichshafen",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 360
-    },
-    {
-        "city_a": "Friedrichshafen",
         "city_b": "Mailand",
         "distance_km": 240
     },
@@ -84906,11 +84121,6 @@
     },
     {
         "city_a": "Fuerteventura",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2700
-    },
-    {
-        "city_a": "Fuerteventura",
         "city_b": "Mailand",
         "distance_km": 2780
     },
@@ -85046,11 +84256,6 @@
     },
     {
         "city_a": "Grenoble",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 270
-    },
-    {
-        "city_a": "Grenoble",
         "city_b": "Mailand",
         "distance_km": 270
     },
@@ -85181,11 +84386,6 @@
     },
     {
         "city_a": "Ibiza",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1130
-    },
-    {
-        "city_a": "Ibiza",
         "city_b": "Mailand",
         "distance_km": 1190
     },
@@ -85311,11 +84511,6 @@
     },
     {
         "city_a": "Kaunas",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1580
-    },
-    {
-        "city_a": "Kaunas",
         "city_b": "Mailand",
         "distance_km": 1480
     },
@@ -85436,11 +84631,6 @@
     },
     {
         "city_a": "Kefalonia",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1190
-    },
-    {
-        "city_a": "Kefalonia",
         "city_b": "Mailand",
         "distance_km": 1240
     },
@@ -85556,11 +84746,6 @@
     },
     {
         "city_a": "Kos",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 990
-    },
-    {
-        "city_a": "Kos",
         "city_b": "Mailand",
         "distance_km": 990
     },
@@ -85671,11 +84856,6 @@
     },
     {
         "city_a": "Ko\u0161ice",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1060
-    },
-    {
-        "city_a": "Ko\u0161ice",
         "city_b": "Mailand",
         "distance_km": 980
     },
@@ -85781,11 +84961,6 @@
     },
     {
         "city_a": "Posen",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1070
-    },
-    {
-        "city_a": "Posen",
         "city_b": "Mailand",
         "distance_km": 960
     },
@@ -85886,11 +85061,6 @@
     },
     {
         "city_a": "Riga",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1750
-    },
-    {
-        "city_a": "Riga",
         "city_b": "Mailand",
         "distance_km": 1640
     },
@@ -85986,11 +85156,6 @@
     },
     {
         "city_a": "K\u00f6ln",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 740
-    },
-    {
-        "city_a": "K\u00f6ln",
         "city_b": "Mailand",
         "distance_km": 630
     },
@@ -86081,11 +85246,6 @@
     },
     {
         "city_a": "Lampedusa",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1040
-    },
-    {
-        "city_a": "Lampedusa",
         "city_b": "Mailand",
         "distance_km": 1140
     },
@@ -86171,11 +85331,6 @@
     },
     {
         "city_a": "Radom",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1200
-    },
-    {
-        "city_a": "Radom",
         "city_b": "Mailand",
         "distance_km": 1100
     },
@@ -86256,11 +85411,6 @@
     },
     {
         "city_a": "Ljubljana",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 470
-    },
-    {
-        "city_a": "Ljubljana",
         "city_b": "Mailand",
         "distance_km": 420
     },
@@ -86336,11 +85486,6 @@
     },
     {
         "city_a": "Marrakesch",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 2050
-    },
-    {
-        "city_a": "Marrakesch",
         "city_b": "Mailand",
         "distance_km": 2140
     },
@@ -86411,11 +85556,6 @@
     },
     {
         "city_a": "Plowdiw",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1310
-    },
-    {
-        "city_a": "Plowdiw",
         "city_b": "Mailand",
         "distance_km": 1300
     },
@@ -86481,11 +85621,6 @@
     },
     {
         "city_a": "Poprad",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1010
-    },
-    {
-        "city_a": "Poprad",
         "city_b": "Mailand",
         "distance_km": 930
     },
@@ -86546,11 +85681,6 @@
     },
     {
         "city_a": "Satu Mare",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1140
-    },
-    {
-        "city_a": "Satu Mare",
         "city_b": "Mailand",
         "distance_km": 1080
     },
@@ -86606,11 +85736,6 @@
     },
     {
         "city_a": "Tallinn",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1980
-    },
-    {
-        "city_a": "Tallinn",
         "city_b": "Mailand",
         "distance_km": 1870
     },
@@ -86661,11 +85786,6 @@
     },
     {
         "city_a": "Olbia",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 390
-    },
-    {
-        "city_a": "Olbia",
         "city_b": "Mailand",
         "distance_km": 510
     },
@@ -86711,11 +85831,6 @@
     },
     {
         "city_a": "Perugia",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 310
-    },
-    {
-        "city_a": "Perugia",
         "city_b": "Mailand",
         "distance_km": 370
     },
@@ -86756,11 +85871,6 @@
     },
     {
         "city_a": "Pescara",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 480
-    },
-    {
-        "city_a": "Pescara",
         "city_b": "Mailand",
         "distance_km": 520
     },
@@ -86796,11 +85906,6 @@
     },
     {
         "city_a": "Porto",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1480
-    },
-    {
-        "city_a": "Porto",
         "city_b": "Mailand",
         "distance_km": 1520
     },
@@ -86831,11 +85936,6 @@
     },
     {
         "city_a": "Rimini",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 290
-    },
-    {
-        "city_a": "Rimini",
         "city_b": "Mailand",
         "distance_km": 310
     },
@@ -86861,11 +85961,6 @@
     },
     {
         "city_a": "Rzesz\u00f3w",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1170
-    },
-    {
-        "city_a": "Rzesz\u00f3w",
         "city_b": "Mailand",
         "distance_km": 1090
     },
@@ -86886,11 +85981,6 @@
     },
     {
         "city_a": "Skiathos",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1340
-    },
-    {
-        "city_a": "Skiathos",
         "city_b": "Mailand",
         "distance_km": 1370
     },
@@ -86906,11 +85996,6 @@
     },
     {
         "city_a": "Szczecin",
-        "city_b": "Genoa(Italy)",
-        "distance_km": 1080
-    },
-    {
-        "city_a": "Szczecin",
         "city_b": "Mailand",
         "distance_km": 970
     },
@@ -86923,21 +86008,6 @@
         "city_a": "Szczecin",
         "city_b": "Kairo",
         "distance_km": 2930
-    },
-    {
-        "city_a": "Genoa(Italy)",
-        "city_b": "Mailand",
-        "distance_km": 120
-    },
-    {
-        "city_a": "Genoa(Italy)",
-        "city_b": "Genua",
-        "distance_km": 0
-    },
-    {
-        "city_a": "Genoa(Italy)",
-        "city_b": "Kairo",
-        "distance_km": 2530
     },
     {
         "city_a": "Mailand",
