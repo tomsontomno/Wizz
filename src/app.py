@@ -1,5 +1,5 @@
 import os
-from route_ranker import rate_my_options, task_progress
+from src.route_ranker import rate_my_options, task_progress
 from flask import Flask, request, render_template, jsonify
 import threading
 import time
@@ -140,5 +140,5 @@ def abort_calculation():
 
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8081))
+    port = int(os.environ.get("PORT", 8082))
     app.run(host="0.0.0.0", port=port)

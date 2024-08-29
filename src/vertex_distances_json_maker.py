@@ -1,9 +1,12 @@
 import json
+import os
 from geopy.distance import geodesic
 from geopy.geocoders import Photon
-from name_formatter import formated_city_name
+from src.name_formatter import formated_city_name
+from src.edges_json_maker import save_distance_to_json
 
-filename = "vertex_distances_to_all.json"
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+vertex_distances_to_all_json = os.path.join(base_dir, 'data', 'vertex_distances_to_all.json')
 
 
 def get_city_coordinates(city_name):
@@ -20,29 +23,6 @@ def get_city_coordinates(city_name):
 
 def calculate_distance(coords_1, coords_2):
     return geodesic(coords_1, coords_2).kilometers
-
-
-def save_distance_to_json(city_a, city_b, distance):
-    data = {
-        "city_a": city_a,
-        "city_b": city_b,
-        "distance_km": round(distance / 10) * 10
-    }
-
-    try:
-        with open(filename, 'r') as file:
-            file_content = file.read().strip()
-            if file_content:
-                distances = json.loads(file_content)
-            else:
-                distances = []
-    except FileNotFoundError:
-        distances = []
-
-    distances.append(data)
-    with open(filename, 'w') as file:
-        json.dump(distances, file, indent=4)
-    print(f"Distance between {city_a} and {city_b} of {data['distance_km']} km was saved in '{filename}'.")
 
 
 def get_all_city_coordinates(cities):
@@ -63,7 +43,7 @@ def calculate_all_distances(city_coordinates):
             coords_a = city_coordinates[city_a]
             coords_b = city_coordinates[city_b]
             distance = calculate_distance(coords_a, coords_b)
-            save_distance_to_json(city_a, city_b, distance)
+            save_distance_to_json(city_a, city_b, distance, vertex_distances_to_all_json)
 
 
 if __name__ == '__main__':

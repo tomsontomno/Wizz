@@ -1,17 +1,7 @@
 import plotly.graph_objects as go
-import json
-import networkx as nx
 import numpy as np
+from wizz_graph import G
 
-with open('edges.json', 'r') as f:
-    data = json.load(f)
-
-G = nx.Graph()
-for route in data:
-    city_a = route['city_a']
-    city_b = route['city_b']
-    distance = route['distance_km']
-    G.add_edge(city_a, city_b, weight=distance)
 
 purple_nodes = sorted([node for node in G.nodes() if G.degree(node) > 30])
 red_nodes = sorted([node for node in G.nodes() if 12 < G.degree(node) <= 30])

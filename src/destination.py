@@ -1,8 +1,14 @@
 import json
+import os
+
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+city_preferability_json = os.path.join(base_dir, 'data', 'city_preferability.json')
+country_preferability_json = os.path.join(base_dir, 'data', 'country_preferability.json')
+continent_map_json = os.path.join(base_dir, 'data', 'continent_map.json')
 
 
 def _get_city_info(city):
-    with open('city_preferability.json', 'r') as file:
+    with open(city_preferability_json, 'r') as file:
         city_data = json.load(file)
         return {
             "name": city,
@@ -17,7 +23,7 @@ def _get_city_info(city):
 
 
 def _get_country_info(country):
-    with open('country_preferability.json', 'r') as file:
+    with open(country_preferability_json, 'r') as file:
         country_data = json.load(file)
         return {
             "visited": country_data[country][0],
@@ -29,7 +35,7 @@ def _get_country_info(country):
 
 
 def _get_continent(country):
-    with open('continent_map.json', 'r') as file:
+    with open(continent_map_json, 'r') as file:
         continent_data = json.load(file)
         for continent, countries in continent_data.items():
             if country in countries:

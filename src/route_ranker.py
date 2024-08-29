@@ -1,10 +1,16 @@
 import json
-from wizz_graph import all_paths_a_to_b, nearby_airport_finder, calculate_path_distance
-import destination
+import os
+from src.wizz_graph import all_paths_a_to_b, nearby_airport_finder, calculate_path_distance
+import src.destination as destination
 from math import exp
 import concurrent.futures
 
 task_progress = {}
+
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+vertex_distances_to_all_json = os.path.join(base_dir, 'data', 'vertex_distances_to_all.json')
+weights_json = os.path.join(base_dir, 'data', 'weights.json')
+restrictions_json = os.path.join(base_dir, 'data', 'restrictions.json')
 
 
 def get_city_object(city: str) -> destination:
@@ -103,7 +109,7 @@ def get_true_weight(category: str, weight_name: str, inverse=False):
     Returns:
         float: The calculated weight for the criterion.
     """
-    with open('weights.json', 'r') as file:
+    with open(weights_json, 'r') as file:
         weights_data = json.load(file)
         weights_Prio = weights_data[category + "_Weights"]
         weights_Share = weights_data[category + "_Weight_Share"]
@@ -125,7 +131,7 @@ def get_hard_criteria_city(weight_name: str):
     Returns:
         bool or int: True if the criterion is a hard constraint, False if it's excluded, 0 otherwise.
     """
-    with open('weights.json', 'r') as file:
+    with open(weights_json, 'r') as file:
         weights = json.load(file)["City_Weight_Share"]
     if " X" in str(weights["Share_" + weight_name]):
         return True
@@ -146,7 +152,7 @@ def rating_city(city: str):
         float: The calculated rating of the city.
     """
     city_obj = get_city_object(city)
-    with open('weights.json', 'r') as file:
+    with open(weights_json, 'r') as file:
         weights_data = json.load(file)
         weights = weights_data["City_Weights"]
         weights_Share = weights_data["City_Weight_Share"]
@@ -245,7 +251,7 @@ def get_hard_criteria_flight(weight_name: str):
         bool or int: True if the criterion is a hard constraint, False if it's excluded, 0 otherwise.
     """
     # currently not needed but for future implementation
-    with open('weights.json', 'r') as file:
+    with open(weights_json, 'r') as file:
         weights = json.load(file)["Flight_Weight_Share"]
     if " X" in str(weights["Share_" + weight_name]):
         return True
@@ -269,7 +275,7 @@ def calculate_distance(city_a: str, city_b: str) -> float:
     if city_a == city_b:
         return 0
 
-    with open('vertex_distances_to_all.json', 'r') as file:
+    with open(vertex_distances_to_all_json, 'r') as file:
         vertex_distances = json.load(file)
 
     for entry in vertex_distances:
@@ -304,7 +310,7 @@ def rating_flight(city_a: str, city_b: str):
     rating = 0
     total_weight_sum = 0
 
-    with open('weights.json', 'r') as file:
+    with open(weights_json, 'r') as file:
         weights_data = json.load(file)
         weights_Prio = weights_data["Flight_Weights"]
         weights_Share = weights_data["Flight_Weight_Share"]
@@ -359,7 +365,7 @@ def get_hard_criteria_route(weight_name: str):
         bool or int: True if the criterion is a hard constraint, False if it's excluded, 0 otherwise.
     """
     # currently not needed but for future implementation
-    with open('weights.json', 'r') as file:
+    with open(weights_json, 'r') as file:
         weights = json.load(file)["Route_Weight_Share"]
     if " X" in str(weights["Share_" + weight_name]):
         return True
@@ -415,7 +421,7 @@ def rating_route(route: list, original_start: str = "", original_end: str = "", 
     direct_distance = calculate_distance(original_start, original_end)
     total_distance = sum([calculate_distance(route[i], route[i + 1]) for i in range(len(route) - 1)])
 
-    with open('weights.json', 'r') as file:
+    with open(weights_json, 'r') as file:
         weights_data = json.load(file)
         weights_Prio = weights_data["Route_Weights"]
         weights_Share = weights_data["Route_Weight_Share"]
@@ -527,7 +533,7 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
         task_id (str): The ID of the current task to track progress.
     """
 
-    with open('restrictions.json', 'r') as file:
+    with open(restrictions_json, 'r') as file:
         restrictions = json.load(file)
     forbidden_cities = restrictions["forbidden_cities"]
     forbidden_routes = restrictions["forbidden_routes"]
@@ -654,4 +660,4 @@ def rate_my_options(original_start: str, radius_start: float, original_end: str,
 
 if __name__ == '__main__':
     pass
-    # print(rate_my_options("Dortmund", 200, "Kairo", 200, 2, "1"))
+    print(rate_my_options("London", 0, "Male", 0, 1, "1"))
