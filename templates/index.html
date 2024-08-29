@@ -41,7 +41,7 @@
         .form-container input[type="number"] {
             width: 100%;
             padding: 8px;
-            margin-bottom: 15px; /* Ensure equal spacing between input fields */
+            margin-bottom: 15px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
@@ -63,7 +63,7 @@
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
-            margin-top: 20px; /* Increased space before the submit button */
+            margin-top: 20px;
         }
 
         .form-container input[type="submit"]:hover {
@@ -91,7 +91,7 @@
             height: 20px;
             background-color: #4caf50;
             border-radius: 5px;
-            width: 0%;
+            width: 0;
         }
 
         #calculation-result {
@@ -103,6 +103,15 @@
             width: 100%;
             display: none; /* Initially hidden */
         }
+
+        #abort-button {
+            display: none; /* Hidden by default */
+        }
+
+        #submit-button.shrink {
+            flex: 0.7; /* Shrinks the submit button when abort is visible */
+        }
+
     </style>
 </head>
 <body>
@@ -126,7 +135,10 @@
             <label for="tolerance">Tolerance:</label>
             <input type="number" id="tolerance" name="tolerance" required><br>
 
-            <input type="submit" value="Submit">
+            <div style="display: flex; align-items: center;">
+                <input type="submit" value="Submit" id="submit-button" style="flex: 1;">
+                <button type="button" id="abort-button" style="background-color: red; color: white; border: none; border-radius: 4px; padding: 10px; margin-left: 10px; display: none;">Abort</button>
+            </div>
         </form>
 
         <div id="progress-bar" style="display: none;">
@@ -138,12 +150,18 @@
     </div>
 
     <script src="{{ url_for('static', filename='cityData.js') }}"></script> <!-- Import the city and country data -->
-    <script>
-    function normalize(str) {
-        return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-    }
 
-    $(function() {
+    <script>
+    let isPolling = false;
+let pollInterval;
+let pollTimeout;
+let taskId;
+
+function normalize(str) {
+    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+}
+
+$(function() {
     function updateCountryDisplay(inputId, city) {
         const country = cityCountryMap[city];
         if (country) {
@@ -176,44 +194,90 @@
     $("#calc-form").on("submit", function(event) {
         event.preventDefault();
 
-        // Hide previous results and reset the progress bar
+        if (isPolling) {
+            return; // Prevent double submission
+        }
+
+        isPolling = true;
+
+        // Hide previous results, reset progress bar, but dont show the abort button yet
         $("#calculation-result").hide();
         $("#progress-bar").show();
         $("#progress-percentage").show();
+        $("#submit-button").addClass("shrink");
+
+        // Wait 2 seconds before showing the abort button so it wont be spammed (lead to bad issues)
+        setTimeout(function() {
+            $("#abort-button").show();
+        }, 2000);
 
         let formData = $(this).serializeArray();
 
         $.post("/start_calculation", formData, function(data) {
-            let taskId = data.task_id;
-            // Poll the server for progress updates
-            let progressInterval = setInterval(function() {
-                $.get("/get_progress/" + taskId, function(data) {
-                    let progress = data.progress.toFixed(2);
-                    $("#progress-bar-fill").css("width", progress + "%");
-                    $("#progress-percentage").text(progress + "%");
+            taskId = data.task_id;
 
-                    if (data.state === 'SUCCESS') {
-                        clearInterval(progressInterval);
-
-                        if (data.result) {
-                            $("#calculation-result").html(`<h2>Result:</h2><p>${data.result.replace(/\n/g, '<br>')}</p>`);
-                            $("#calculation-result").show();
-                        }
-
-                        $("#progress-bar").hide();
-                        $("#progress-percentage").hide();
-                    }
-
-                    if (data.state === 'FAILURE') {
-                        clearInterval(progressInterval);
-                        $("#calculation-result").html(`<h2>Error:</h2><p>${data.result}</p>`);
-                        $("#calculation-result").show();
-                        $("#progress-bar").hide();
-                        $("#progress-percentage").hide();
-                    }
-                });
-            }, 2500); // Poll every 500ms
+            pollInterval = setInterval(pollProgress, 2500); // Poll every 2500ms
+            resetPollTimeout();
         });
+    });
+
+    $("#abort-button").on("click", function() {
+        abortCalculation();
+    });
+
+    function pollProgress() {
+        $.get("/get_progress/" + taskId, function(data) {
+            resetPollTimeout();
+            let progress = data.progress.toFixed(2);
+            $("#progress-bar-fill").css("width", progress + "%");
+            $("#progress-percentage").text(progress + "%");
+
+            if (data.state === 'SUCCESS' || data.state === 'FAILURE') {
+                clearInterval(pollInterval); // Stop polling
+                isPolling = false; // Reset polling flag
+                clearPollTimeout(); // Clear the polling timeout
+
+                if (data.result) {
+                    $("#calculation-result").html(`<h2>Result:</h2><p>${data.result.replace(/\n/g, '<br>')}</p>`);
+                    $("#calculation-result").show();
+                }
+
+                $("#progress-bar").hide();
+                $("#progress-percentage").hide();
+                $("#abort-button").hide();
+                $("#submit-button").removeClass("shrink");
+            }
+        });
+    }
+
+    function resetPollTimeout() {
+        clearTimeout(pollTimeout);
+        pollTimeout = setTimeout(abortCalculation, 10000); // Abort if no poll within 10 seconds
+    }
+
+    function clearPollTimeout() {
+        clearTimeout(pollTimeout);
+    }
+
+    function abortCalculation() {
+        $.post("/abort_calculation", { task_id: taskId }, function() {
+            clearInterval(pollInterval); // Stop polling
+            isPolling = false; // Reset polling flag
+
+            // Hide progress bar, abort button and show the aborted message
+            $("#progress-bar").hide();
+            $("#progress-percentage").hide();
+            $("#abort-button").hide();
+            $("#submit-button").removeClass("shrink");
+            $("#calculation-result").html(`<h2>Calculation Aborted</h2>`);
+            $("#calculation-result").show();
+        });
+    }
+
+    window.addEventListener("beforeunload", function() {
+        if (isPolling) {
+            abortCalculation(); // Abort the calculation when the page is unloaded
+        }
     });
 });
 </script>
