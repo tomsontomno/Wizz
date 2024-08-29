@@ -2,6 +2,7 @@ import json
 from wizz_graph import all_paths_a_to_b, nearby_airport_finder, calculate_path_distance
 import destination
 from math import exp
+import concurrent.futures
 
 task_progress = {}
 
@@ -506,6 +507,11 @@ def is_route_restricted(route, forbidden_cities, forbidden_routes):
     return False
 
 
+def calculate_rating(route, original_start, original_end, radius_start, radius_end):
+    rating = rating_route(route, original_start, original_end, radius_start, radius_end)
+    return tuple(route), rating
+
+
 def rating_all_routes(original_start: str, radius_start: float, original_end: str, radius_end: float, routes: list,
                       task_id: str):
     """
@@ -527,9 +533,10 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
     forbidden_routes = restrictions["forbidden_routes"]
 
     valid_routes = []
+    task_progress[task_id] = [0, 0]
     if not routes:
         print("No routes given.")
-        task_progress[task_id] = 100  # Set progress to 100% if there are no routes
+        task_progress[task_id][1] = -1  # Set progress total amount of routes to -1 to indicate no routes
         return
     for route in routes:
         if not is_route_restricted(route, forbidden_cities, forbidden_routes):
@@ -537,8 +544,11 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
 
     if not valid_routes:
         print("No valid routes available based on the restrictions.")
-        task_progress[task_id] = 100  # Set progress to 100% if there are no valid routes
+        # Set total number of routes to -2 to indicate error if there are no valid routes
+        task_progress[task_id][1] = -2
         return
+    else:
+        task_progress[task_id][1] = len(valid_routes)  # Set total number of routes
 
     min_flights = float('inf')
     max_flights = float('-inf')
@@ -556,16 +566,30 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
         min_distance = min(min_distance, path_distance)
         max_distance = max(max_distance, path_distance)
 
-    newly_rated_routes = []
+    task_progress[task_id] = [0, len(valid_routes)]
+    ratings_dict = {}
 
+    with concurrent.futures.ProcessPoolExecutor() as executor:
+        future_to_route = {
+            executor.submit(calculate_rating, route, original_start, original_end, radius_start, radius_end): route for
+            route in valid_routes
+        }
+
+        for future in concurrent.futures.as_completed(future_to_route):
+            route_tuple, rating = future.result()
+            ratings_dict[route_tuple] = rating
+            task_progress[task_id][0] = len(ratings_dict)
+            print(round((task_progress[task_id][0] / task_progress[task_id][1]) * 100, 2), "%")
+            if task_progress[task_id][1] == -3:  # Check for abort signal
+                print("ABORT REQUEST RECEIVED")
+                for future_x in future_to_route:
+                    future_x.cancel()  # Cancel all remaining tasks
+                break
+
+    newly_rated_routes = []
     for i, route in enumerate(valid_routes):
         route_rating = 0
         total_weight_sum = 0
-
-        # Update progress directly using the task_id
-        progress_value = (i + 1) / len(valid_routes) * 100
-        task_progress[task_id] = progress_value
-        print(f"Task progress: {progress_value}%")
 
         # Number of flights considerations
         num_flights = len(route) - 1
@@ -606,8 +630,7 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
             route_rating += weight_long_distance * (1 - distance_rating)
             total_weight_sum += weight_long_distance
 
-        # Rating the route using the main function that takes time
-        rating = rating_route(route, original_start, original_end, radius_start, radius_end)
+        rating = ratings_dict[tuple(route)]
         route_rating += rating * get_true_weight("Routes", "Route_Rating")
         total_weight_sum += get_true_weight("Routes", "Route_Rating")
 
@@ -615,9 +638,6 @@ def rating_all_routes(original_start: str, radius_start: float, original_end: st
             route_rating = route_rating / total_weight_sum
 
         newly_rated_routes.append([route, route_rating])
-
-    task_progress[task_id] = 100  # Ensure progress is set to 100% at the end
-    print(f"Task completed.")  # Debugging output to confirm completion
 
     return sorted(newly_rated_routes, key=lambda x: x[1], reverse=True)
 
@@ -633,4 +653,5 @@ def rate_my_options(original_start: str, radius_start: float, original_end: str,
 
 
 if __name__ == '__main__':
-    print(rate_my_options("Dortmund", 200, "Kairo", 200, 1, "1"))
+    pass
+    # print(rate_my_options("Dortmund", 200, "Kairo", 200, 2, "1"))
