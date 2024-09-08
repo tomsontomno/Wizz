@@ -1,5 +1,5 @@
 import os
-from src.route_ranker import rate_my_options, task_progress
+from src.rating_routes import rate_all, get_progress_rating, abort, get_results
 from flask import Flask, request, render_template, jsonify
 import threading
 import time
@@ -43,19 +43,15 @@ def start_calculation():
     Returns:
         Response: A JSON object containing the task ID and status.
     """
-    original_start = request.form['original_start']
+    start = request.form['original_start']
     radius_start = float(request.form['radius_start'])
-    original_end = request.form['original_end']
+    end = request.form['original_end']
     radius_end = float(request.form['radius_end'])
     tolerance = int(request.form['tolerance'])
 
     task_id = f"task_{int(time.time())}"
 
-    with task_lock:
-        task_progress[task_id] = [0.0, 1.0]  # [current_progress, total]
-
-    thread = threading.Thread(target=rate_my_options_task,
-                              args=(task_id, original_start, radius_start, original_end, radius_end, tolerance))
+    thread = threading.Thread(target=rate_all, args=(start, radius_start, end, radius_end, tolerance, task_id))
     thread.start()
 
     return jsonify({"task_id": task_id, "status": "Calculation started"})
@@ -75,46 +71,18 @@ def get_progress(task_id):
     Returns:
         Response: A JSON object containing the state ('PROGRESS', 'SUCCESS', 'ERROR'), progress percentage, and result (if applicable).
     """
-    with task_lock:
-        progress, total = task_progress.get(task_id, (0.0, 1.0))
-        percentage = (progress / total) * 100.0 if total > 0 else 100.0
-        if percentage < 100.0:
-            response = {'state': 'PROGRESS', 'progress': percentage}
+
+    percentage = get_progress_rating(task_id)
+    if percentage <= 100.0:
+        response = {'state': 'PROGRESS', 'progress': percentage}
+    else:
+        result = get_results(task_id)
+        if result is None:
+            response = {'state': 'ERROR', 'progress': 100.0,
+                        'result': 'Task ID not found or task did not complete successfully'}
         else:
-            result = task_results.get(task_id)
-            if result is None:
-                response = {'state': 'ERROR', 'progress': 100.0,
-                            'result': 'Task ID not found or task did not complete successfully'}
-            else:
-                response = {'state': 'SUCCESS', 'progress': 100.0, 'result': result}
+            response = {'state': 'SUCCESS', 'progress': 100.0, 'result': result}
     return jsonify(response)
-
-
-def rate_my_options_task(task_id, original_start, radius_start, original_end, radius_end, tolerance):
-    """
-    Background task that performs the calculation.
-
-    This function runs in a separate thread and executes the `rate_my_options` function. It updates the
-    task's progress and stores the result or any errors encountered during execution.
-
-    Args:
-        task_id (str): The ID of the task.
-        original_start (str): The original starting point.
-        radius_start (float): The radius around the starting point.
-        original_end (str): The original ending point.
-        radius_end (float): The radius around the ending point.
-        tolerance (int): The tolerance level for the calculation.
-    """
-    try:
-        output = rate_my_options(original_start, radius_start, original_end, radius_end, tolerance, task_id)
-        with task_lock:
-            task_progress[task_id] = [1.0, 1.0]
-            task_results[task_id] = output
-    except Exception as e:
-        with task_lock:
-            task_progress[task_id] = [1.0, 1.0]
-            task_results[task_id] = f"Error: {str(e)}"
-        print(f"Error in task {task_id}: {e}")
 
 
 @app.route('/abort_calculation', methods=['POST'])
@@ -132,10 +100,8 @@ def abort_calculation():
         Response: A JSON object indicating the status of the abort operation.
     """
     task_id = request.form['task_id']
-    with task_lock:
-        if task_id in task_progress:
-            task_progress[task_id][1] = -3  # Mark as aborted (effectively stopping progress)
-            task_results[task_id] = 'Calculation aborted by client'
+    abort(task_id)
+    task_results[task_id] = 'Calculation aborted by client'
     return jsonify({"status": "aborted"})
 
 

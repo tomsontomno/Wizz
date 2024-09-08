@@ -1,6 +1,6 @@
 import plotly.graph_objects as go
 import numpy as np
-from wizz_graph import G
+from src.graph_algos import G
 
 
 purple_nodes = sorted([node for node in G.nodes() if G.degree(node) > 30])

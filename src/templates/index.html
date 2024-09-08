@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input Form</title>
+    <title>Wizz all-you-can-fly Helper</title>
     <!-- jQuery and jQuery UI for Autocomplete -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
@@ -17,19 +17,19 @@
             flex-direction: column;
             height: 100vh;
             margin: 0;
-            background-color: #f4f4f4;
+            background-color: #c6007e;
         }
 
         .form-container {
-            background-color: #fff;
+            background-color: #F0F0F0;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 100%;
-            max-width: 500px;
+            width: 95%;
+            max-width: 400px;
         }
 
         .form-container label {
@@ -112,11 +112,71 @@
             flex: 0.7; /* Shrinks the submit button when abort is visible */
         }
 
+        @media (max-width: 600px) {
+                    /* Body adjustment for small screens */
+            body {
+                padding: 10px;
+            }
+
+            /* Container width adjustment */
+            .form-container {
+                width: 100%;  /* Full width on small screens */
+                max-width: 370px;  /* Cap width at 370px */
+                padding: 15px; /* Less padding for small screens */
+            }
+
+            /* Input fields adjustments */
+            .form-container input[type="text"],
+            .form-container input[type="number"] {
+                font-size: 12px; /* Smaller font size for input fields */
+                padding: 6px; /* Reduce padding to make fields smaller */
+            }
+
+            /* Submit button adjustments */
+            .form-container input[type="submit"],
+            .form-container #abort-button {
+                font-size: 14px; /* Smaller font size for buttons */
+                padding: 8px; /* Reduce padding for buttons */
+            }
+
+            /* Progress bar adjustments */
+            #progress-bar {
+                width: 100%;
+                background-color: #f3f3f3;
+                border-radius: 5px;
+                margin: 10px 0;
+                border: 1px solid black;  /* Thick black border */
+            }
+
+            #progress-bar-fill {
+                height: 20px;
+                background-color: #4caf50;
+                border-radius: 1px;
+                width: 0;
+            }
+
+            /* Result field adjustments */
+            #calculation-result {
+                font-size: 12px; /* Smaller font size in the result field */
+                padding: 5px;  /* Less padding inside the result field */
+                max-height: 300px;
+            }
+
+            /* General font size adjustments */
+            h1 {
+                font-size: 18px;  /* Smaller title font size */
+            }
+
+            #progress-percentage {
+                font-size: 12px;  /* Reduce size of the progress percentage */
+            }
+        }
+
     </style>
 </head>
 <body>
     <div class="form-container">
-        <h1>Input Form</h1>
+        <h1>Wizz Trip Planer</h1>
         <form id="calc-form">
             <label for="original_start">Original Start:</label>
             <input type="text" id="original_start" name="original_start" class="autocomplete" required>
@@ -132,7 +192,7 @@
             <label for="radius_end">Radius End:</label>
             <input type="number" id="radius_end" name="radius_end" step="0.01" required><br>
 
-            <label for="tolerance">Tolerance:</label>
+            <label for="tolerance">Flights above minimum:</label>
             <input type="number" id="tolerance" name="tolerance" required><br>
 
             <div style="display: flex; align-items: center;">

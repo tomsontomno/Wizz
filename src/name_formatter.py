@@ -1,18 +1,31 @@
 city_name_map = {
-    "Medina": "Madinah",
-    "Breslau": "Wrocław",
-    "Danzig": "Gdańsk",
-    "Akaba": "Aqaba",
-    "Muscat": "Muscat(Oman)",
-    "Posen": "Poznań",
-    "Genua": "Genoa(Italy)",
-    "Mailand": "Milan",
-    "Kairo": "Cairo",
-    "Sohag": "Sohag(Egypt)"
+    "Alexandria": "Alexandria (Egypt",
+    "Athens": "Athens (Greece)",
+    "Belgrade": "Belgrade (Serbia)",
+    "Medina": "Medina (Saudi-Arabia)",
+    "Muscat": "Muscat (Oman)",
+    "Rome": "Rome (Italy)",
+    "Sohag": "Sohag (Egypt)",
+    "Turkistan": "Mausoleum of Khoja Ahmed Yasawi",
+    "Warsaw": "Warsaw (Poland)",
+    "Niš": "Niš (Serbia)",
+    "Gothenburg": "Gothenburg (Sweden)",
+    "Brussels": "Brussels (Belgium)",
+    "Corfu": "Corfu (Greece)",
+    "Naples": "Naples (Italy)",
+    "Rhodes": "Rhodes Greece",
+    "Geneva": "Geneva (Switzerland)",
+    "Nuremberg": "Nürnberg (Germany)",
+    "Venice": "Venice (Italy)",
+    "Alesund": "Nørvasundet (Norway)",
+    "Genoa": "Genoa (Italy)",
+    "Ibiza": "Puig d'en Valls (Balearic Islands)",
+    "Kos": "Kos (Greece)",
+    "Cologne": "Köln (Germany)"
 }
 
 
-def formated_city_name(name: str):
+def formatted_city_name(name: str):
     try:
         return city_name_map[name]
     except KeyError:

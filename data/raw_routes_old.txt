@@ -1,0 +1,1546 @@
+Aberdeen - Gdansk
+Abu Dhabi - Aqaba
+Abu Dhabi - Alexandria
+Abu Dhabi - Almaty
+Abu Dhabi - Amman
+Abu Dhabi - Ankara
+Abu Dhabi - Astana
+Abu Dhabi - Athens
+Abu Dhabi - Baku
+Abu Dhabi - Belgrade
+Abu Dhabi - Bishkek
+Abu Dhabi - Budapest
+Abu Dhabi - Bucharest
+Abu Dhabi - Chisinau
+Abu Dhabi - Cluj-Napoca
+Abu Dhabi - Dammam
+Abu Dhabi - Erbil
+Abu Dhabi - Yerevan
+Abu Dhabi - Cairo
+Abu Dhabi - Katowice
+Abu Dhabi - Krakow
+Abu Dhabi - Kutaisi
+Abu Dhabi - Kuwait City
+Abu Dhabi - Larnaca
+Abu Dhabi - Male
+Abu Dhabi - Medina
+Abu Dhabi - Muscat
+Abu Dhabi - Rome
+Abu Dhabi - Salalah
+Abu Dhabi - Samarkand
+Abu Dhabi - Sarajevo
+Abu Dhabi - Sofia
+Abu Dhabi - Sohag
+Abu Dhabi - Tashkent
+Abu Dhabi - Tel Aviv
+Abu Dhabi - Tirana
+Abu Dhabi - Turkistan
+Abu Dhabi - Vienna
+Agadir - London
+Aqaba - Abu Dhabi
+Alexandria - Abu Dhabi
+Alghero - Budapest
+Alghero - Bucharest
+Alicante - Budapest
+Alicante - Bucharest
+Alicante - Cluj-Napoca
+Alicante - Gdansk
+Alicante - Katowice
+Alicante - Rome
+Alicante - Sofia
+Alicante - Warsaw
+Almaty - Abu Dhabi
+Amman - Abu Dhabi
+Amman - Budapest
+Amman - London
+Amman - Milan
+Amman - Rome
+Amman - Vienna
+Ancona - Tirana
+Ankara - Abu Dhabi
+Antalya - Budapest
+Antalya - Bucharest
+Antalya - Debrecen
+Antalya - London
+Astana - Abu Dhabi
+Athens - Abu Dhabi
+Athens - Budapest
+Athens - Bucharest
+Athens - Katowice
+Athens - Kutaisi
+Athens - Larnaca
+Athens - London
+Athens - Milan
+Athens - Tel Aviv
+Athens - Tirana
+Bacau - London
+Bacau - Milan
+Bacau - Rome
+Baku - Abu Dhabi
+Baku - Budapest
+Baku - Rome
+Banja Luka - Basel
+Banja Luka - Dortmund
+Barcelona - Belgrade
+Barcelona - Wroclaw
+Barcelona - Budapest
+Barcelona - Bucharest
+Barcelona - Cluj-Napoca
+Barcelona - Gdansk
+Barcelona - Iasi
+Barcelona - Katowice
+Barcelona - Krakow
+Barcelona - Kutaisi
+Barcelona - Milan
+Barcelona - Rome
+Barcelona - Sofia
+Barcelona - Timisoara
+Barcelona - Tirana
+Barcelona - Vilnius
+Barcelona - Warsaw
+Barcelona - Vienna
+Bari - Wroclaw
+Bari - Budapest
+Bari - Bucharest
+Bari - Cluj-Napoca
+Bari - Sofia
+Bari - Timisoara
+Bari - Tirana
+Bari - Warsaw
+Basel - Banja Luka
+Basel - Belgrade
+Basel - Budapest
+Basel - Bucharest
+Basel - Cluj-Napoca
+Basel - Iasi
+Basel - Niš
+Basel - Rome
+Basel - Skopje
+Basel - Sofia
+Basel - Tirana
+Basel - Tuzla
+Basel - Warsaw
+Belgrade - Abu Dhabi
+Belgrade - Barcelona
+Belgrade - Basel
+Belgrade - Bergamo
+Belgrade - Berlin
+Belgrade - Dortmund
+Belgrade - Eindhoven
+Belgrade - Gothenburg
+Belgrade - Hamburg
+Belgrade - Heraklion (Crete)
+Belgrade - Karlsruhe/Baden-Baden
+Belgrade - Copenhagen
+Belgrade - Larnaca
+Belgrade - Lisbon
+Belgrade - London
+Belgrade - Milan
+Belgrade - Malmö
+Belgrade - Malta
+Belgrade - Memmingen
+Belgrade - Nice
+Belgrade - Paris
+Belgrade - Rome
+Belgrade - Stockholm
+Bergamo - Belgrade
+Bergamo - Bucharest
+Bergamo - Cluj-Napoca
+Bergamo - Craiova
+Bergamo - Iasi
+Bergamo - Sofia
+Bergamo - Timisoara
+Bergamo - Tirana
+Bergamo - Warsaw
+Bergen - Gdansk
+Berlin - Belgrade
+Berlin - Budapest
+Berlin - Iasi
+Berlin - Kutaisi
+Berlin - Rome
+Berlin - Skopje
+Berlin - Tirana
+Berlin - Varna
+Bilbao - Warsaw
+Bilbao - Vienna
+Billund - Bucharest
+Billund - Iasi
+Birmingham - Budapest
+Birmingham - Bucharest
+Birmingham - Craiova
+Bishkek - Abu Dhabi
+Bologna - Bucharest
+Bologna - Catania
+Bologna - Cluj-Napoca
+Bologna - Craiova
+Bologna - Iasi
+Bologna - Skopje
+Bologna - Sofia
+Bologna - Timisoara
+Bologna - Tirana
+Bologna - Warsaw
+Bratislava - London
+Bratislava - Skopje
+Brasov - Budapest
+Brasov - Dortmund
+Brasov - London
+Bremen - Skopje
+Wroclaw - Barcelona
+Wroclaw - Bari
+Wroclaw - Eindhoven
+Wroclaw - Larnaca
+Wroclaw - London
+Wroclaw - Malaga
+Wroclaw - Split
+Wroclaw - Tirana
+Brindisi - Tirana
+Brussels - Budapest
+Brussels Charleroi - Budapest
+Brussels Charleroi - Bucharest
+Brussels Charleroi - Catania
+Brussels Charleroi - Cluj-Napoca
+Brussels Charleroi - Craiova
+Brussels Charleroi - Iasi
+Brussels Charleroi - Kutaisi
+Brussels Charleroi - Skopje
+Brussels Charleroi - Sofia
+Brussels Charleroi - Timisoara
+Brussels Charleroi - Tirana
+Brussels Charleroi - Varna
+Brussels Charleroi - Warsaw
+Budapest - Abu Dhabi
+Budapest - Alghero
+Budapest - Alicante
+Budapest - Amman
+Budapest - Antalya
+Budapest - Athens
+Budapest - Baku
+Budapest - Barcelona
+Budapest - Bari
+Budapest - Basel
+Budapest - Berlin
+Budapest - Birmingham
+Budapest - Brasov
+Budapest - Brussels
+Budapest - Brussels Charleroi
+Budapest - Bucharest
+Budapest - Burgas
+Budapest - Catania
+Budapest - Chania (Crete)
+Budapest - Chisinau
+Budapest - Dortmund
+Budapest - Dubai
+Budapest - Eindhoven
+Budapest - Yerevan
+Budapest - Girona
+Budapest - Glasgow
+Budapest - Gran Canaria
+Budapest - Heraklion (Crete)
+Budapest - Hurghada
+Budapest - Istanbul
+Budapest - Jeddah
+Budapest - Cairo
+Budapest - Copenhagen
+Budapest - Corfu
+Budapest - Kutaisi
+Budapest - Larnaca
+Budapest - Lisbon
+Budapest - Liverpool
+Budapest - London
+Budapest - Funchal (Madeira)
+Budapest - Madrid
+Budapest - Milan
+Budapest - Malaga
+Budapest - Mallorca
+Budapest - Malta
+Budapest - Naples
+Budapest - Nice
+Budapest - Paris
+Budapest - Podgorica
+Budapest - Reykjavik
+Budapest - Rhodes
+Budapest - Riyadh
+Budapest - Rome
+Budapest - Santorini
+Budapest - Sharm El Sheikh
+Budapest - Skopje
+Budapest - Stockholm
+Budapest - Stuttgart
+Budapest - Tel Aviv
+Budapest - Tenerife
+Budapest - Thessaloniki
+Budapest - Tirana
+Budapest - Târgu-Mures
+Budapest - Valencia
+Budapest - Warsaw
+Budapest - Zakynthos
+Bucharest - Abu Dhabi
+Bucharest - Alghero
+Bucharest - Alicante
+Bucharest - Antalya
+Bucharest - Athens
+Bucharest - Barcelona
+Bucharest - Bari
+Bucharest - Basel
+Bucharest - Bergamo
+Bucharest - Billund
+Bucharest - Birmingham
+Bucharest - Bologna
+Bucharest - Brussels Charleroi
+Bucharest - Budapest
+Bucharest - Castellon
+Bucharest - Catania
+Bucharest - Dortmund
+Bucharest - Dubai
+Bucharest - Eindhoven
+Bucharest - Geneva
+Bucharest - Hamburg
+Bucharest - Heraklion (Crete)
+Bucharest - Izmir
+Bucharest - Jeddah
+Bucharest - Copenhagen
+Bucharest - Corfu
+Bucharest - Larnaca
+Bucharest - Leeds
+Bucharest - Leipzig
+Bucharest - Lisbon
+Bucharest - Liverpool
+Bucharest - London
+Bucharest - Lyon
+Bucharest - Madrid
+Bucharest - Milan
+Bucharest - Malaga
+Bucharest - Mallorca
+Bucharest - Malta
+Bucharest - Memmingen
+Bucharest - Mykonos
+Bucharest - Naples
+Bucharest - Nice
+Bucharest - Nuremberg
+Bucharest - Paris
+Bucharest - Pisa
+Bucharest - Rome
+Bucharest - Salzburg
+Bucharest - Sandefjord
+Bucharest - Santander
+Bucharest - Santorini
+Bucharest - Zaragoza
+Bucharest - Sevilla
+Bucharest - Stockholm
+Bucharest - Stuttgart
+Bucharest - Tel Aviv
+Bucharest - Tenerife
+Bucharest - Thessaloniki
+Bucharest - Tirana
+Bucharest - Trieste
+Bucharest - Turin
+Bucharest - Valencia
+Bucharest - Venice
+Bucharest - Zakynthos
+Burgas - Budapest
+Burgas - Gdansk
+Burgas - Debrecen
+Burgas - Katowice
+Burgas - London
+Burgas - Lublin
+Burgas - Tel Aviv
+Burgas - Warsaw
+Burgas - Vienna
+Bydgoszcz - London
+Castellon - Bucharest
+Castellon - Rome
+Catania - Bologna
+Catania - Brussels Charleroi
+Catania - Budapest
+Catania - Bucharest
+Catania - Cluj-Napoca
+Catania - Hamburg
+Catania - Iasi
+Catania - Katowice
+Catania - London
+Catania - Milan
+Catania - Memmingen
+Catania - Prague
+Catania - Sofia
+Catania - Tirana
+Catania - Turin
+Catania - Venice
+Catania - Verona
+Catania - Warsaw
+Chania (Crete) - Budapest
+Chania (Crete) - Cluj-Napoca
+Chania (Crete) - Warsaw
+Chania (Crete) - Vienna
+Chisinau - Abu Dhabi
+Chisinau - Budapest
+Chisinau - London
+Chisinau - Milan
+Chisinau - Rome
+Chisinau - Venice
+Chisinau - Warsaw
+Chisinau - Vienna
+Cluj-Napoca - Abu Dhabi
+Cluj-Napoca - Alicante
+Cluj-Napoca - Barcelona
+Cluj-Napoca - Bari
+Cluj-Napoca - Basel
+Cluj-Napoca - Bergamo
+Cluj-Napoca - Bologna
+Cluj-Napoca - Brussels Charleroi
+Cluj-Napoca - Catania
+Cluj-Napoca - Chania (Crete)
+Cluj-Napoca - Dortmund
+Cluj-Napoca - Eindhoven
+Cluj-Napoca - Frankfurt
+Cluj-Napoca - Corfu
+Cluj-Napoca - Larnaca
+Cluj-Napoca - Leeds
+Cluj-Napoca - Lisbon
+Cluj-Napoca - London
+Cluj-Napoca - Lyon
+Cluj-Napoca - Madrid
+Cluj-Napoca - Milan
+Cluj-Napoca - Malaga
+Cluj-Napoca - Mallorca
+Cluj-Napoca - Malmö
+Cluj-Napoca - Memmingen
+Cluj-Napoca - Naples
+Cluj-Napoca - Nice
+Cluj-Napoca - Nuremberg
+Cluj-Napoca - Paris
+Cluj-Napoca - Rome
+Cluj-Napoca - Zaragoza
+Cluj-Napoca - Stuttgart
+Cluj-Napoca - Tel Aviv
+Cluj-Napoca - Valencia
+Cluj-Napoca - Venice
+Cluj-Napoca - Vienna
+Cluj-Napoca - Zakynthos
+Comiso - Tirana
+Constanta - London
+Craiova - Bergamo
+Craiova - Birmingham
+Craiova - Bologna
+Craiova - Brussels Charleroi
+Craiova - London
+Craiova - Milan
+Craiova - Rome
+Dalaman - London
+Dammam - Abu Dhabi
+Dammam - Rome
+Gdansk - Aberdeen
+Gdansk - Alicante
+Gdansk - Barcelona
+Gdansk - Bergen
+Gdansk - Burgas
+Gdansk - Dortmund
+Gdansk - Eindhoven
+Gdansk - Gothenburg
+Gdansk - Hamburg
+Gdansk - Haugesund
+Gdansk - Heraklion (Crete)
+Gdansk - Copenhagen
+Gdansk - Larnaca
+Gdansk - Leeds
+Gdansk - Liverpool
+Gdansk - London
+Gdansk - Funchal (Madeira)
+Gdansk - Milan
+Gdansk - Malaga
+Gdansk - Malmö
+Gdansk - Oslo
+Gdansk - Paris
+Gdansk - Reykjavik
+Gdansk - Rome
+Gdansk - Sandefjord
+Gdansk - Split
+Gdansk - Stavanger
+Gdansk - Stockholm
+Gdansk - Tenerife
+Gdansk - Tirana
+Gdansk - Tromsø
+Gdansk - Trondheim
+Gdansk - Turku
+Gdansk - Valencia
+Gdansk - Verona
+Gdansk - Alesund
+Debrecen - Antalya
+Debrecen - Burgas
+Debrecen - Eindhoven
+Debrecen - Istanbul
+Debrecen - Corfu
+Debrecen - Larnaca
+Debrecen - London
+Debrecen - Rome
+Dortmund - Banja Luka
+Dortmund - Belgrade
+Dortmund - Brasov
+Dortmund - Budapest
+Dortmund - Bucharest
+Dortmund - Cluj-Napoca
+Dortmund - Gdansk
+Dortmund - Yerevan
+Dortmund - Sibiu
+Dortmund - Iasi
+Dortmund - Katowice
+Dortmund - Kutaisi
+Dortmund - Ohrid
+Dortmund - Podgorica
+Dortmund - Pristina
+Dortmund - Rome
+Dortmund - Skopje
+Dortmund - Sofia
+Dortmund - Suceava
+Dortmund - Timisoara
+Dortmund - Tirana
+Dortmund - Tuzla
+Dortmund - Varna
+Dortmund - Vilnius
+Dubai - Budapest
+Dubai - Bucharest
+Dubai - Vienna
+Dubrovnik - Warsaw
+Eindhoven - Belgrade
+Eindhoven - Wroclaw
+Eindhoven - Budapest
+Eindhoven - Bucharest
+Eindhoven - Cluj-Napoca
+Eindhoven - Gdansk
+Eindhoven - Debrecen
+Eindhoven - Iasi
+Eindhoven - Katowice
+Eindhoven - Krakow
+Eindhoven - Rome
+Eindhoven - Skopje
+Eindhoven - Sofia
+Eindhoven - Tirana
+Eindhoven - Varna
+Eindhoven - Vilnius
+Eindhoven - Warsaw
+Erbil - Abu Dhabi
+Yerevan - Abu Dhabi
+Yerevan - Budapest
+Yerevan - Dortmund
+Yerevan - Larnaca
+Yerevan - Milan
+Yerevan - Rome
+Yerevan - Sofia
+Yerevan - Venice
+Yerevan - Vienna
+Faro - London
+Frankfurt - Cluj-Napoca
+Frankfurt - Kutaisi
+Frankfurt - Skopje
+Frankfurt - Sofia
+Frankfurt - Tirana
+Frankfurt - Varna
+Friedrichshafen - Skopje
+Fuerteventura - Katowice
+Fuerteventura - Warsaw
+Geneva - Bucharest
+Geneva - Sofia
+Genoa - Tirana
+Girona - Budapest
+Glasgow - Budapest
+Gran Canaria - Budapest
+Grenoble - London
+Grenoble - Vilnius
+Grenoble - Warsaw
+Gothenburg - Belgrade
+Gothenburg - Gdansk
+Gothenburg - Rome
+Gothenburg - Skopje
+Gothenburg - Warsaw
+Hamburg - Belgrade
+Hamburg - Bucharest
+Hamburg - Catania
+Hamburg - Gdansk
+Hamburg - Rome
+Hamburg - Skopje
+Hamburg - Sofia
+Hamburg - Tirana
+Hamburg - Varna
+Haugesund - Gdansk
+Heraklion (Crete) - Belgrade
+Heraklion (Crete) - Budapest
+Heraklion (Crete) - Bucharest
+Heraklion (Crete) - Gdansk
+Heraklion (Crete) - Krakow
+Heraklion (Crete) - Milan
+Heraklion (Crete) - Rome
+Heraklion (Crete) - Sofia
+Heraklion (Crete) - Warsaw
+Sibiu - Dortmund
+Sibiu - Karlsruhe/Baden-Baden
+Sibiu - London
+Sibiu - Memmingen
+Sibiu - Nuremberg
+Hurghada - Budapest
+Hurghada - London
+Hurghada - Milan
+Hurghada - Vienna
+Iasi - Barcelona
+Iasi - Basel
+Iasi - Bergamo
+Iasi - Berlin
+Iasi - Billund
+Iasi - Bologna
+Iasi - Brussels Charleroi
+Iasi - Catania
+Iasi - Dortmund
+Iasi - Eindhoven
+Iasi - Istanbul
+Iasi - Copenhagen
+Iasi - Larnaca
+Iasi - Liverpool
+Iasi - London
+Iasi - Madrid
+Iasi - Milan
+Iasi - Memmingen
+Iasi - Paris
+Iasi - Rome
+Iasi - Tel Aviv
+Iasi - Turin
+Iasi - Venice
+Ibiza - Naples
+Ibiza - Rome
+Istanbul - Budapest
+Istanbul - Debrecen
+Istanbul - Iasi
+Istanbul - London
+Izmir - Bucharest
+Jeddah - Budapest
+Jeddah - Bucharest
+Jeddah - Milan
+Jeddah - Rome
+Jeddah - Vienna
+Cairo - Abu Dhabi
+Cairo - Budapest
+Cairo - London
+Cairo - Milan
+Cairo - Rome
+Karlsruhe/Baden-Baden - Belgrade
+Karlsruhe/Baden-Baden - Sibiu
+Karlsruhe/Baden-Baden - Skopje
+Karlsruhe/Baden-Baden - Timisoara
+Karlsruhe/Baden-Baden - Tirana
+Katowice - Abu Dhabi
+Katowice - Alicante
+Katowice - Athens
+Katowice - Barcelona
+Katowice - Burgas
+Katowice - Catania
+Katowice - Dortmund
+Katowice - Eindhoven
+Katowice - Fuerteventura
+Katowice - Copenhagen
+Katowice - Corfu
+Katowice - Kutaisi
+Katowice - Larnaca
+Katowice - Liverpool
+Katowice - London
+Katowice - Funchal (Madeira)
+Katowice - Malaga
+Katowice - Mallorca
+Katowice - Malta
+Katowice - Naples
+Katowice - Podgorica
+Katowice - Reykjavik
+Katowice - Rome
+Katowice - Split
+Katowice - Tel Aviv
+Katowice - Tenerife
+Katowice - Tirana
+Kaunas - London
+Kefalonia - Rome
+Copenhagen - Belgrade
+Copenhagen - Budapest
+Copenhagen - Bucharest
+Copenhagen - Gdansk
+Copenhagen - Iasi
+Copenhagen - Katowice
+Copenhagen - Kutaisi
+Copenhagen - Skopje
+Copenhagen - Sofia
+Copenhagen - Warsaw
+Corfu - Budapest
+Corfu - Bucharest
+Corfu - Cluj-Napoca
+Corfu - Debrecen
+Corfu - Katowice
+Corfu - Milan
+Corfu - Naples
+Corfu - Rome
+Corfu - Warsaw
+Corfu - Vienna
+Kos - Rome
+Košice - London
+Krakow - Abu Dhabi
+Krakow - Barcelona
+Krakow - Eindhoven
+Krakow - Heraklion (Crete)
+Krakow - Larnaca
+Krakow - London
+Krakow - Lyon
+Krakow - Milan
+Krakow - Malaga
+Krakow - Nice
+Krakow - Oslo
+Krakow - Rome
+Krakow - Split
+Krakow - Stavanger
+Krakow - Tel Aviv
+Krakow - Tirana
+Kutaisi - Abu Dhabi
+Kutaisi - Athens
+Kutaisi - Barcelona
+Kutaisi - Berlin
+Kutaisi - Brussels Charleroi
+Kutaisi - Budapest
+Kutaisi - Dortmund
+Kutaisi - Frankfurt
+Kutaisi - Katowice
+Kutaisi - Copenhagen
+Kutaisi - Larnaca
+Kutaisi - Milan
+Kutaisi - Memmingen
+Kutaisi - Paris
+Kutaisi - Poznan
+Kutaisi - Prague
+Kutaisi - Riga
+Kutaisi - Rome
+Kutaisi - Thessaloniki
+Kutaisi - Vilnius
+Kutaisi - Warsaw
+Kutaisi - Vienna
+Kuwait City - Abu Dhabi
+Cologne - Skopje
+Cologne - Tirana
+Lampedusa - Milan
+Lampedusa - Rome
+Larnaca - Abu Dhabi
+Larnaca - Athens
+Larnaca - Belgrade
+Larnaca - Wroclaw
+Larnaca - Budapest
+Larnaca - Bucharest
+Larnaca - Cluj-Napoca
+Larnaca - Gdansk
+Larnaca - Debrecen
+Larnaca - Yerevan
+Larnaca - Iasi
+Larnaca - Katowice
+Larnaca - Krakow
+Larnaca - Kutaisi
+Larnaca - London
+Larnaca - Milan
+Larnaca - Paris
+Larnaca - Prague
+Larnaca - Radom
+Larnaca - Rome
+Larnaca - Sofia
+Larnaca - Tel Aviv
+Larnaca - Thessaloniki
+Larnaca - Vilnius
+Larnaca - Warsaw
+Larnaca - Vienna
+Leeds - Bucharest
+Leeds - Cluj-Napoca
+Leeds - Gdansk
+Leeds - Warsaw
+Leipzig - Bucharest
+Leipzig - Tirana
+Lisbon - Belgrade
+Lisbon - Budapest
+Lisbon - Bucharest
+Lisbon - Cluj-Napoca
+Lisbon - London
+Lisbon - Rome
+Lisbon - Sofia
+Lisbon - Warsaw
+Liverpool - Budapest
+Liverpool - Bucharest
+Liverpool - Gdansk
+Liverpool - Iasi
+Liverpool - Katowice
+Liverpool - Warsaw
+Ljubljana - Skopje
+London - Agadir
+London - Amman
+London - Antalya
+London - Athens
+London - Bacau
+London - Belgrade
+London - Bratislava
+London - Brasov
+London - Wroclaw
+London - Budapest
+London - Bucharest
+London - Burgas
+London - Bydgoszcz
+London - Catania
+London - Chisinau
+London - Cluj-Napoca
+London - Constanta
+London - Craiova
+London - Dalaman
+London - Gdansk
+London - Debrecen
+London - Faro
+London - Grenoble
+London - Sibiu
+London - Hurghada
+London - Iasi
+London - Istanbul
+London - Cairo
+London - Katowice
+London - Kaunas
+London - Košice
+London - Krakow
+London - Larnaca
+London - Lisbon
+London - Lublin
+London - Lyon
+London - Milan
+London - Malaga
+London - Mallorca
+London - Marrakech
+London - Naples
+London - Plovdiv
+London - Podgorica
+London - Poprad-Tatry
+London - Poznan
+London - Prague
+London - Pristina
+London - Rome
+London - Salzburg
+London - Sarajevo
+London - Satu Mare
+London - Sharm El Sheikh
+London - Skopje
+London - Sofia
+London - Split
+London - Suceava
+London - Tallinn
+London - Tel Aviv
+London - Timisoara
+London - Tirana
+London - Tromsø
+London - Târgu-Mures
+London - Varna
+London - Venice
+London - Vilnius
+London - Warsaw
+London - Vienna
+Lublin - Burgas
+Lublin - London
+Lublin - Split
+Lyon - Bucharest
+Lyon - Cluj-Napoca
+Lyon - Krakow
+Lyon - London
+Lyon - Rome
+Lyon - Tirana
+Funchal (Madeira) - Budapest
+Funchal (Madeira) - Gdansk
+Funchal (Madeira) - Katowice
+Funchal (Madeira) - Rome
+Funchal (Madeira) - Warsaw
+Funchal (Madeira) - Vienna
+Madrid - Budapest
+Madrid - Bucharest
+Madrid - Cluj-Napoca
+Madrid - Iasi
+Madrid - Milan
+Madrid - Rome
+Madrid - Sofia
+Madrid - Timisoara
+Madrid - Tirana
+Madrid - Warsaw
+Milan - Amman
+Milan - Athens
+Milan - Bacau
+Milan - Barcelona
+Milan - Belgrade
+Milan - Budapest
+Milan - Bucharest
+Milan - Catania
+Milan - Chisinau
+Milan - Cluj-Napoca
+Milan - Craiova
+Milan - Gdansk
+Milan - Yerevan
+Milan - Heraklion (Crete)
+Milan - Hurghada
+Milan - Iasi
+Milan - Jeddah
+Milan - Cairo
+Milan - Corfu
+Milan - Krakow
+Milan - Kutaisi
+Milan - Lampedusa
+Milan - Larnaca
+Milan - London
+Milan - Madrid
+Milan - Malaga
+Milan - Marrakech
+Milan - Olbia
+Milan - Paris
+Milan - Podgorica
+Milan - Prague
+Milan - Pristina
+Milan - Reykjavik
+Milan - Riyadh
+Milan - Rzeszów
+Milan - Sharm El Sheikh
+Milan - Skiathos
+Milan - Skopje
+Milan - Sofia
+Milan - Suceava
+Milan - Tallinn
+Milan - Tel Aviv
+Milan - Tenerife
+Milan - Timisoara
+Milan - Tirana
+Milan - Valencia
+Milan - Vilnius
+Milan - Warsaw
+Milan - Zakynthos
+Malaga - Wroclaw
+Malaga - Budapest
+Malaga - Bucharest
+Malaga - Cluj-Napoca
+Malaga - Gdansk
+Malaga - Katowice
+Malaga - Krakow
+Malaga - London
+Malaga - Milan
+Malaga - Rome
+Malaga - Sofia
+Malaga - Vilnius
+Malaga - Warsaw
+Malaga - Vienna
+Male - Abu Dhabi
+Mallorca - Budapest
+Mallorca - Bucharest
+Mallorca - Cluj-Napoca
+Mallorca - Katowice
+Mallorca - London
+Mallorca - Rome
+Mallorca - Warsaw
+Malmö - Belgrade
+Malmö - Cluj-Napoca
+Malmö - Gdansk
+Malmö - Skopje
+Malmö - Tirana
+Malta - Belgrade
+Malta - Budapest
+Malta - Bucharest
+Malta - Katowice
+Malta - Skopje
+Malta - Warsaw
+Marrakech - London
+Marrakech - Milan
+Marrakech - Rome
+Marrakech - Warsaw
+Medina - Abu Dhabi
+Memmingen - Belgrade
+Memmingen - Bucharest
+Memmingen - Catania
+Memmingen - Cluj-Napoca
+Memmingen - Sibiu
+Memmingen - Iasi
+Memmingen - Kutaisi
+Memmingen - Niš
+Memmingen - Ohrid
+Memmingen - Podgorica
+Memmingen - Pristina
+Memmingen - Rome
+Memmingen - Skopje
+Memmingen - Sofia
+Memmingen - Suceava
+Memmingen - Timisoara
+Memmingen - Tirana
+Memmingen - Tuzla
+Memmingen - Varna
+Muscat - Abu Dhabi
+Mykonos - Bucharest
+Mykonos - Naples
+Mykonos - Rome
+Naples - Budapest
+Naples - Bucharest
+Naples - Cluj-Napoca
+Naples - Ibiza
+Naples - Katowice
+Naples - Corfu
+Naples - London
+Naples - Mykonos
+Naples - Prague
+Naples - Santorini
+Naples - Sofia
+Naples - Tirana
+Naples - Turin
+Naples - Warsaw
+Naples - Vienna
+Nice - Belgrade
+Nice - Budapest
+Nice - Bucharest
+Nice - Cluj-Napoca
+Nice - Krakow
+Nice - Rome
+Nice - Sofia
+Nice - Tirana
+Nice - Warsaw
+Nice - Vienna
+Niš - Basel
+Niš - Memmingen
+Nuremberg - Bucharest
+Nuremberg - Cluj-Napoca
+Nuremberg - Sibiu
+Nuremberg - Skopje
+Nuremberg - Tirana
+Ohrid - Dortmund
+Ohrid - Memmingen
+Ohrid - Vienna
+Olbia - Milan
+Olbia - Rome
+Olbia - Warsaw
+Oslo - Gdansk
+Oslo - Krakow
+Paris - Belgrade
+Paris - Budapest
+Paris - Bucharest
+Paris - Cluj-Napoca
+Paris - Gdansk
+Paris - Iasi
+Paris - Kutaisi
+Paris - Larnaca
+Paris - Milan
+Paris - Rome
+Paris - Skopje
+Paris - Sofia
+Paris - Timisoara
+Paris - Tirana
+Paris - Vilnius
+Paris - Warsaw
+Perugia - Tirana
+Pescara - Tirana
+Pisa - Bucharest
+Pisa - Tirana
+Plovdiv - London
+Podgorica - Budapest
+Podgorica - Dortmund
+Podgorica - Katowice
+Podgorica - London
+Podgorica - Milan
+Podgorica - Memmingen
+Podgorica - Warsaw
+Podgorica - Vienna
+Poprad-Tatry - London
+Porto - Rome
+Porto - Warsaw
+Poznan - Kutaisi
+Poznan - London
+Poznan - Rome
+Poznan - Tirana
+Poznan - Verona
+Prague - Catania
+Prague - Kutaisi
+Prague - Larnaca
+Prague - London
+Prague - Milan
+Prague - Naples
+Prague - Rome
+Prague - Tirana
+Prague - Varna
+Prague - Venice
+Pristina - Dortmund
+Pristina - London
+Pristina - Milan
+Pristina - Memmingen
+Pristina - Vienna
+Radom - Larnaca
+Reykjavik - Budapest
+Reykjavik - Gdansk
+Reykjavik - Katowice
+Reykjavik - Milan
+Reykjavik - Rome
+Reykjavik - Warsaw
+Reykjavik - Vienna
+Rhodes - Budapest
+Rhodes - Warsaw
+Riyadh - Budapest
+Riyadh - Milan
+Riyadh - Rome
+Riyadh - Vienna
+Riga - Kutaisi
+Rimini - Tirana
+Rome - Abu Dhabi
+Rome - Alicante
+Rome - Amman
+Rome - Bacau
+Rome - Baku
+Rome - Barcelona
+Rome - Basel
+Rome - Belgrade
+Rome - Berlin
+Rome - Budapest
+Rome - Bucharest
+Rome - Castellon
+Rome - Chisinau
+Rome - Cluj-Napoca
+Rome - Craiova
+Rome - Dammam
+Rome - Gdansk
+Rome - Debrecen
+Rome - Dortmund
+Rome - Eindhoven
+Rome - Yerevan
+Rome - Gothenburg
+Rome - Hamburg
+Rome - Heraklion (Crete)
+Rome - Iasi
+Rome - Ibiza
+Rome - Jeddah
+Rome - Cairo
+Rome - Katowice
+Rome - Kefalonia
+Rome - Corfu
+Rome - Kos
+Rome - Krakow
+Rome - Kutaisi
+Rome - Lampedusa
+Rome - Larnaca
+Rome - Lisbon
+Rome - London
+Rome - Lyon
+Rome - Funchal (Madeira)
+Rome - Madrid
+Rome - Malaga
+Rome - Mallorca
+Rome - Marrakech
+Rome - Memmingen
+Rome - Mykonos
+Rome - Nice
+Rome - Olbia
+Rome - Paris
+Rome - Porto
+Rome - Poznan
+Rome - Prague
+Rome - Reykjavik
+Rome - Riyadh
+Rome - Rzeszów
+Rome - Santorini
+Rome - Sarajevo
+Rome - Sevilla
+Rome - Sharm El Sheikh
+Rome - Skiathos
+Rome - Skopje
+Rome - Sofia
+Rome - Split
+Rome - Suceava
+Rome - Tel Aviv
+Rome - Tenerife
+Rome - Timisoara
+Rome - Tirana
+Rome - Turku
+Rome - Valencia
+Rome - Vilnius
+Rome - Warsaw
+Rome - Vienna
+Rome - Zakynthos
+Rzeszów - Milan
+Rzeszów - Rome
+Salalah - Abu Dhabi
+Salzburg - Bucharest
+Salzburg - London
+Salzburg - Skopje
+Samarkand - Abu Dhabi
+Sandefjord - Bucharest
+Sandefjord - Gdansk
+Sandefjord - Skopje
+Sandefjord - Szczecin
+Sandefjord - Tirana
+Sandefjord - Warsaw
+Santander - Bucharest
+Santorini - Budapest
+Santorini - Bucharest
+Santorini - Naples
+Santorini - Rome
+Santorini - Warsaw
+Zaragoza - Bucharest
+Zaragoza - Cluj-Napoca
+Sarajevo - Abu Dhabi
+Sarajevo - London
+Sarajevo - Rome
+Satu Mare - London
+Sevilla - Bucharest
+Sevilla - Rome
+Sevilla - Warsaw
+Sharm El Sheikh - Budapest
+Sharm El Sheikh - London
+Sharm El Sheikh - Milan
+Sharm El Sheikh - Rome
+Skiathos - Milan
+Skiathos - Rome
+Skopje - Basel
+Skopje - Berlin
+Skopje - Bologna
+Skopje - Bratislava
+Skopje - Bremen
+Skopje - Brussels Charleroi
+Skopje - Budapest
+Skopje - Dortmund
+Skopje - Eindhoven
+Skopje - Frankfurt
+Skopje - Friedrichshafen
+Skopje - Gothenburg
+Skopje - Hamburg
+Skopje - Karlsruhe/Baden-Baden
+Skopje - Copenhagen
+Skopje - Cologne
+Skopje - Ljubljana
+Skopje - London
+Skopje - Milan
+Skopje - Malmö
+Skopje - Malta
+Skopje - Memmingen
+Skopje - Nuremberg
+Skopje - Paris
+Skopje - Rome
+Skopje - Salzburg
+Skopje - Sandefjord
+Skopje - Stockholm
+Skopje - Venice
+Sofia - Abu Dhabi
+Sofia - Alicante
+Sofia - Barcelona
+Sofia - Bari
+Sofia - Basel
+Sofia - Bergamo
+Sofia - Bologna
+Sofia - Brussels Charleroi
+Sofia - Catania
+Sofia - Dortmund
+Sofia - Eindhoven
+Sofia - Yerevan
+Sofia - Frankfurt
+Sofia - Geneva
+Sofia - Hamburg
+Sofia - Heraklion (Crete)
+Sofia - Copenhagen
+Sofia - Larnaca
+Sofia - Lisbon
+Sofia - London
+Sofia - Madrid
+Sofia - Milan
+Sofia - Malaga
+Sofia - Memmingen
+Sofia - Naples
+Sofia - Nice
+Sofia - Paris
+Sofia - Rome
+Sofia - Tel Aviv
+Sofia - Valencia
+Sohag - Abu Dhabi
+Split - Wroclaw
+Split - Gdansk
+Split - Katowice
+Split - Krakow
+Split - London
+Split - Lublin
+Split - Rome
+Split - Vilnius
+Split - Warsaw
+Split - Vienna
+Stavanger - Gdansk
+Stavanger - Krakow
+Stockholm - Belgrade
+Stockholm - Budapest
+Stockholm - Bucharest
+Stockholm - Gdansk
+Stockholm - Skopje
+Stockholm - Tirana
+Stockholm - Warsaw
+Stuttgart - Budapest
+Stuttgart - Bucharest
+Stuttgart - Cluj-Napoca
+Stuttgart - Tirana
+Suceava - Dortmund
+Suceava - London
+Suceava - Milan
+Suceava - Memmingen
+Suceava - Rome
+Szczecin - Sandefjord
+Tallinn - London
+Tallinn - Milan
+Tashkent - Abu Dhabi
+Tel Aviv - Abu Dhabi
+Tel Aviv - Athens
+Tel Aviv - Budapest
+Tel Aviv - Bucharest
+Tel Aviv - Burgas
+Tel Aviv - Cluj-Napoca
+Tel Aviv - Iasi
+Tel Aviv - Katowice
+Tel Aviv - Krakow
+Tel Aviv - Larnaca
+Tel Aviv - London
+Tel Aviv - Milan
+Tel Aviv - Rome
+Tel Aviv - Sofia
+Tel Aviv - Varna
+Tel Aviv - Vilnius
+Tel Aviv - Warsaw
+Tel Aviv - Vienna
+Tenerife - Budapest
+Tenerife - Bucharest
+Tenerife - Gdansk
+Tenerife - Katowice
+Tenerife - Milan
+Tenerife - Rome
+Tenerife - Venice
+Tenerife - Warsaw
+Tenerife - Vienna
+Thessaloniki - Budapest
+Thessaloniki - Bucharest
+Thessaloniki - Kutaisi
+Thessaloniki - Larnaca
+Timisoara - Barcelona
+Timisoara - Bari
+Timisoara - Bergamo
+Timisoara - Bologna
+Timisoara - Brussels Charleroi
+Timisoara - Dortmund
+Timisoara - Karlsruhe/Baden-Baden
+Timisoara - London
+Timisoara - Madrid
+Timisoara - Milan
+Timisoara - Memmingen
+Timisoara - Paris
+Timisoara - Rome
+Timisoara - Valencia
+Timisoara - Venice
+Timisoara - Zakynthos
+Tirana - Abu Dhabi
+Tirana - Ancona
+Tirana - Athens
+Tirana - Barcelona
+Tirana - Bari
+Tirana - Basel
+Tirana - Bergamo
+Tirana - Berlin
+Tirana - Bologna
+Tirana - Wroclaw
+Tirana - Brindisi
+Tirana - Brussels Charleroi
+Tirana - Budapest
+Tirana - Bucharest
+Tirana - Catania
+Tirana - Comiso
+Tirana - Gdansk
+Tirana - Dortmund
+Tirana - Eindhoven
+Tirana - Frankfurt
+Tirana - Genoa
+Tirana - Hamburg
+Tirana - Karlsruhe/Baden-Baden
+Tirana - Katowice
+Tirana - Krakow
+Tirana - Cologne
+Tirana - Leipzig
+Tirana - London
+Tirana - Lyon
+Tirana - Madrid
+Tirana - Milan
+Tirana - Malmö
+Tirana - Memmingen
+Tirana - Naples
+Tirana - Nice
+Tirana - Nuremberg
+Tirana - Paris
+Tirana - Perugia
+Tirana - Pescara
+Tirana - Pisa
+Tirana - Poznan
+Tirana - Prague
+Tirana - Rimini
+Tirana - Rome
+Tirana - Sandefjord
+Tirana - Stockholm
+Tirana - Stuttgart
+Tirana - Trieste
+Tirana - Turin
+Tirana - Valencia
+Tirana - Venice
+Tirana - Verona
+Tirana - Warsaw
+Tirana - Vienna
+Trieste - Bucharest
+Trieste - Tirana
+Tromsø - Gdansk
+Tromsø - London
+Trondheim - Gdansk
+Turin - Bucharest
+Turin - Catania
+Turin - Iasi
+Turin - Naples
+Turin - Tirana
+Turin - Warsaw
+Turku - Gdansk
+Turku - Rome
+Tuzla - Basel
+Tuzla - Dortmund
+Tuzla - Memmingen
+Târgu-Mures - Budapest
+Târgu-Mures - London
+Turkistan - Abu Dhabi
+Valencia - Budapest
+Valencia - Bucharest
+Valencia - Cluj-Napoca
+Valencia - Gdansk
+Valencia - Milan
+Valencia - Rome
+Valencia - Sofia
+Valencia - Timisoara
+Valencia - Tirana
+Valencia - Warsaw
+Varna - Berlin
+Varna - Brussels Charleroi
+Varna - Dortmund
+Varna - Eindhoven
+Varna - Frankfurt
+Varna - Hamburg
+Varna - London
+Varna - Memmingen
+Varna - Prague
+Varna - Tel Aviv
+Varna - Vienna
+Venice - Bucharest
+Venice - Catania
+Venice - Chisinau
+Venice - Cluj-Napoca
+Venice - Yerevan
+Venice - Iasi
+Venice - London
+Venice - Prague
+Venice - Skopje
+Venice - Tenerife
+Venice - Timisoara
+Venice - Tirana
+Venice - Warsaw
+Verona - Catania
+Verona - Gdansk
+Verona - Poznan
+Verona - Tirana
+Verona - Warsaw
+Vilnius - Barcelona
+Vilnius - Dortmund
+Vilnius - Eindhoven
+Vilnius - Grenoble
+Vilnius - Kutaisi
+Vilnius - Larnaca
+Vilnius - London
+Vilnius - Milan
+Vilnius - Malaga
+Vilnius - Paris
+Vilnius - Rome
+Vilnius - Split
+Vilnius - Tel Aviv
+Warsaw - Alicante
+Warsaw - Barcelona
+Warsaw - Bari
+Warsaw - Basel
+Warsaw - Bergamo
+Warsaw - Bilbao
+Warsaw - Bologna
+Warsaw - Brussels Charleroi
+Warsaw - Budapest
+Warsaw - Burgas
+Warsaw - Catania
+Warsaw - Chania (Crete)
+Warsaw - Chisinau
+Warsaw - Dubrovnik
+Warsaw - Eindhoven
+Warsaw - Fuerteventura
+Warsaw - Grenoble
+Warsaw - Gothenburg
+Warsaw - Heraklion (Crete)
+Warsaw - Copenhagen
+Warsaw - Corfu
+Warsaw - Kutaisi
+Warsaw - Larnaca
+Warsaw - Leeds
+Warsaw - Lisbon
+Warsaw - Liverpool
+Warsaw - London
+Warsaw - Funchal (Madeira)
+Warsaw - Madrid
+Warsaw - Milan
+Warsaw - Malaga
+Warsaw - Mallorca
+Warsaw - Malta
+Warsaw - Marrakech
+Warsaw - Naples
+Warsaw - Nice
+Warsaw - Olbia
+Warsaw - Paris
+Warsaw - Podgorica
+Warsaw - Porto
+Warsaw - Reykjavik
+Warsaw - Rhodes
+Warsaw - Rome
+Warsaw - Sandefjord
+Warsaw - Santorini
+Warsaw - Sevilla
+Warsaw - Split
+Warsaw - Stockholm
+Warsaw - Tel Aviv
+Warsaw - Tenerife
+Warsaw - Tirana
+Warsaw - Turin
+Warsaw - Valencia
+Warsaw - Venice
+Warsaw - Verona
+Warsaw - Zakynthos
+Vienna - Abu Dhabi
+Vienna - Amman
+Vienna - Barcelona
+Vienna - Bilbao
+Vienna - Burgas
+Vienna - Chania (Crete)
+Vienna - Chisinau
+Vienna - Cluj-Napoca
+Vienna - Dubai
+Vienna - Yerevan
+Vienna - Hurghada
+Vienna - Jeddah
+Vienna - Corfu
+Vienna - Kutaisi
+Vienna - Larnaca
+Vienna - London
+Vienna - Funchal (Madeira)
+Vienna - Malaga
+Vienna - Naples
+Vienna - Nice
+Vienna - Ohrid
+Vienna - Podgorica
+Vienna - Pristina
+Vienna - Reykjavik
+Vienna - Riyadh
+Vienna - Rome
+Vienna - Split
+Vienna - Tel Aviv
+Vienna - Tenerife
+Vienna - Tirana
+Vienna - Varna
+Vienna - Zakynthos
+Zakynthos - Budapest
+Zakynthos - Bucharest
+Zakynthos - Cluj-Napoca
+Zakynthos - Milan
+Zakynthos - Rome
+Zakynthos - Timisoara
+Zakynthos - Warsaw
+Zakynthos - Vienna
+Alesund - Gdansk
