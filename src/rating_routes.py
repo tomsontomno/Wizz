@@ -18,6 +18,8 @@ def get_results(task_id):
 
 def get_progress_rating(task_id):
     with threading.Lock():
+        if task_id not in task_progress:
+            return None  # for the case that "Task not found"
         return round(100 * task_progress[task_id][0] / task_progress[task_id][1], 3)
 
 
@@ -38,7 +40,8 @@ def reset_task_total(task_id):
 
 def abort(task_id):
     with threading.Lock():
-        task_progress[task_id][1] = -2
+        if task_id in task_progress:
+            task_progress[task_id][1] = -2  # Mark task as aborted
 
 
 def check_aborted(task_id):
@@ -203,19 +206,21 @@ def rate_all_routes(routes: list, start: str, radius_start: float, end: str, rad
     return sorted(rerated_routes, key=lambda x: x[1], reverse=True)
 
 
-def rate_all(start: str, radius_start: float, end: str, radius_end: float, tolerance: int, task_id: str):
+def rate_all(start, radius_start, end, radius_end, tolerance, task_id):
     start_time = time.time()
     routes = get_all_routes(start, radius_start, end, radius_end, tolerance)
     ranked_routes = rate_all_routes(routes, start, radius_start, end, radius_end, task_id)
     end_time = time.time()
-    output = f"\nTime taken to rank {len(routes)} routes: {end_time - start_time:.4f} seconds\n" \
-             f"This equates to {len(routes) / (end_time - start_time):.4f} routes ranked per second.\n\n"
+
+    output = f"\nTime taken to rank {len(routes)} routes: {end_time - start_time:.4f} seconds\n"
+    output += f"This equates to {len(routes) / (end_time - start_time):.4f} routes ranked per second.\n\n"
     for i, route in enumerate(ranked_routes):
         output += f"#{i + 1}\nRATING: {round(route[1] * 100, 2)}\nROUTE: {' -> '.join(route[0])}\n\n"
+
     with threading.Lock():
         response[task_id] = output
-    update_task_progress(task_id, 1000)
-    return output
+
+    update_task_progress(task_id, 1000)  # Mark progress as complete
 
 
 if __name__ == '__main__':

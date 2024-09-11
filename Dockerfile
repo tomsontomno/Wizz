@@ -15,4 +15,5 @@ COPY . .
 EXPOSE 8080
 
 # Run Gunicorn when the container launches with optimized settings
-CMD ["gunicorn", "-w", "4", "--threads", "2", "--timeout", "10", "-b", "0.0.0.0:8080", "src.app:app"]
+# Only with one worker (this was the main issue with docker cloud deployment)
+CMD ["gunicorn", "-w", "1", "--threads", "4", "--timeout", "60", "-b", "0.0.0.0:8080", "--log-level", "debug", "--access-logfile", "-", "--error-logfile", "-", "src.app:app"]

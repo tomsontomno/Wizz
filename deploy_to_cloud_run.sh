@@ -7,8 +7,8 @@ REGION="europe-west1"
 IMAGE_NAME="gcr.io/$PROJECT_ID/$SERVICE_NAME"
 
 # Authenticate with Google Cloud
-echo "Authenticating with Google Cloud..."
-gcloud auth login
+echo "Already authenticated with Google Cloud..."
+# gcloud auth login
 
 # Set the project
 echo "Setting the project..."

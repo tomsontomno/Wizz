@@ -1,5 +1,5 @@
 import os
-from src.rating_routes import rate_all, get_progress_rating, abort, get_results
+from src.rating_routes import rate_all, get_progress_rating, abort, get_results, task_progress
 from flask import Flask, request, render_template, jsonify
 import threading
 import time
@@ -51,6 +51,10 @@ def start_calculation():
 
     task_id = f"task_{int(time.time())}"
 
+    # Initialize task progress to counteract "Task not found" Errors
+    with threading.Lock():
+        task_progress[task_id] = [0, 10000]  # Set initial progress to 0 and a dummy total of 10000
+
     thread = threading.Thread(target=rate_all, args=(start, radius_start, end, radius_end, tolerance, task_id))
     thread.start()
 
@@ -73,13 +77,18 @@ def get_progress(task_id):
     """
 
     percentage = get_progress_rating(task_id)
-    if percentage <= 100.0:
+    if percentage is None:
+        response = {
+            'state': 'ERROR',
+            'progress': 0.0,
+            'result': f'Task ID {task_id} not found'
+        }
+    elif percentage <= 100.0:
         response = {'state': 'PROGRESS', 'progress': percentage}
     else:
         result = get_results(task_id)
         if result is None:
-            response = {'state': 'ERROR', 'progress': 100.0,
-                        'result': 'Task ID not found or task did not complete successfully'}
+            response = {'state': 'ERROR', 'progress': 100.0, 'result': 'Task did not complete successfully'}
         else:
             response = {'state': 'SUCCESS', 'progress': 100.0, 'result': result}
     return jsonify(response)

@@ -312,7 +312,7 @@ $(function() {
 
     function resetPollTimeout() {
         clearTimeout(pollTimeout);
-        pollTimeout = setTimeout(abortCalculation, 10000); // Abort if no poll within 10 seconds
+        pollTimeout = setTimeout(abortCalculation, 20000); // Abort if no poll within 10 seconds
     }
 
     function clearPollTimeout() {
