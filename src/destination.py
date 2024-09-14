@@ -2,7 +2,9 @@ import json
 import os
 from src.coordinates import proximity_to_airport
 from src.essentials import get_Graph
+from multiprocessing import Lock
 
+lock = Lock()
 G = get_Graph()
 
 
@@ -17,11 +19,12 @@ class Destination:
         self.continent = self.country_info['continent']
 
     def _load_settings(self):
-        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        settings_path = os.path.join(base_dir, 'data', self.username, self.template_name, 'settings.json')
+        with lock:
+            base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            settings_path = os.path.join(base_dir, 'data', self.username, self.template_name, 'settings.json')
 
-        with open(settings_path, 'r') as file:
-            return json.load(file)
+            with open(settings_path, 'r') as file:
+                return json.load(file)
 
     def _get_city_info(self, city):
         city_data = self.settings['city'].get(city)
