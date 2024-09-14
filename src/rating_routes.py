@@ -38,6 +38,11 @@ def reset_task_total(task_id):
         task_progress[task_id] = [0, 0]
 
 
+def set_finished(task_id):
+    with threading.Lock():
+        task_progress[task_id] = [1, 1]
+
+
 def abort(task_id):
     with threading.Lock():
         if task_id in task_progress:
@@ -125,8 +130,8 @@ def rate_all_routes(routes: list, start: str, radius_start: float, end: str, rad
 
     if not valid_routes:
         print("No valid routes available based on the restrictions.")
-        task_progress[task_id][1] = -1  # Indicate error if no valid routes
-        return []
+        set_finished(task_id)
+        return [[[start, "IMPOSSIBLE", end], 0.0]]
     set_task_total(task_id, len(valid_routes))
     min_flights = min(len(route) - 1 for route in valid_routes)
     max_flights = max(len(route) - 1 for route in valid_routes)
@@ -153,7 +158,6 @@ def rate_all_routes(routes: list, start: str, radius_start: float, end: str, rad
             route_tuple, rating = future.result()
             ratings_dict[route_tuple] = rating
             update_task_progress(task_id, 1)
-            # print(get_progress_rating(task_id), "%")
             if check_aborted(task_id):  # Check for abort signal
                 print("ABORT REQUEST RECEIVED")
                 for future_x in future_to_route:
@@ -201,7 +205,7 @@ def rate_all_routes(routes: list, start: str, radius_start: float, end: str, rad
         route_rating += a
         total_weight_sum += b
 
-        rerated_routes.append([route, round(route_rating, 3)])
+        rerated_routes.append([route, round(route_rating / total_weight_sum, 3)])
 
     return sorted(rerated_routes, key=lambda x: x[1], reverse=True)
 
@@ -224,12 +228,12 @@ def rate_all(start, radius_start, end, radius_end, tolerance, task_id):
 
 
 if __name__ == '__main__':
-    s = "Skopje"
-    rs = 1
-    e = "Cologne"
-    re = 1
+    s = "Dortmund"
+    rs = 120
+    e = "Lampedusa"
+    re = 0
 
     start_timer = time.time()
-    print(rate_all(s, rs, e, re, 3, "x"))
+    print(rate_all(s, rs, e, re, 0, "x"))
     end_timer = time.time()
     print(f"Time taken: {end_timer - start_timer:.4f} seconds\n")
