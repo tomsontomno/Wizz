@@ -2486,11 +2486,11 @@
     },
     "weights": {
         "city": {
-            "unvisited_city": 0.1,
+            "unvisited_city": 0.105,
             "visited_city": 0,
-            "unvisited_country": 0.2,
+            "unvisited_country": 0.205,
             "visited_country": 0,
-            "high_rated_city": 0.85,
+            "high_rated_city": 0.87,
             "low_rated_city": 0,
             "high_rated_country": 0.195,
             "low_rated_country": 0,
@@ -2521,13 +2521,13 @@
             "only_revisit": -1
         },
         "flight": {
-            "high_distance": 0.5,
+            "high_distance": 0.495,
             "low_distance": 0,
-            "eu_261": 0.1,
+            "eu_261": 0.05,
             "no_eu_261": 0,
             "high_airport_rating": 0.025,
             "low_airport_rating": 0.0,
-            "degree_level_up": 0.3,
+            "degree_level_up": 0.35,
             "degree_level_down": 0
         },
         "flight_hard_switch": {
@@ -2535,29 +2535,29 @@
             "only_level_up": -1
         },
         "route": {
-            "high_route_distance": 0.25,
+            "high_route_distance": 0.225,
             "low_route_distance": 0,
             "high_rated_cities": 0.8,
             "low_rated_cities": 0,
-            "high_rated_flights": 0.295,
+            "high_rated_flights": 0.195,
             "low_rated_flights": 0,
             "high_flight_rating_stability": 0,
             "low_flight_rating_stability": 0,
-            "high_city_rating_stability": 0.1,
+            "high_city_rating_stability": 0.05,
             "low_city_rating_stability": 0,
-            "near_start_airport": 0.1,
+            "near_start_airport": 0.05,
             "far_start_airport": 0,
-            "near_end_airport": 0.1,
+            "near_end_airport": 0.05,
             "far_end_airport": 0
         },
         "route_hard_switch": {},
         "routes": {
-            "high_route_rating": 0.8,
+            "high_route_rating": 0.9,
             "low_route_rating": 0.0,
             "less_flights": 0.0,
-            "more_flights": 0.485,
+            "more_flights": 0.585,
             "low_overall_distance": 0.0,
-            "high_overall_distance": 0.25,
+            "high_overall_distance": 0.115,
             "minimum_flights": 0.0
         },
         "routes_hard_switch": {
@@ -2569,16 +2569,8 @@
             "city": [],
             "route": [
                 [
-                    "Turin",
+                    "Venice",
                     "Catania"
-                ],
-                [
-                    "Bologna",
-                    "Catania"
-                ],
-                [
-                    "Catania",
-                    "Verona"
                 ],
                 [
                     "Milan",
@@ -2589,10 +2581,6 @@
                     "Catania"
                 ],
                 [
-                    "Catania",
-                    "Bologna"
-                ],
-                [
                     "Milan",
                     "Lampedusa"
                 ],
@@ -2601,16 +2589,24 @@
                     "Milan"
                 ],
                 [
-                    "Lampedusa",
-                    "Rome"
-                ],
-                [
                     "Catania",
                     "Venice"
                 ],
                 [
-                    "Venice",
+                    "Bologna",
                     "Catania"
+                ],
+                [
+                    "Catania",
+                    "Verona"
+                ],
+                [
+                    "Turin",
+                    "Naples"
+                ],
+                [
+                    "Rome",
+                    "Lampedusa"
                 ],
                 [
                     "Olbia",
@@ -2618,48 +2614,52 @@
                 ],
                 [
                     "Lampedusa",
-                    "Milan"
+                    "Rome"
                 ],
                 [
                     "Rome",
                     "Olbia"
                 ],
                 [
-                    "Rome",
-                    "Lampedusa"
-                ],
-                [
-                    "Turin",
-                    "Naples"
-                ],
-                [
                     "Naples",
                     "Turin"
                 ],
                 [
+                    "Lampedusa",
+                    "Milan"
+                ],
+                [
+                    "Turin",
+                    "Catania"
+                ],
+                [
                     "Catania",
                     "Turin"
+                ],
+                [
+                    "Catania",
+                    "Bologna"
                 ]
             ]
         },
         "dynamic": {
             "city": [
-                "Salalah",
-                "Sohag",
-                "Sharm El Sheikh",
-                "Medina",
-                "Baku",
-                "Hurghada",
-                "Erbil",
-                "Dammam",
-                "Amman",
                 "Alexandria",
-                "Cairo",
-                "Kuwait City",
-                "Muscat",
+                "Sharm El Sheikh",
                 "Riyadh",
                 "Jeddah",
-                "Aqaba"
+                "Medina",
+                "Sohag",
+                "Amman",
+                "Hurghada",
+                "Kuwait City",
+                "Erbil",
+                "Dammam",
+                "Baku",
+                "Muscat",
+                "Cairo",
+                "Aqaba",
+                "Salalah"
             ],
             "route": []
         }
