@@ -118,8 +118,8 @@ def all_paths_a_to_b(start_city, end_city, tolerance=0):
         print(f"There is no path from {start_city} to {end_city}\n")
         return []
 
-    if tolerance > 3:
-        tolerance = 3
+    if tolerance > 4:
+        tolerance = 4
     all_paths = find_all_paths_with_max_n_flights_no_revisits(start_city, end_city, min_flights + tolerance)
     return all_paths
 
