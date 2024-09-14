@@ -2569,14 +2569,6 @@
             "city": [],
             "route": [
                 [
-                    "Venice",
-                    "Catania"
-                ],
-                [
-                    "Milan",
-                    "Catania"
-                ],
-                [
                     "Verona",
                     "Catania"
                 ],
@@ -2585,15 +2577,15 @@
                     "Lampedusa"
                 ],
                 [
-                    "Catania",
-                    "Milan"
+                    "Lampedusa",
+                    "Rome"
                 ],
                 [
                     "Catania",
-                    "Venice"
+                    "Bologna"
                 ],
                 [
-                    "Bologna",
+                    "Turin",
                     "Catania"
                 ],
                 [
@@ -2601,65 +2593,73 @@
                     "Verona"
                 ],
                 [
-                    "Turin",
-                    "Naples"
+                    "Catania",
+                    "Turin"
                 ],
                 [
-                    "Rome",
-                    "Lampedusa"
+                    "Catania",
+                    "Milan"
                 ],
                 [
-                    "Olbia",
-                    "Rome"
+                    "Bologna",
+                    "Catania"
                 ],
                 [
-                    "Lampedusa",
-                    "Rome"
-                ],
-                [
-                    "Rome",
-                    "Olbia"
+                    "Venice",
+                    "Catania"
                 ],
                 [
                     "Naples",
                     "Turin"
                 ],
                 [
+                    "Milan",
+                    "Catania"
+                ],
+                [
+                    "Turin",
+                    "Naples"
+                ],
+                [
+                    "Catania",
+                    "Venice"
+                ],
+                [
+                    "Rome",
+                    "Olbia"
+                ],
+                [
                     "Lampedusa",
                     "Milan"
                 ],
                 [
-                    "Turin",
-                    "Catania"
+                    "Olbia",
+                    "Rome"
                 ],
                 [
-                    "Catania",
-                    "Turin"
-                ],
-                [
-                    "Catania",
-                    "Bologna"
+                    "Rome",
+                    "Lampedusa"
                 ]
             ]
         },
         "dynamic": {
             "city": [
-                "Alexandria",
-                "Sharm El Sheikh",
-                "Riyadh",
-                "Jeddah",
-                "Medina",
-                "Sohag",
-                "Amman",
                 "Hurghada",
-                "Kuwait City",
                 "Erbil",
-                "Dammam",
-                "Baku",
-                "Muscat",
-                "Cairo",
+                "Amman",
+                "Salalah",
+                "Jeddah",
+                "Sohag",
                 "Aqaba",
-                "Salalah"
+                "Riyadh",
+                "Sharm El Sheikh",
+                "Dammam",
+                "Alexandria",
+                "Medina",
+                "Cairo",
+                "Muscat",
+                "Baku",
+                "Kuwait City"
             ],
             "route": []
         }
