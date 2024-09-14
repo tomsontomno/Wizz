@@ -4,6 +4,100 @@ from src.rating_city import rate_city
 from src.rating_flight import rate_flight
 from src.weights import Weights
 from src.essentials import get_Graph
+
+G = get_Graph()
+
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def precompute(username, template_name, output_dir=os.path.join(base_dir, 'data')):
+    weights = Weights(username, template_name)
+
+    # Clear dynamic restrictions
+    weights.clear_dynamic_city_restrictions()
+    weights.clear_dynamic_route_restrictions()
+
+    # Get cities and routes from the graph
+    cities = list(G.nodes)
+    routes = list(G.edges)
+
+    # Create a list of routes in both directions
+    true_routes = []
+    for each in routes:
+        true_routes.append(each)
+        true_routes.append((each[1], each[0]))
+
+    city_ratings = {}
+    route_ratings = {}
+
+    # Compute city ratings sequentially
+    for city in cities:
+        city_ratings[city] = rate_city(city, weights)
+
+    # Compute route ratings sequentially
+    for city_a, city_b in true_routes:
+        rating = rate_flight(city_a, city_b, weights)
+        if city_a not in route_ratings:
+            route_ratings[city_a] = {}
+        route_ratings[city_a][city_b] = rating
+
+    # Prepare output directory for the precomputed data
+    user_dir = os.path.join(output_dir, username, template_name)
+    os.makedirs(user_dir, exist_ok=True)
+
+    # Prepare the structure for precomputed data (city and routes ratings)
+    precomputed_data = {
+        "city": city_ratings,
+        "routes": route_ratings
+    }
+
+    # Save the precomputed data to precomputed.json
+    with open(os.path.join(user_dir, 'precomputed.json'), 'w', encoding='utf-8') as f:
+        json.dump(precomputed_data, f, indent=4)
+
+    print(f"Precomputed data saved to {os.path.join(user_dir, 'precomputed.json')}")
+
+
+def retrieve_precomputed_data(username, template_name, output_dir=os.path.join(base_dir, 'data')):
+    user_dir = os.path.join(output_dir, username, template_name)
+    file_path = os.path.join(user_dir, 'precomputed.json')
+
+    if not os.path.exists(file_path):
+        print(f"No precomputed data found at {file_path}")
+        return None
+
+    with open(file_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    return data
+
+
+if __name__ == "__main__":
+    username = "default"
+    template_name = "default"
+
+    w = Weights(username, template_name)
+    w.clear_dynamic_city_restrictions()
+    w.clear_dynamic_route_restrictions()
+
+    precompute(username, template_name)
+
+    # Retrieve the precomputed data
+    precomputed_data = retrieve_precomputed_data(username, template_name)
+    if precomputed_data:
+        print("Route Ratings:", precomputed_data['routes'].get("Dortmund", {}))
+
+
+"""
+multiprocessed faulty version:
+
+
+import os
+import json
+from src.rating_city import rate_city
+from src.rating_flight import rate_flight
+from src.weights import Weights
+from src.essentials import get_Graph
 import multiprocessing as mp
 from functools import partial
 
@@ -83,8 +177,8 @@ def retrieve_precomputed_data(username, template_name, output_dir=os.path.join(b
 
 
 if __name__ == "__main__":
-    username = "tomsontomno"
-    template_name = "template_test"
+    username = "default"
+    template_name = "default"
 
     precompute(username, template_name)
 
@@ -93,3 +187,4 @@ if __name__ == "__main__":
     if precomputed_data:
         # print("City Ratings:", precomputed_data['city'])
         print("Route Ratings:", precomputed_data['routes']["Dortmund"])
+"""
